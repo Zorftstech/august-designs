@@ -1,17 +1,13 @@
 "use client";
 import React from "react";
 import "./globals.css";
-import { Poppins } from "next/font/google";
 import { ChakraProvider } from "@chakra-ui/react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-const poppins = Poppins({
-	subsets: ["latin"],
-	style: ["normal", "italic"],
-	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-	display: "swap",
-});
+import "@fontsource/poppins/400.css";
+import "@fontsource/poppins/700.css";
+import theme from "./theme";
 
 // export const metadata = {
 // 	title: "Create Next App",
@@ -20,9 +16,9 @@ const poppins = Poppins({
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="en" className={poppins.className}>
+		<html lang="en">
 			<body>
-				<ChakraProvider>
+				<ChakraProvider theme={theme}>
 					<Navbar />
 					{children}
 					<Footer />

@@ -90,7 +90,7 @@ const MyValues = () => {
 						pl={"1.5rem"}
 						pr={"3rem"}
 						position={"absolute"}
-						left={"27rem"}>
+						left={"30rem"}>
 						<Box display={"flex"} alignItems={"center"}>
 							<Image src={RemoteIcon} width={"100%"} />
 							<Heading fontSize={"32px"} ml={"1rem"} color={"#ffffff"}>
@@ -113,7 +113,7 @@ const MyValues = () => {
 						pl={"1.5rem"}
 						pr={"4rem"}
 						position={"absolute"}
-						right={"16.5rem"}
+						right={"9rem"}
 						top={"10.5rem"}>
 						<Box display={"flex"} alignItems={"center"}>
 							<Image src={OpenIcon} width={"100%"} />
@@ -139,7 +139,7 @@ const MyValues = () => {
 						pr={"3rem"}
 						position={"absolute"}
 						top={"33rem"}
-						left={"10rem"}>
+						left={"8rem"}>
 						<Box display={"flex"} alignItems={"center"}>
 							<Image src={HumbleIcon} width={"100%"} />
 							<Heading fontSize={"32px"} ml={"1rem"} color={"#ffffff"}>
@@ -163,7 +163,7 @@ const MyValues = () => {
 						pr={"3rem"}
 						position={"absolute"}
 						top={"28rem"}
-						left={"31.5rem"}>
+						left={"31.7rem"}>
 						<Box display={"flex"} alignItems={"center"}>
 							<Image src={AdaptableIcon} width={"100%"} />
 							<Heading fontSize={"32px"} ml={"1rem"} color={"#ffffff"}>
@@ -188,7 +188,7 @@ const MyValues = () => {
 						pr={"3rem"}
 						position={"absolute"}
 						top={"33rem"}
-						right={"8.7rem"}>
+						right={"3.7rem"}>
 						<Box display={"flex"} alignItems={"center"}>
 							<Image src={EmpatheticIcon} width={"100%"} />
 							<Heading fontSize={"32px"} ml={"1rem"} color={"#ffffff"}>
@@ -407,10 +407,9 @@ const MyValues = () => {
 										</Heading>
 									</Box>
 									<Text color={"#dddddd"} mt={"1rem"} fontSize={"16px"}>
-										I practice empathy in my interactions with <br /> users,
-										colleagues, and stakeholders. <br /> Understanding the
-										emotions and <br /> perspectives of others to create <br />{" "}
-										designs that resonate.
+										I practice empathy in my interactions with users,
+										colleagues, and stakeholders. Understanding the emotions and{" "}
+										perspectives of others to create designs that resonate.
 									</Text>
 								</Card>
 							</Box>

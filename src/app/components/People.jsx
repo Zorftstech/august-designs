@@ -74,11 +74,9 @@ const People = () => {
 							fontSize={"18px"}
 							mt={"2rem"}>
 							Working with Ijeoma Augustina <br /> Ambrose is always a delight
-							to look <br />
-							forward to. Her delivery follows the <br /> accuracy of every
+							to look forward to. Her delivery follows the accuracy of every
 							design conversation <br /> and more. Creativity is only the <br />{" "}
-							beginning of the list of words that can <br /> best describe her
-							works.{" "}
+							beginning of the list of words that can best describe her works.{" "}
 						</Text>
 						<Heading
 							fontSize={"25px"}
@@ -107,11 +105,12 @@ const People = () => {
 							color={"#7f7e7e"}
 							fontSize={"18px"}
 							mt={"2rem"}>
-							Her attention to detail is outstanding, <br /> and she
-							consistently delivers designs <br /> that not only look stunning
-							but also <br /> function seamlessly. Augustina is a <br /> true
-							collaborator, always open to <br />
-							feedback and eager to find innovative <br /> solutions to design
+							Her attention to detail is <br /> outstanding, and she
+							consistently <br /> delivers designs that not only look <br />
+							stunning but also function <br /> seamlessly. Augustina is a true{" "}
+							<br /> collaborator, always open to <br />
+							feedback and eager to find innovative solutions to design
+							<br />
 							challenges.
 						</Text>
 						<Heading
@@ -143,10 +142,9 @@ const People = () => {
 							mt={"2rem"}>
 							Ijeoma Ambrose embodies a <br /> harmonious blend of creativity,{" "}
 							<br />
-							engineering prowess, and empathy, <br /> shaping clients'
-							perceptions and <br />
-							interactions, particularly in the realm of <br /> product
-							designing. She is fun and easy <br /> to work with.
+							engineering prowess, and <br /> empathy, shaping clients'
+							perceptions and interactions, <br /> particularly in the realm of{" "}
+							<br /> product designing. She is fun and <br /> easy to work with.
 						</Text>
 						<Heading
 							fontSize={"25px"}

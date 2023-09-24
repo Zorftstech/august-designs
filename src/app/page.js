@@ -13,9 +13,13 @@ import LiveWebsites from "./components/LiveWebsites";
 import People from "./components/People";
 import ContactMe from "./components/ContactMe";
 
+import "@fontsource/poppins/400.css";
+import "@fontsource/poppins/700.css";
+import theme from "./theme";
+
 function Home() {
 	return (
-		<ChakraProvider>
+		<ChakraProvider theme={theme}>
 			<Intro />
 			<CaseStudies />
 			<UiDesigns />

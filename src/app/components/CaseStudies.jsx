@@ -112,7 +112,7 @@ const CaseStudies = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "rgba(255,135,98,0.05)",
-							height: "265px",
+							height: "305px",
 						}}>
 						<Card
 							width={"249px"}
@@ -129,7 +129,7 @@ const CaseStudies = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "rgba(255,135,98,0.05)",
-							height: "265px",
+							height: "305px",
 						}}>
 						<Card
 							width={"249px"}
@@ -146,7 +146,7 @@ const CaseStudies = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "rgba(255,135,98,0.05)",
-							height: "265px",
+							height: "305px",
 						}}>
 						<Card
 							width={"249px"}

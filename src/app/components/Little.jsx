@@ -156,15 +156,12 @@ const Little = () => {
 							fontSize={"14px"}
 							display={{ base: "block", md: "none" }}>
 							I believe that design should be user focused, when a product can{" "}
-							<br />
-							be useful, enjoyable and equitable by users companies and <br />
-							businesses would have a return of investments. Understanding{" "}
-							<br /> that enables me to create features that users will enjoy
-							and also <br />
+							be useful, enjoyable and equitable by users companies and
+							businesses would have a return of investments. Understanding that
+							enables me to create features that users will enjoy and also{" "}
 							generate revenue for my company or clients. I Strive for designs{" "}
-							<br />
 							that are intuitive, user-friendly, and easy to understand.
-							Avoiding <br /> unnecessary complexity that could confuse users.
+							Avoiding unnecessary complexity that could confuse users.
 						</Text>
 					</Flex>
 				</Box>
