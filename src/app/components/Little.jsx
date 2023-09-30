@@ -53,11 +53,7 @@ const Little = () => {
 							<br />
 							Ambrose Ijeoma Augustina but for some reason, my friends and{" "}
 							<br />
-<<<<<<< HEAD
 							almost everyone I have worked with call me August. I didnt start{" "}
-=======
-							almost everyone I have worked with call me August. I didn't start{" "}
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 							<br />
 							as a designer, I got my BSc degree in Microbiology in the year{" "}
 							<br />
@@ -93,11 +89,7 @@ const Little = () => {
 								I am a product designer, majorly in UI/UX <br /> design. My name
 								is Ambrose Ijeoma <br /> Augustina but for some reason, my{" "}
 								<br /> friends and almost everyone I have <br /> worked with
-<<<<<<< HEAD
 								call me August. I didnt start <br />
-=======
-								call me August. I didn't start <br />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 								as a designer, I got my BSc degree in <br /> Microbiology in the
 								year 2020 but during <br /> my course of study I got interested
 								in <br />
@@ -174,15 +166,11 @@ const Little = () => {
 					</Flex>
 				</Box>
 				<Box ml={"7rem"} display={{ base: "none", md: "block" }}>
-<<<<<<< HEAD
 					<Image
 						src={AugustImg}
 						alt="Image of Ambrose Ijeoma Augustina,"
 						width={"100%"}
 					/>
-=======
-					<Image src={AugustImg} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 				</Box>
 			</Box>
 			<Box ml={{ md: "3rem", base: "1rem" }}>
@@ -200,11 +188,7 @@ const Little = () => {
 					mt={"2rem"}
 					mr={{ md: "13rem", base: "2rem" }}>
 					<Box display={"flex"} alignItems={"center"}>
-<<<<<<< HEAD
 						<Image src={GoogleIcon} alt="Google Icon" width={"100%"} />
-=======
-						<Image src={GoogleIcon} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 						<Text
 							fontSize={{ md: "20px", base: "14px" }}
 							fontWeight={"700px"}
@@ -217,11 +201,7 @@ const Little = () => {
 						display={"flex"}
 						alignItems={"center"}
 						m={{ base: "2rem 0", md: "0 0" }}>
-<<<<<<< HEAD
 						<Image src={UiUxIcon} alt="Ui/Ux Icon" width={"100%"} />
-=======
-						<Image src={UiUxIcon} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 						<Text
 							fontSize={{ md: "20px", base: "14px" }}
 							fontWeight={"700px"}
@@ -230,11 +210,7 @@ const Little = () => {
 						</Text>
 					</Box>
 					<Box display={"flex"} alignItems={"center"}>
-<<<<<<< HEAD
 						<Image src={PrexelsIcon} alt="prexels Icon" width={"100%"} />
-=======
-						<Image src={PrexelsIcon} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 						<Text
 							fontSize={{ md: "20px", base: "14px" }}
 							fontWeight={"700px"}

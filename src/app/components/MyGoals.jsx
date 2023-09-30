@@ -49,11 +49,7 @@ const MyGoals = () => {
 					mt={{ base: "1rem ", md: "0" }}
 					mb={{ base: "3rem ", md: "0" }}
 					ml={{ base: "3rem", md: "0" }}>
-<<<<<<< HEAD
 					<Image src={GoalIcon} alt="Goal icon" />
-=======
-					<Image src={GoalIcon} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 				</Box>
 				<Text
 					color={"#7f7e7e"}

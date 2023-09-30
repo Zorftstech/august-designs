@@ -1,11 +1,7 @@
 "use client";
 
 import Image from "next/image";
-<<<<<<< HEAD
 import section1 from "../assets/travelagency/section1.png";
-=======
-import section1 from "../assets/travelAgency/section1.png";
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 
 import {
 	Heading,
@@ -37,11 +33,7 @@ const TravelAgency = () => {
 			ml={{ md: "3.5rem", base: "auto" }}
 			mr={{ base: "auto", md: "0" }}>
 			<Box>
-<<<<<<< HEAD
 				<Image src={section1} alt="section-1" />
-=======
-				<Image src={section1} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 			</Box>
 		</Box>
 	);

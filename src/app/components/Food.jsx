@@ -33,11 +33,7 @@ const Food = () => {
 			ml={{ md: "3.5rem", base: "auto" }}
 			mr={{ base: "auto", md: "0" }}>
 			<Box>
-<<<<<<< HEAD
 				<Image src={section1} alt="section-1" />
-=======
-				<Image src={section1} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 			</Box>
 		</Box>
 	);

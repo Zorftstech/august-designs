@@ -11,7 +11,6 @@ import MyTime from "../components/MyTime";
 import "@fontsource/poppins/400.css";
 import "@fontsource/poppins/700.css";
 import theme from "../theme";
-<<<<<<< HEAD
 import { HydrationProvider } from "react-hydration-provider";
 
 function About() {
@@ -25,18 +24,6 @@ function About() {
 				<ContactMe />
 			</ChakraProvider>
 		</HydrationProvider>
-=======
-
-function About() {
-	return (
-		<ChakraProvider theme={theme}>
-			<Little />
-			<MyValues />
-			<MyGoals />
-			<MyTime />
-			<ContactMe />
-		</ChakraProvider>
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 	);
 }
 

@@ -68,11 +68,7 @@ const MyValues = () => {
 						top={"10.5rem"}
 						left={"6rem"}>
 						<Box display={"flex"} alignItems={"center"}>
-<<<<<<< HEAD
 							<Image src={GrowthIcon} alt="growth icon" width={"100%"} />
-=======
-							<Image src={GrowthIcon} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 							<Heading fontSize={"32px"} ml={"1rem"} color={"#ffffff"}>
 								Growth
 							</Heading>
@@ -96,11 +92,7 @@ const MyValues = () => {
 						position={"absolute"}
 						left={"30rem"}>
 						<Box display={"flex"} alignItems={"center"}>
-<<<<<<< HEAD
 							<Image src={RemoteIcon} alt="remote icon" width={"100%"} />
-=======
-							<Image src={RemoteIcon} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 							<Heading fontSize={"32px"} ml={"1rem"} color={"#ffffff"}>
 								Remote
 							</Heading>
@@ -124,11 +116,7 @@ const MyValues = () => {
 						right={"9rem"}
 						top={"10.5rem"}>
 						<Box display={"flex"} alignItems={"center"}>
-<<<<<<< HEAD
 							<Image src={OpenIcon} alt="open icon" width={"100%"} />
-=======
-							<Image src={OpenIcon} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 							<Heading fontSize={"32px"} ml={"1rem"} color={"#ffffff"}>
 								Open
 							</Heading>
@@ -153,11 +141,7 @@ const MyValues = () => {
 						top={"33rem"}
 						left={"8rem"}>
 						<Box display={"flex"} alignItems={"center"}>
-<<<<<<< HEAD
 							<Image src={HumbleIcon} alt="humble icon" width={"100%"} />
-=======
-							<Image src={HumbleIcon} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 							<Heading fontSize={"32px"} ml={"1rem"} color={"#ffffff"}>
 								Humble
 							</Heading>
@@ -181,11 +165,7 @@ const MyValues = () => {
 						top={"28rem"}
 						left={"31.7rem"}>
 						<Box display={"flex"} alignItems={"center"}>
-<<<<<<< HEAD
 							<Image src={AdaptableIcon} alt="adaptable icon" width={"100%"} />
-=======
-							<Image src={AdaptableIcon} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 							<Heading fontSize={"32px"} ml={"1rem"} color={"#ffffff"}>
 								Adaptable
 							</Heading>
@@ -210,15 +190,11 @@ const MyValues = () => {
 						top={"33rem"}
 						right={"3.7rem"}>
 						<Box display={"flex"} alignItems={"center"}>
-<<<<<<< HEAD
 							<Image
 								src={EmpatheticIcon}
 								alt="empathetic icon"
 								width={"100%"}
 							/>
-=======
-							<Image src={EmpatheticIcon} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 							<Heading fontSize={"32px"} ml={"1rem"} color={"#ffffff"}>
 								Empathetic
 							</Heading>
@@ -272,11 +248,7 @@ const MyValues = () => {
 									pr={"3rem"}>
 									<Box display={"flex"} alignItems={"center"}>
 										<Box>
-<<<<<<< HEAD
 											<Image src={GrowthIcon} alt="growth icon" />
-=======
-											<Image src={GrowthIcon} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 										</Box>
 										<Heading fontSize={"24px"} ml={"1rem"} color={"#ffffff"}>
 											Growth
@@ -307,15 +279,11 @@ const MyValues = () => {
 									pr={"3rem"}>
 									<Box display={"flex"} alignItems={"center"}>
 										<Box>
-<<<<<<< HEAD
 											<Image
 												src={RemoteIcon}
 												alt="remote icon"
 												width={"100%"}
 											/>
-=======
-											<Image src={RemoteIcon} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 										</Box>
 										<Heading fontSize={"24px"} ml={"1rem"} color={"#ffffff"}>
 											Remote
@@ -346,11 +314,7 @@ const MyValues = () => {
 									pr={"4rem"}>
 									<Box display={"flex"} alignItems={"center"}>
 										<Box>
-<<<<<<< HEAD
 											<Image src={OpenIcon} alt="open icon" width={"100%"} />
-=======
-											<Image src={OpenIcon} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 										</Box>
 										<Heading fontSize={"24px"} ml={"1rem"} color={"#ffffff"}>
 											Open
@@ -381,15 +345,11 @@ const MyValues = () => {
 									pr={"3rem"}>
 									<Box display={"flex"} alignItems={"center"}>
 										<Box>
-<<<<<<< HEAD
 											<Image
 												src={HumbleIcon}
 												alt="humble icon"
 												width={"100%"}
 											/>
-=======
-											<Image src={HumbleIcon} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 										</Box>
 										<Heading fontSize={"24px"} ml={"1rem"} color={"#ffffff"}>
 											Humble
@@ -420,15 +380,11 @@ const MyValues = () => {
 									pr={"3rem"}>
 									<Box display={"flex"} alignItems={"center"}>
 										<Box>
-<<<<<<< HEAD
 											<Image
 												src={AdaptableIcon}
 												alt="adaptable icon"
 												width={"100%"}
 											/>
-=======
-											<Image src={AdaptableIcon} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 										</Box>
 										<Heading fontSize={"24px"} ml={"1rem"} color={"#ffffff"}>
 											Adaptable
@@ -460,15 +416,11 @@ const MyValues = () => {
 									pr={"3rem"}>
 									<Box display={"flex"} alignItems={"center"}>
 										<Box>
-<<<<<<< HEAD
 											<Image
 												src={EmpatheticIcon}
 												alt="empathetic icon"
 												width={"100%"}
 											/>
-=======
-											<Image src={EmpatheticIcon} width={"100%"} />
->>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 										</Box>
 										<Heading fontSize={"24px"} ml={"1rem"} color={"#ffffff"}>
 											Empathetic
