@@ -63,6 +63,7 @@ const FinTech = () => {
 			ml={{ md: "3.5rem", base: "auto" }}
 			mr={{ base: "auto", md: "0" }}>
 			<Box>
+<<<<<<< HEAD
 				<Image src={section1} alt="section-1" />
 			</Box>
 			<Box>
@@ -149,6 +150,94 @@ const FinTech = () => {
 			</Box>
 			<Box>
 				<Image src={section29} alt="section-29" />
+=======
+				<Image src={section1} />
+			</Box>
+			<Box>
+				<Image src={section2} />
+			</Box>
+			<Box>
+				<Image src={section3} />
+			</Box>
+			<Box>
+				<Image src={section4} />
+			</Box>
+			<Box>
+				<Image src={section5} />
+			</Box>
+			<Box>
+				<Image src={section6} />
+			</Box>
+			<Box>
+				<Image src={section7} />
+			</Box>
+			<Box>
+				<Image src={section8} />
+			</Box>
+			<Box>
+				<Image src={section9} />
+			</Box>
+			<Box>
+				<Image src={section10} />
+			</Box>
+			<Box>
+				<Image src={section11} />
+			</Box>
+			<Box>
+				<Image src={section12} />
+			</Box>
+			<Box>
+				<Image src={section13} />
+			</Box>
+			<Box>
+				<Image src={section14} />
+			</Box>
+			<Box>
+				<Image src={section15} />
+			</Box>
+			<Box>
+				<Image src={section16} />
+			</Box>
+			<Box>
+				<Image src={section17} />
+			</Box>
+			<Box>
+				<Image src={section18} />
+			</Box>
+			<Box>
+				<Image src={section19} />
+			</Box>
+			<Box>
+				<Image src={section20} />
+			</Box>
+
+			<Box>
+				<Image src={section21} />
+			</Box>
+			<Box>
+				<Image src={section22} />
+			</Box>
+			<Box>
+				<Image src={section23} />
+			</Box>
+			<Box>
+				<Image src={section24} />
+			</Box>
+			<Box>
+				<Image src={section25} />
+			</Box>
+			<Box>
+				<Image src={section26} />
+			</Box>
+			<Box>
+				<Image src={section27} />
+			</Box>
+			<Box>
+				<Image src={section28} />
+			</Box>
+			<Box>
+				<Image src={section29} />
+>>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 			</Box>
 			<Box>
 				<Heading
@@ -158,10 +247,17 @@ const FinTech = () => {
 					textAlign={"center"}>
 					landing page
 				</Heading>
+<<<<<<< HEAD
 				<Image src={section30} alt="section-30" />
 			</Box>
 			<Box>
 				<Image src={section31} alt="section-31" />
+=======
+				<Image src={section30} />
+			</Box>
+			<Box>
+				<Image src={section31} />
+>>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 			</Box>
 		</Box>
 	);

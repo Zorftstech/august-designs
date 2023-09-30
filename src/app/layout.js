@@ -2,7 +2,7 @@
 
 import "./globals.css";
 import { ChakraProvider } from "@chakra-ui/react";
-import { CacheProvider } from "@chakra-ui/next-js";
+import { CacheProvider } from "@emotion/react";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";

@@ -67,7 +67,11 @@ const MyTime = () => {
 						borderRadius={"30px"}
 						position={"absolute"}
 						left={"3.5rem"}>
+<<<<<<< HEAD
 						<Image src={NeedyImg} alt="Helping the needy" />
+=======
+						<Image src={NeedyImg} />
+>>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 						<Heading fontSize={"32px"} textAlign={"center"} mt={"1rem"}>
 							Helping the needy
 						</Heading>
@@ -82,7 +86,11 @@ const MyTime = () => {
 						position={"absolute"}
 						top={"6rem"}
 						left={"29.6rem"}>
+<<<<<<< HEAD
 						<Image src={CulinaryImg} alt="Culinary adventures" />
+=======
+						<Image src={CulinaryImg} />
+>>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 						<Heading fontSize={"32px"} textAlign={"center"} mt={"1rem"}>
 							Culinary adventures
 						</Heading>
@@ -96,7 +104,11 @@ const MyTime = () => {
 						borderRadius={"30px"}
 						position={"absolute"}
 						right={"3.5rem"}>
+<<<<<<< HEAD
 						<Image src={PublicImg} alt="Public speaking" />
+=======
+						<Image src={PublicImg} />
+>>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 						<Heading fontSize={"32px"} textAlign={"center"} mt={"1rem"}>
 							Public speaking
 						</Heading>
@@ -116,7 +128,11 @@ const MyTime = () => {
 						p={"1rem 1rem"}
 						bgColor={"#f9eae6"}
 						borderRadius={"30px"}>
+<<<<<<< HEAD
 						<Image src={NeedyImg} alt="Helping the needy" />
+=======
+						<Image src={NeedyImg} />
+>>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 						<Heading fontSize={"20px"} textAlign={"center"} mt={"1rem"}>
 							Helping the needy
 						</Heading>
@@ -127,7 +143,11 @@ const MyTime = () => {
 						m={"2rem 0"}
 						bgColor={"#f9eae6"}
 						borderRadius={"30px"}>
+<<<<<<< HEAD
 						<Image src={CulinaryImg} alt="Culinary adventures" />
+=======
+						<Image src={CulinaryImg} />
+>>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 						<Heading fontSize={"20px"} textAlign={"center"} mt={"1rem"}>
 							Culinary adventures
 						</Heading>
@@ -137,7 +157,11 @@ const MyTime = () => {
 						p={"1rem 1rem"}
 						bgColor={"#f9eae6"}
 						borderRadius={"30px"}>
+<<<<<<< HEAD
 						<Image src={PublicImg} alt="Public speaking" />
+=======
+						<Image src={PublicImg} />
+>>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 						<Heading fontSize={"20px"} textAlign={"center"} mt={"1rem"}>
 							Public speaking
 						</Heading>

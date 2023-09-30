@@ -47,6 +47,7 @@ const ViewAll = () => {
 			ml={{ md: "3.5rem", base: "auto" }}
 			mr={{ base: "auto", md: "0" }}>
 			<Box>
+<<<<<<< HEAD
 				<Image src={section1} alt="section-1" />
 			</Box>
 			<Box>
@@ -90,6 +91,51 @@ const ViewAll = () => {
 			</Box>
 			<Box>
 				<Image src={section15} alt="section-15" />
+=======
+				<Image src={section1} />
+			</Box>
+			<Box>
+				<Image src={section2} />
+			</Box>
+			<Box>
+				<Image src={section3} />
+			</Box>
+			<Box>
+				<Image src={section4} />
+			</Box>
+			<Box>
+				<Image src={section5} />
+			</Box>
+			<Box>
+				<Image src={section6} />
+			</Box>
+			<Box>
+				<Image src={section7} />
+			</Box>
+			<Box>
+				<Image src={section8} />
+			</Box>
+			<Box>
+				<Image src={section9} />
+			</Box>
+			<Box>
+				<Image src={section10} />
+			</Box>
+			<Box>
+				<Image src={section11} />
+			</Box>
+			<Box>
+				<Image src={section12} />
+			</Box>
+			<Box>
+				<Image src={section13} />
+			</Box>
+			<Box>
+				<Image src={section14} />
+			</Box>
+			<Box>
+				<Image src={section15} />
+>>>>>>> 008e8a76e9f767f739c93d768c9dfb3839952bab
 			</Box>
 		</Box>
 	);
