@@ -10,11 +10,9 @@ import { HydrationProvider } from "react-hydration-provider";
 
 function Projects() {
 	return (
-		<HydrationProvider>
-			<ChakraProvider theme={theme}>
-				<FinTech />
-			</ChakraProvider>
-		</HydrationProvider>
+		<ChakraProvider theme={theme}>
+			<FinTech />
+		</ChakraProvider>
 	);
 }
 

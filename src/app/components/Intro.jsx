@@ -25,7 +25,7 @@ import {
 
 const Intro = () => {
 	return (
-		<Container maxWidth="100%" mt={"4rem"}>
+		<Container maxWidth="100%" mt={"6rem"}>
 			<Box
 				maxW="fit-content"
 				display={"flex"}
