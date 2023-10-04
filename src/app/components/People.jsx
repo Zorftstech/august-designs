@@ -177,10 +177,6 @@ const People = () => {
 							dynamicBullets: true,
 						}}
 						modules={[Pagination, Autoplay]}
-						autoplay={{
-							delay: 2500,
-							disableOnInteraction: false,
-						}}
 						className="mySwiper">
 						<SwiperSlide
 							style={{
@@ -196,7 +192,7 @@ const People = () => {
 								width={"fit-content"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} right={"7rem"} top={"-3rem"}>
+								<Box position={"absolute"} left={"8rem"} top={"-2rem"}>
 									<Image
 										src={PatrickImg}
 										alt="image of patrick mayor c. rapheal"
@@ -240,7 +236,7 @@ const People = () => {
 								width={"fit-content"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} right={"7rem"} top={"-3rem"}>
+								<Box position={"absolute"} left={"8rem"} top={"-2rem"}>
 									<Image src={IsahImg} alt="image of iysah yusuf" />
 								</Box>
 								<Text
@@ -281,7 +277,7 @@ const People = () => {
 								width={"fit-content"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} right={"7rem"} top={"-3rem"}>
+								<Box position={"absolute"} left={"8rem"} top={"-2rem"}>
 									<Image
 										src={KingsleyImg}
 										alt="image of kingsley-orji ogboih"
