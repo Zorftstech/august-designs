@@ -114,10 +114,6 @@ const CaseStudies = () => {
 						dynamicBullets: true,
 					}}
 					modules={[Pagination, Autoplay]}
-					autoplay={{
-						delay: 2500,
-						disableOnInteraction: false,
-					}}
 					className="mySwiper">
 					<SwiperSlide
 						style={{
@@ -126,7 +122,8 @@ const CaseStudies = () => {
 						}}>
 						<Card
 							width={"249px"}
-							ml={"4.5rem"}
+							ml={"auto"}
+							mr={"auto"}
 							borderRadius={"30px"}
 							pb={"1rem"}
 							zIndex={"hide"}>
@@ -146,7 +143,8 @@ const CaseStudies = () => {
 						}}>
 						<Card
 							width={"249px"}
-							ml={"4.5rem"}
+							ml={"auto"}
+							mr={"auto"}
 							borderRadius={"30px"}
 							pb={"1rem"}
 							zIndex={"hide"}>
@@ -166,7 +164,8 @@ const CaseStudies = () => {
 						}}>
 						<Card
 							width={"249px"}
-							ml={"4.5rem"}
+							ml={"auto"}
+							mr={"auto"}
 							borderRadius={"30px"}
 							pb={"1rem"}
 							zIndex={"hide"}>

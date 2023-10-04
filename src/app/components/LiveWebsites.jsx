@@ -174,17 +174,15 @@ const LiveWebsites = () => {
 						dynamicBullets: true,
 					}}
 					modules={[Pagination, Autoplay]}
-					autoplay={{
-						delay: 2500,
-						disableOnInteraction: false,
-					}}
 					className="mySwiper">
 					<SwiperSlide
 						style={{
 							backgroundColor: "transparent",
-							height: "404px",
+							height: "484px",
 						}}>
 						<Card
+							ml={"auto"}
+							mr={"auto"}
 							width={"fit-content"}
 							borderRadius={"50px"}
 							bgColor={"rgb(233,173,75,0.15)"}
@@ -229,7 +227,9 @@ const LiveWebsites = () => {
 							width={"fit-content"}
 							bgColor={"rgb(232,232,234,1)"}
 							pb={"1rem"}
-							borderRadius={"50px"}>
+							borderRadius={"50px"}
+							ml={"auto"}
+							mr={"auto"}>
 							<Flex alignItems={"center"}>
 								<Heading fontSize={"14px"} ml={"1rem"}>
 									website for a fashion <br /> brand!
@@ -267,7 +267,9 @@ const LiveWebsites = () => {
 							p={"1.5rem"}
 							width={"fit-content"}
 							bgColor={"rgb(58,220,48,0.1)"}
-							borderRadius={"50px"}>
+							borderRadius={"50px"}
+							ml={"auto"}
+							mr={"auto"}>
 							<Flex flexDir={"column"} alignItems={"center"}>
 								<Image src={NonprofitSite} alt="Non-profit website." />
 								<Heading fontSize={"14px"}>
