@@ -3,7 +3,7 @@
 import Image from "next/image";
 import AugustImg from "../assets/AugustImg.png";
 import GoogleIcon from "../assets/googleIcon.png";
-import UvaIcon from "../assets/UVA-Logo.png";
+import UVAIcon from "../assets/UVALogo.png";
 import PrexelsIcon from "../assets/prexels.png";
 import {
 	Heading,
@@ -70,7 +70,6 @@ const Little = () => {
 						</Text>
 						<Text
 							color="#7f7e7e"
-							mt={"rem"}
 							mb={"2rem"}
 							display={{ base: "none", md: "block" }}>
 							My years of experience working for different niches, especially
@@ -106,7 +105,6 @@ const Little = () => {
 							</Text>
 							<Text
 								color="#7f7e7e"
-								mt={"rem"}
 								mb={"2rem"}
 								display={{ base: "block", md: "none" }}
 								fontSize={"14px"}>
@@ -148,17 +146,17 @@ const Little = () => {
 					display={{ base: "none", md: "block" }}>
 					In my approach to design, I focus on creating things that look great
 					and work well. I put the user at the center of <br /> everything,
-					making sure every detail serves a purpose. It's like blending beauty
+					making sure every detail serves a purpose. It is like blending beauty
 					with usefulness. I care about <br /> understanding what people need
 					and keep improving until I get it just right. I like to get involved
 					in the messy work, <br /> design sprints, analyze KPIs, OKR, roadmaps,
 					take ownership of new projects, give and receive feedback which is{" "}
 					<br /> required to create successful business outcomes. My goal is to
 					make designs that not only catch the eye but are <br />
-					equitable, inclusive and also make using them a breeze. I'm all about
+					equitable, inclusive and also make using them a breeze. I am all about
 					using creativity and a deep understanding of <br /> what people want
 					to craft digital experiences that feel real and meaningful. My design
-					approach is more than just <br /> a process; it's a careful
+					approach is more than just <br /> a process; it is a careful
 					observation of problems and creating profitable solutions for both
 					users and businesses
 				</Text>
@@ -167,23 +165,23 @@ const Little = () => {
 				<Text
 					color="#7f7e7e"
 					mt={"2rem"}
-					mr={43}
+					mr={"43px"}
 					mb={"1rem"}
 					fontSize={"14px"}
 					display={{ base: "block", md: "none" }}>
 					In my approach to design, I focus on creating things that look great
 					and work well. I put the user at the center of everything, making sure
-					every detail serves a purpose. It's like blending beauty with
+					every detail serves a purpose. It is like blending beauty with
 					usefulness. I care about understanding what people need and keep
 					improving until I get it just right. I like to get involved in the
 					messy work, design sprints, analyze KPIs, OKR, roadmaps, take
 					ownership of new projects, give and receive feedback which is required
 					to create successful business outcomes. My goal is to make designs
 					that not only catch the eye but are equitable, inclusive and also make
-					using them a breeze. I'm all about using creativity and a deep
+					using them a breeze. I am all about using creativity and a deep
 					understanding of what people want to craft digital experiences that
 					feel real and meaningful. My design approach is more than just a
-					process; it's a careful observation of problems and creating
+					process; it is a careful observation of problems and creating
 					profitable solutions for both users and businesses.
 				</Text>
 			</Box>
@@ -220,7 +218,7 @@ const Little = () => {
 						</Heading>
 					</Box>
 					<Box display={"flex"} alignItems={"center"}>
-						<Image src={UvaIcon} alt="Ui/Ux Icon" width={"100%"} />
+						<Image src={UVAIcon} alt="UVA Icon" width={"100%"} />
 						<Heading fontSize={{ md: "20px", base: "14px" }} ml={".5rem"}>
 							Design thinking for innovation (Coursera)
 						</Heading>
@@ -231,7 +229,7 @@ const Little = () => {
 				m={{ base: "2rem 0", md: "2rem 0" }}
 				ml={{ base: "1rem", md: "3rem" }}
 				fontSize={{ md: "20px", base: "14px" }}>
-				Motion design, Illustration and 3D design ( ongoing)
+				Motion design, Illustration and 3D design (ongoing)
 			</Heading>
 		</Container>
 	);
