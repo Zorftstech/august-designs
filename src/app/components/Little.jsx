@@ -41,7 +41,7 @@ const Little = () => {
 							}}
 							bgClip={"text"}
 							fontSize={{ base: "24px", md: "48px" }}>
-							A little about me
+							A Little about me
 						</Heading>
 						<Text
 							color="#7f7e7e"
