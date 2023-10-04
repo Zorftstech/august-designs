@@ -178,7 +178,7 @@ const LiveWebsites = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "transparent",
-							height: "484px",
+							height: "404px",
 						}}>
 						<Card
 							ml={"auto"}
