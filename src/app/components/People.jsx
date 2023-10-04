@@ -192,7 +192,7 @@ const People = () => {
 								width={"400px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"150px"} top={"-1.5rem"}>
+								<Box position={"absolute"} left={"200px"} top={"-1.5rem"}>
 									<Image
 										src={PatrickImg}
 										alt="image of patrick mayor c. rapheal"
@@ -236,7 +236,7 @@ const People = () => {
 								width={"400px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"150px"} top={"-1.5rem"}>
+								<Box position={"absolute"} left={"200px"} top={"-1.5rem"}>
 									<Image src={IsahImg} alt="image of iysah yusuf" />
 								</Box>
 								<Text
@@ -277,7 +277,7 @@ const People = () => {
 								width={"400px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"150px"} top={"-1.5rem"}>
+								<Box position={"absolute"} left={"200px"} top={"-1.5rem"}>
 									<Image
 										src={KingsleyImg}
 										alt="image of kingsley-orji ogboih"
