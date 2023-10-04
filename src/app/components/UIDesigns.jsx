@@ -70,15 +70,16 @@ const UiDesigns = () => {
 			<Box display={"flex"}>
 				<Box
 					bgColor={"rgba(255,135,98,0.05)"}
-					width={"820px"}
+					width={{ md: "820px", base: "310px" }}
 					height={{ md: "429px", base: "fit-content" }}
 					borderRadius={"30px"}
 					mt={"10rem"}
-					ml={{ md: "4rem", base: "1rem" }}
-					mr={{ md: "0", base: "1rem" }}
+					ml={{ md: "4rem", base: "auto" }}
+					mr={{ md: "0", base: "auto" }}
 					p={{ md: "2rem", base: "1rem" }}>
 					<Card borderRadius={"30px"} zIndex={"hide"}>
 						<Image
+							style={{ borderRadius: "30px" }}
 							src={FunitureSite}
 							alt="Landing page for a furniture company."
 						/>
@@ -103,7 +104,11 @@ const UiDesigns = () => {
 						bgColor={"rgba(255,135,98,0.05)"}
 						borderRadius={"30px"}
 						zIndex={"hide"}>
-						<Image src={RestaurantSite} alt="food app" />
+						<Image
+							style={{ borderRadius: "30px" }}
+							src={RestaurantSite}
+							alt="food app"
+						/>
 					</Card>
 				</Box>
 			</Box>
@@ -115,26 +120,38 @@ const UiDesigns = () => {
 				gridTemplateColumns={{ md: "repeat(3, 1fr)", base: "repeat(1fr)" }}
 				grid-template-rows={{ md: "repeat(1fr)", base: "none" }}
 				gridGap={"1rem"}>
-				<Box width={"400px"}>
+				<Box>
 					<Card
-						mr={{ md: "0", base: "2rem" }}
-						ml={{ md: "0", base: "1rem" }}
+						width={{ base: "310px", md: "400px" }}
+						mr={{ md: "0", base: "auto" }}
+						ml={{ md: "0", base: "auto" }}
 						bgColor={"rgba(255,135,98,0.05)"}
 						borderRadius={"30px"}
 						p={{ md: "2rem", base: "1rem" }}
 						zIndex={"hide"}>
-						<Image src={TravelSite} alt="travel agency landing page" />
+						<Box>
+							<Image
+								style={{ borderRadius: "30px" }}
+								src={TravelSite}
+								alt="travel agency landing page"
+							/>
+						</Box>
 					</Card>
 				</Box>
 				<Box>
 					<Card
-						mr={{ md: "0", base: "2rem" }}
-						ml={{ md: "0", base: "1rem" }}
+						width={{ base: "310px", md: "400px" }}
+						mr={{ md: "0", base: "auto" }}
+						ml={{ md: "0", base: "auto" }}
 						bgColor={"rgba(255,135,98,0.05)"}
 						borderRadius={"30px"}
 						p={{ md: "2rem", base: "1rem" }}
 						zIndex={"hide"}>
-						<Image src={RealEstateSite} alt="real estate landing page" />
+						<Image
+							style={{ borderRadius: "30px" }}
+							src={RealEstateSite}
+							alt="real estate landing page"
+						/>
 					</Card>
 				</Box>
 				<Box display={{ md: "block", base: "none" }}>
@@ -143,7 +160,11 @@ const UiDesigns = () => {
 						borderRadius={"30px"}
 						padding={"2rem"}
 						zIndex={"hide"}>
-						<Image src={Dashboard} alt="Dashboard Ui" />
+						<Image
+							style={{ borderRadius: "30px" }}
+							src={Dashboard}
+							alt="Dashboard Ui"
+						/>
 					</Card>
 				</Box>
 			</Box>

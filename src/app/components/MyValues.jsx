@@ -227,10 +227,6 @@ const MyValues = () => {
 							dynamicBullets: true,
 						}}
 						modules={[Pagination, Autoplay]}
-						autoplay={{
-							delay: 2500,
-							disableOnInteraction: false,
-						}}
 						className="mySwiper">
 						<SwiperSlide
 							style={{
@@ -407,13 +403,13 @@ const MyValues = () => {
 							}}>
 							<Box>
 								<Card
-									m={"0 auto"}
+									m={"0 2rem"}
 									bgColor={"#464646"}
 									borderRadius={"20px"}
 									width={"fit-content"}
 									p={"2.5rem 0"}
-									pl={"1.5rem"}
-									pr={"3rem"}>
+									pl={"1rem"}
+									pr={"1rem"}>
 									<Box display={"flex"} alignItems={"center"}>
 										<Box>
 											<Image

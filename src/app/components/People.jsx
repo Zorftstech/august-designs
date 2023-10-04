@@ -189,10 +189,10 @@ const People = () => {
 								p={"2rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								width={"400px"}
+								width={"fit-content"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"170px"} top={"-1.5rem"}>
+								<Box position={"absolute"} left={"37%"} top={"-3rem"}>
 									<Image
 										src={PatrickImg}
 										alt="image of patrick mayor c. rapheal"
@@ -233,10 +233,10 @@ const People = () => {
 								p={"2rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								width={"400px"}
+								width={"fit-content"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"170px"} top={"-1.5rem"}>
+								<Box position={"absolute"} left={"37%"} top={"-3rem"}>
 									<Image src={IsahImg} alt="image of iysah yusuf" />
 								</Box>
 								<Text
@@ -274,10 +274,10 @@ const People = () => {
 								p={"2rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								width={"400px"}
+								width={"fit-content"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"170px"} top={"-1.5rem"}>
+								<Box position={"absolute"} left={"37%"} top={"-3rem"}>
 									<Image
 										src={KingsleyImg}
 										alt="image of kingsley-orji ogboih"
