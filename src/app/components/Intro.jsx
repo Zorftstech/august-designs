@@ -77,7 +77,7 @@ const Intro = () => {
 							color="#7f7e7e"
 							mt={"1rem"}
 							mb={"1rem"}
-							fontSize={"14px"}
+							fontSize={"14.1px"}
 							textAlign={"center"}>
 							A versatile and strategic problem <br /> solver who combines
 							creativity <br />
