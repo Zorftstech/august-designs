@@ -3,7 +3,7 @@
 import Image from "next/image";
 import AugustImg from "../assets/AugustImg.png";
 import GoogleIcon from "../assets/googleIcon.png";
-import UiUxIcon from "../assets/UIUX.png";
+import UvaIcon from "../assets/UVA-Logo.png";
 import PrexelsIcon from "../assets/prexels.png";
 import {
 	Heading,
@@ -28,10 +28,10 @@ import {
 
 const Little = () => {
 	return (
-		<Container maxWidth="100%" mt={"5rem"}>
+		<Container maxWidth="100%" mt={"7rem"}>
 			<Box maxW="fit-content" display={"flex"}>
 				<Box
-					mt={{ md: "13em", base: "5rem" }}
+					mt={{ md: "8rem", base: "5rem" }}
 					ml={{ md: "3rem", base: "1rem" }}>
 					<Flex flexDir="column">
 						<Heading
@@ -120,49 +120,6 @@ const Little = () => {
 								<br /> incorporate fun as much as possible.
 							</Text>
 						</Box>
-
-						<Heading
-							bgGradient={{
-								md: "linear( to-r, #393939, #393939, #393939, #403c3a,#e07b5b,#ff8762  )",
-								base: "linear( to-r, #393939,  #403c3a,#e07b5b,#ff8762, #ff8762, #ff8762  )",
-							}}
-							bgClip={"text"}
-							fontSize={{ base: "24px", md: "48px" }}>
-							My approach to design
-						</Heading>
-						<Text
-							color="#7f7e7e"
-							mt={"2rem"}
-							mb={"1rem"}
-							fontSize={"16px"}
-							display={{ base: "none", md: "block" }}>
-							I believe that design should be user focused, when a product can{" "}
-							<br />
-							be useful, enjoyable and equitable by users companies and <br />
-							businesses would have a return of investments. Understanding{" "}
-							<br /> that enables me to create features that users will enjoy
-							and also <br />
-							generate revenue for my company or clients. I Strive for designs{" "}
-							<br />
-							that are intuitive, user-friendly, and easy to understand.
-							Avoiding <br /> unnecessary complexity that could confuse users.
-						</Text>
-
-						{/* Mobile view */}
-						<Text
-							color="#7f7e7e"
-							mt={"2rem"}
-							mb={"1rem"}
-							fontSize={"14px"}
-							display={{ base: "block", md: "none" }}>
-							I believe that design should be user focused, when a product can{" "}
-							be useful, enjoyable and equitable by users companies and
-							businesses would have a return of investments. Understanding that
-							enables me to create features that users will enjoy and also{" "}
-							generate revenue for my company or clients. I Strive for designs{" "}
-							that are intuitive, user-friendly, and easy to understand.
-							Avoiding unnecessary complexity that could confuse users.
-						</Text>
 					</Flex>
 				</Box>
 				<Box ml={"7rem"} display={{ base: "none", md: "block" }}>
@@ -172,6 +129,63 @@ const Little = () => {
 						width={"100%"}
 					/>
 				</Box>
+			</Box>
+			<Box ml={{ md: "3rem", base: "1rem" }}>
+				<Heading
+					bgGradient={{
+						md: "linear( to-r, #393939, #403c3a,#e07b5b,#ff8762,#ff8762 ,#ff8762   )",
+						base: "linear( to-r, #393939,  #403c3a,#e07b5b,#ff8762, #ff8762, #ff8762  )",
+					}}
+					bgClip={"text"}
+					fontSize={{ base: "24px", md: "48px" }}>
+					My approach to design
+				</Heading>
+				<Text
+					color="#7f7e7e"
+					mt={"2rem"}
+					mb={"1rem"}
+					fontSize={"16px"}
+					display={{ base: "none", md: "block" }}>
+					In my approach to design, I focus on creating things that look great
+					and work well. I put the user at the center of <br /> everything,
+					making sure every detail serves a purpose. It's like blending beauty
+					with usefulness. I care about <br /> understanding what people need
+					and keep improving until I get it just right. I like to get involved
+					in the messy work, <br /> design sprints, analyze KPIs, OKR, roadmaps,
+					take ownership of new projects, give and receive feedback which is{" "}
+					<br /> required to create successful business outcomes. My goal is to
+					make designs that not only catch the eye but are <br />
+					equitable, inclusive and also make using them a breeze. I'm all about
+					using creativity and a deep understanding of <br /> what people want
+					to craft digital experiences that feel real and meaningful. My design
+					approach is more than just <br /> a process; it's a careful
+					observation of problems and creating profitable solutions for both
+					users and businesses
+				</Text>
+
+				{/* Mobile view */}
+				<Text
+					color="#7f7e7e"
+					mt={"2rem"}
+					mr={43}
+					mb={"1rem"}
+					fontSize={"14px"}
+					display={{ base: "block", md: "none" }}>
+					In my approach to design, I focus on creating things that look great
+					and work well. I put the user at the center of everything, making sure
+					every detail serves a purpose. It's like blending beauty with
+					usefulness. I care about understanding what people need and keep
+					improving until I get it just right. I like to get involved in the
+					messy work, design sprints, analyze KPIs, OKR, roadmaps, take
+					ownership of new projects, give and receive feedback which is required
+					to create successful business outcomes. My goal is to make designs
+					that not only catch the eye but are equitable, inclusive and also make
+					using them a breeze. I'm all about using creativity and a deep
+					understanding of what people want to craft digital experiences that
+					feel real and meaningful. My design approach is more than just a
+					process; it's a careful observation of problems and creating
+					profitable solutions for both users and businesses.
+				</Text>
 			</Box>
 			<Box ml={{ md: "3rem", base: "1rem" }}>
 				<Heading
@@ -186,40 +200,39 @@ const Little = () => {
 					flexDir={{ md: "row", base: "column" }}
 					justifyContent={"space-between"}
 					mt={"2rem"}
-					mr={{ md: "13rem", base: "2rem" }}>
+					mr={{ md: "2rem", base: "2rem" }}>
 					<Box display={"flex"} alignItems={"center"}>
 						<Image src={GoogleIcon} alt="Google Icon" width={"100%"} />
-						<Text
+						<Heading
 							fontSize={{ md: "20px", base: "14px" }}
-							fontWeight={"700px"}
-							ml={"1rem"}
+							ml={".5rem"}
 							color={"#464646"}>
-							Google UX design course
-						</Text>
+							Google UX design Certifications
+						</Heading>
 					</Box>
 					<Box
 						display={"flex"}
 						alignItems={"center"}
 						m={{ base: "2rem 0", md: "0 0" }}>
-						<Image src={UiUxIcon} alt="Ui/Ux Icon" width={"100%"} />
-						<Text
-							fontSize={{ md: "20px", base: "14px" }}
-							fontWeight={"700px"}
-							ml={"1rem"}>
-							UI/UX design course
-						</Text>
+						<Image src={PrexelsIcon} alt="prexels Icon" width={"100%"} />
+						<Heading fontSize={{ md: "20px", base: "14px" }} ml={".5rem"}>
+							School of design
+						</Heading>
 					</Box>
 					<Box display={"flex"} alignItems={"center"}>
-						<Image src={PrexelsIcon} alt="prexels Icon" width={"100%"} />
-						<Text
-							fontSize={{ md: "20px", base: "14px" }}
-							fontWeight={"700px"}
-							ml={"1rem"}>
-							School of design
-						</Text>
+						<Image src={UvaIcon} alt="Ui/Ux Icon" width={"100%"} />
+						<Heading fontSize={{ md: "20px", base: "14px" }} ml={".5rem"}>
+							Design thinking for innovation (Coursera)
+						</Heading>
 					</Box>
 				</Box>
 			</Box>
+			<Heading
+				m={{ base: "2rem 0", md: "2rem 0" }}
+				ml={{ base: "1rem", md: "3rem" }}
+				fontSize={{ md: "20px", base: "14px" }}>
+				Motion design, Illustration and 3D design ( ongoing)
+			</Heading>
 		</Container>
 	);
 };

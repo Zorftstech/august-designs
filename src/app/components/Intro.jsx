@@ -43,8 +43,9 @@ const Intro = () => {
 							designer (ui/ux).
 						</Heading>
 						<Text color="#7f7e7e" mt={"1rem"} mb={"1rem"}>
-							A highly motivated and innovative designer <br /> that creates
-							intuitive and usable solutions <br /> through designs.
+							A versatile and strategic problem solver who combines <br />{" "}
+							creativity with a deep understanding of user needs and <br />{" "}
+							business objectives.
 						</Text>
 						<Link
 							href="Augustdesigns18@gmail.com"
@@ -78,8 +79,10 @@ const Intro = () => {
 							mb={"1rem"}
 							fontSize={"14px"}
 							textAlign={"center"}>
-							A highly motivated and innovative <br /> designer that creates
-							intuitive and <br /> usable solutions through designs.
+							A versatile and strategic problem <br /> solver who combines
+							creativity <br />
+							with a deep understanding of user <br /> needs and business
+							objectives.
 						</Text>
 						<Link
 							href=""

@@ -30,8 +30,8 @@ const MySkills = () => {
 	return (
 		<Box
 			mt={{ md: "5rem", base: "3rem" }}
-			ml={{ md: "9rem", base: "2rem" }}
-			mr={{ md: "10rem", base: "0" }}>
+			ml={{ md: "4rem", base: "2rem" }}
+			mr={{ md: "0rem", base: "0" }}>
 			<Heading
 				ml={{ md: "10rem", base: "0" }}
 				textAlign={{ md: "left", base: "center" }}
@@ -48,7 +48,7 @@ const MySkills = () => {
 				display={"grid"}
 				gridTemplateColumns={{ md: "repeat(4, 1fr)", base: "repeat(2, 1fr)" }}
 				grid-template-rows="repeat(3, 1fr)"
-				gridGap={{ md: "4rem 2rem", base: ".5rem 1rem" }}>
+				gridGap={{ md: "4rem 5rem", base: ".5rem 1rem" }}>
 				<Box display={"flex"} alignItems={"center"}>
 					<Box display={{ md: "block", base: "none" }}>
 						<Image src={Ellipse} alt="Ellipse" />
@@ -215,6 +215,62 @@ const MySkills = () => {
 						color={"#7f7e7e"}
 						fontSize={{ md: "20px", base: "14px" }}>
 						Strategic Thinker
+					</Text>
+				</Box>
+				<Box display={"flex"} alignItems={"center"}>
+					<Box display={{ md: "block", base: "none" }}>
+						<Image src={Ellipse} alt="Ellipse" />
+					</Box>
+					<Box display={{ md: "none", base: "block" }}>
+						<Image src={Ellipses} alt="Ellipse" />
+					</Box>
+					<Text
+						ml={{ md: "1rem", base: ".5rem" }}
+						color={"#7f7e7e"}
+						fontSize={{ md: "20px", base: "14px" }}>
+						Analytical
+					</Text>
+				</Box>
+				<Box display={"flex"} alignItems={"center"}>
+					<Box display={{ md: "block", base: "none" }}>
+						<Image src={Ellipse} alt="Ellipse" />
+					</Box>
+					<Box display={{ md: "none", base: "block" }}>
+						<Image src={Ellipses} alt="Ellipse" />
+					</Box>
+					<Text
+						ml={{ md: "1rem", base: ".5rem" }}
+						color={"#7f7e7e"}
+						fontSize={{ md: "20px", base: "14px" }}>
+						Design thinking
+					</Text>
+				</Box>
+				<Box display={"flex"} alignItems={"center"}>
+					<Box display={{ md: "block", base: "none" }}>
+						<Image src={Ellipse} alt="Ellipse" />
+					</Box>
+					<Box display={{ md: "none", base: "block" }}>
+						<Image src={Ellipses} alt="Ellipse" />
+					</Box>
+					<Text
+						ml={{ md: "1rem", base: ".5rem" }}
+						color={"#7f7e7e"}
+						fontSize={{ md: "20px", base: "14px" }}>
+						Project management
+					</Text>
+				</Box>
+				<Box display={"flex"} alignItems={"center"}>
+					<Box display={{ md: "block", base: "none" }}>
+						<Image src={Ellipse} alt="Ellipse" />
+					</Box>
+					<Box display={{ md: "none", base: "block" }}>
+						<Image src={Ellipses} alt="Ellipse" />
+					</Box>
+					<Text
+						ml={{ md: "1rem", base: ".5rem" }}
+						color={"#7f7e7e"}
+						fontSize={{ md: "20px", base: "14px" }}>
+						Giving feedback
 					</Text>
 				</Box>
 			</Box>
