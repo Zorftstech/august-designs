@@ -193,7 +193,7 @@ const People = () => {
 								width={"100%"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"37%"} top={"-10%"}>
+								<Box position={"absolute"} left={"50%"} top={"-5%"}>
 									<Image
 										src={PatrickImg}
 										alt="image of patrick mayor c. rapheal"
@@ -237,7 +237,7 @@ const People = () => {
 								width={"100%"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"37%"} top={"-10%"}>
+								<Box position={"absolute"} left={"50%"} top={"-5%"}>
 									<Image src={IsahImg} alt="image of iysah yusuf" />
 								</Box>
 								<Text
@@ -278,7 +278,7 @@ const People = () => {
 								width={"100%"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"37%"} top={"-10%"}>
+								<Box position={"absolute"} left={"50%"} top={"-5%"}>
 									<Image
 										src={KingsleyImg}
 										alt="image of kingsley-orji ogboih"
@@ -301,7 +301,7 @@ const People = () => {
 									textAlign={"center"}
 									mt={"2rem"}
 									mb={".1rem"}>
-									Kingsley-Orji Ogboihh
+									Kingsley-Orji Ogboih
 								</Heading>
 								<Text textAlign={"center"} color={"#7f7e7e"} fontSize={"14px"}>
 									Software developer
