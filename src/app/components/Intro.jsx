@@ -48,7 +48,7 @@ const Intro = () => {
 							business objectives.
 						</Text>
 						<Link
-							href="Augustdesigns18@gmail.com"
+							href="mailto:Augustdesigns18@gmail.com"
 							color="#ffff"
 							backgroundColor="#ff8762"
 							padding={"1rem 3rem"}
@@ -85,7 +85,7 @@ const Intro = () => {
 							objectives.
 						</Text>
 						<Link
-							href=""
+							href="mailto:"
 							color="#ffff"
 							backgroundColor="#ff8762"
 							padding={".7rem 1rem"}

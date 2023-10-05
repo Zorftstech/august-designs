@@ -64,7 +64,7 @@ const ContactMe = () => {
 					</Text>
 				</Box>
 				<Link
-					href="Augustdesigns18@gmail.com"
+					href="mailto:Augustdesigns18@gmail.com"
 					mt={{ md: "0", base: "1rem" }}
 					mr={{ md: "7rem", base: "0" }}
 					ml={{ md: "0", base: "2rem" }}
