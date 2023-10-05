@@ -301,7 +301,7 @@ const People = () => {
 									textAlign={"center"}
 									mt={"2rem"}
 									mb={".1rem"}>
-									Kingsley-Orji Ogboih
+									Kingsley-Orji Ogboihh
 								</Heading>
 								<Text textAlign={"center"} color={"#7f7e7e"} fontSize={"14px"}>
 									Software developer
