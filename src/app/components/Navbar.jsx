@@ -114,7 +114,7 @@ const Navbar = () => (
 				</Box>
 
 				<Link
-					href="Augustdesigns18@gmail.com"
+					href="mailto:Augustdesigns18@gmail.com"
 					display={{ base: "none", md: "block", sm: "none" }}
 					color="#ffff"
 					backgroundColor="#ff8762"

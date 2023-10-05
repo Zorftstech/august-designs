@@ -62,10 +62,11 @@ const People = () => {
 						p={"2rem"}
 						position={"relative"}
 						border={"2px solid rgb(240,240,240,1)"}
-						width={"fit-content"}
+						width={"100%"}
+						// height={"65vh"}
 						borderRadius={"30px"}
 						zIndex={"hide"}>
-						<Box position={"absolute"} right={"9rem"} top={"-3rem"}>
+						<Box position={"absolute"} right={"40%"} top={"-10%"}>
 							<Image src={PatrickImg} alt="image of patrick mayor c. rapheal" />
 						</Box>
 						<Text
@@ -81,7 +82,7 @@ const People = () => {
 						<Heading
 							fontSize={"25px"}
 							textAlign={"center"}
-							mt={"4rem"}
+							mt={"2rem"}
 							mb={".1rem"}>
 							Patrick Mayor C. Raphael
 						</Heading>
@@ -94,10 +95,10 @@ const People = () => {
 						p={"2rem"}
 						position={"relative"}
 						border={"2px solid rgb(240,240,240,1)"}
-						width={"fit-content"}
+						width={"100%"}
 						borderRadius={"30px"}
 						zIndex={"hide"}>
-						<Box position={"absolute"} right={"9rem"} top={"-3rem"}>
+						<Box position={"absolute"} right={"40%"} top={"-10%"}>
 							<Image src={IsahImg} alt="image of iysah yusuf" />
 						</Box>
 						<Text
@@ -116,7 +117,7 @@ const People = () => {
 						<Heading
 							fontSize={"25px"}
 							textAlign={"center"}
-							mt={"4rem"}
+							mt={"2rem"}
 							mb={".1rem"}>
 							Iysah Yusuf
 						</Heading>
@@ -129,10 +130,10 @@ const People = () => {
 						p={"2rem"}
 						position={"relative"}
 						border={"2px solid rgb(240,240,240,1)"}
-						width={"fit-content"}
+						width={"100%"}
 						borderRadius={"30px"}
 						zIndex={"hide"}>
-						<Box position={"absolute"} right={"9rem"} top={"-3rem"}>
+						<Box position={"absolute"} right={"40%"} top={"-10%"}>
 							<Image src={KingsleyImg} alt="image of kingsley-orji ogboih" />
 						</Box>
 						<Text
@@ -149,7 +150,7 @@ const People = () => {
 						<Heading
 							fontSize={"25px"}
 							textAlign={"center"}
-							mt={"4rem"}
+							mt={"2rem"}
 							mb={".1rem"}>
 							Kingsley-Orji Ogboih
 						</Heading>
@@ -171,7 +172,7 @@ const People = () => {
 					Clients Testimonials
 				</Heading>
 
-				<Box display={{ base: "block", md: "none" }}>
+				<Box display={{ base: "block", md: "none" }} m={"0 3rem"}>
 					<Swiper
 						pagination={{
 							dynamicBullets: true,
@@ -189,10 +190,10 @@ const People = () => {
 								p={"2rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								width={"fit-content"}
+								width={"100%"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"37%"} top={"-3rem"}>
+								<Box position={"absolute"} left={"37%"} top={"-10%"}>
 									<Image
 										src={PatrickImg}
 										alt="image of patrick mayor c. rapheal"
@@ -213,7 +214,7 @@ const People = () => {
 								<Heading
 									fontSize={"20px"}
 									textAlign={"center"}
-									mt={"4rem"}
+									mt={"2rem"}
 									mb={".1rem"}>
 									Patrick Mayor C. Raphael
 								</Heading>
@@ -233,10 +234,10 @@ const People = () => {
 								p={"2rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								width={"fit-content"}
+								width={"100%"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"37%"} top={"-3rem"}>
+								<Box position={"absolute"} left={"37%"} top={"-10%"}>
 									<Image src={IsahImg} alt="image of iysah yusuf" />
 								</Box>
 								<Text
@@ -254,7 +255,7 @@ const People = () => {
 								<Heading
 									fontSize={"20px"}
 									textAlign={"center"}
-									mt={"4rem"}
+									mt={"2rem"}
 									mb={".1rem"}>
 									Iysah Yusuf
 								</Heading>
@@ -274,10 +275,10 @@ const People = () => {
 								p={"2rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								width={"fit-content"}
+								width={"100%"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"37%"} top={"-3rem"}>
+								<Box position={"absolute"} left={"37%"} top={"-10%"}>
 									<Image
 										src={KingsleyImg}
 										alt="image of kingsley-orji ogboih"
@@ -298,7 +299,7 @@ const People = () => {
 								<Heading
 									fontSize={"20px"}
 									textAlign={"center"}
-									mt={"4rem"}
+									mt={"2rem"}
 									mb={".1rem"}>
 									Kingsley-Orji Ogboih
 								</Heading>

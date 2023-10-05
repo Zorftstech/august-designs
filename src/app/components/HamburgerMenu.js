@@ -129,7 +129,7 @@ export const HamburgerMenu = () => {
 					</Menu>
 				</Flex>
 				<Link
-					href="Augustdesigns18@gmail.com"
+					href="mailto:Augustdesigns18@gmail.com"
 					width={"fit-content"}
 					mt={"2rem"}
 					ml={"3rem"}
