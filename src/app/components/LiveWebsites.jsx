@@ -169,7 +169,7 @@ const LiveWebsites = () => {
 			<Box display={{ base: "block", md: "none" }} mt={"2rem"}>
 				<Swiper
 					slidesPerView={"auto"}
-					spaceBetween={30}
+					spaceBetween={0}
 					pagination={{
 						dynamicBullets: true,
 					}}
@@ -182,8 +182,8 @@ const LiveWebsites = () => {
 						}}>
 						<Card
 							ml={"2rem"}
-							mr={"auto"}
-							width={"fit-content"}
+							width={"273px"}
+							height={"363px"}
 							borderRadius={"50px"}
 							bgColor={"rgb(233,173,75,0.15)"}
 							p={"3rem"}
@@ -229,7 +229,8 @@ const LiveWebsites = () => {
 						<Card
 							display={"flex"}
 							justifyContent={"center"}
-							width={"fit-content"}
+							width={"273px"}
+							height={"363px"}
 							bgColor={"rgb(232,232,234,1)"}
 							pb={"4rem"}
 							borderRadius={"50px"}
@@ -273,7 +274,8 @@ const LiveWebsites = () => {
 							display={"flex"}
 							justifyContent={"center"}
 							pb={"4.5rem"}
-							width={"fit-content"}
+							width={"273px"}
+							height={"363px"}
 							bgColor={"rgb(58,220,48,0.1)"}
 							borderRadius={"50px"}
 							ml={"auto"}

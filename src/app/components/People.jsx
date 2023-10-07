@@ -188,7 +188,7 @@ const People = () => {
 							style={{
 								backgroundColor: "transparent",
 								height: "436px",
-								width: "80%",
+								width: "75%",
 							}}>
 							<Box
 								mt={"3rem"}
@@ -198,7 +198,7 @@ const People = () => {
 								maxWidth={"400px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"37%"} top={"-50px"}>
+								<Box position={"absolute"} left={"130px"} top={"-50px"}>
 									<Image
 										src={PatrickImg}
 										alt="image of patrick mayor c. rapheal"
@@ -231,7 +231,7 @@ const People = () => {
 							style={{
 								backgroundColor: "transparent",
 								height: "406px",
-								width: "80%",
+								width: "75%",
 							}}>
 							<Box
 								mt={"3rem"}
@@ -241,7 +241,7 @@ const People = () => {
 								maxW={"450px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"37%"} top={"-50px"}>
+								<Box position={"absolute"} left={"130px"} top={"-50px"}>
 									<Image src={IsahImg} alt="image of iysah yusuf" />
 								</Box>
 								<Text
@@ -272,18 +272,17 @@ const People = () => {
 							style={{
 								backgroundColor: "transparent",
 								height: "406px",
-								width: "80%",
+								width: "75%",
 							}}>
 							<Box
 								mt={"3rem"}
-								mr={"1rem"}
 								p={"2rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
 								maxWidth={"400px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"37%"} top={"-50px"}>
+								<Box position={"absolute"} left={"130px"} top={"-50px"}>
 									<Image
 										src={KingsleyImg}
 										alt="image of kingsley-orji ogboih"
@@ -298,8 +297,8 @@ const People = () => {
 									creativity, <br />
 									engineering prowess, and empathy, <br /> shaping clients
 									perceptions and <br />
-									interactions, particularly in the realm of <br /> product
-									designing. She is fun and easy <br /> to work with.
+									interactions, particularly in the realm of product designing.
+									She is fun and easy to work with.
 								</Text>
 								<Heading
 									fontSize={"16px"}
