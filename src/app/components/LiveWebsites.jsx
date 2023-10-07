@@ -5,6 +5,7 @@ import spiralIcon from "../assets/spiral.png";
 import SaasSite from "../assets/SaasSite.png";
 import fashionSite from "../assets/fashionSite.png";
 import NonprofitSite from "../assets/NonprofitSite.png";
+import ArrowIcon from "../assets/Arrow.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -89,16 +90,15 @@ const LiveWebsites = () => {
 								mt={"2rem"}
 								mr={"auto"}
 								ml={"auto"}
-								color="black"
+								color="#ff8762"
 								backgroundColor="transparent"
 								padding={".5rem 1.5rem"}
-								border={"solid 1px black"}
 								borderRadius="30px"
 								_hover={{
-									border: "solid 1px black",
 									bgColor: "transparent",
 								}}>
 								<a>View website</a>
+								<Image src={ArrowIcon} />
 							</Link>
 						</Flex>
 					</Card>
@@ -122,16 +122,15 @@ const LiveWebsites = () => {
 								mt={"1rem"}
 								mr={"auto"}
 								ml={"auto"}
-								color="black"
+								color="#ff8762"
 								backgroundColor="transparent"
 								padding={".5rem 1.5rem"}
-								border={"solid 1px black"}
 								borderRadius="30px"
 								_hover={{
-									border: "solid 1px black",
 									bgColor: "transparent",
 								}}>
 								<a>View website</a>
+								<Image src={ArrowIcon} />
 							</Link>
 						</Card>
 						<Card
@@ -153,16 +152,15 @@ const LiveWebsites = () => {
 								mt={"2rem"}
 								mr={"auto"}
 								ml={"auto"}
-								color="black"
+								color="#ff8762"
 								backgroundColor="transparent"
 								padding={".5rem 1.5rem"}
-								border={"solid 1px black"}
 								borderRadius="30px"
 								_hover={{
-									border: "solid 1px black",
 									bgColor: "transparent",
 								}}>
 								<a>View website</a>
+								<Image src={ArrowIcon} />
 							</Link>
 						</Card>
 					</Box>
@@ -170,6 +168,8 @@ const LiveWebsites = () => {
 			</Box>
 			<Box display={{ base: "block", md: "none" }} mt={"2rem"}>
 				<Swiper
+					slidesPerView={"auto"}
+					spaceBetween={30}
 					pagination={{
 						dynamicBullets: true,
 					}}
@@ -178,121 +178,132 @@ const LiveWebsites = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "transparent",
-							height: "404px",
+							height: "434px",
 						}}>
 						<Card
-							ml={"auto"}
+							ml={"2rem"}
 							mr={"auto"}
 							width={"fit-content"}
 							borderRadius={"50px"}
 							bgColor={"rgb(233,173,75,0.15)"}
-							pb={"1rem"}>
+							p={"3rem"}
+							pb={"2.5rem"}>
 							<Flex flexDir={"column"} justifyContent={"center"}>
-								<Image
-									src={SaasSite}
-									alt="SaaS mini website for a HR recruiting company."
-								/>
-								<Heading fontSize={"14px"} textAlign={"center"} mt={".5rem"}>
+								<Box width={"191px"} m={"0 auto"}>
+									<Image
+										src={SaasSite}
+										alt="SaaS mini website for a HR recruiting company."
+									/>
+								</Box>
+								<Heading fontSize={"20px"} textAlign={"center"} mt={".5rem"}>
 									SaaS mini website for <br /> a HR recruiting <br /> company.
 								</Heading>
 							</Flex>
+
 							<Link
 								width={"fit-content"}
 								href="https://greiprgroup.com/"
-								mt={".5rem"}
+								mt={"1rem"}
 								mr={"auto"}
 								ml={"auto"}
-								color="black"
+								color="#ff8762"
 								backgroundColor="transparent"
 								fontSize={"14px"}
 								padding={".5rem 1rem"}
-								border={"solid 1px black"}
 								borderRadius="30px"
 								_hover={{
-									border: "solid 1px black",
 									bgColor: "transparent",
 								}}>
 								<a>View website</a>
+								<Box m={"0 auto"}>
+									<Image src={ArrowIcon} />
+								</Box>
 							</Link>
 						</Card>
 					</SwiperSlide>
 					<SwiperSlide
 						style={{
 							backgroundColor: "transparent",
-							height: "404px",
+							height: "434px",
 						}}>
 						<Card
 							display={"flex"}
 							justifyContent={"center"}
 							width={"fit-content"}
 							bgColor={"rgb(232,232,234,1)"}
-							pb={"1rem"}
+							pb={"4rem"}
 							borderRadius={"50px"}
 							ml={"auto"}
 							mr={"auto"}>
-							<Flex alignItems={"center"}>
-								<Heading fontSize={"14px"} ml={"1rem"}>
+							<Flex alignItems={"center"} flexDir={"column"}>
+								<Heading fontSize={"20px"} m={"2rem 0"}>
 									website for a fashion <br /> brand!
 								</Heading>
-								<Image src={fashionSite} alt="website for a fashion brand!" />
+								<Box width={"60%"} m={"0 auto"}>
+									<Image src={fashionSite} alt="website for a fashion brand!" />
+								</Box>
 							</Flex>
 							<Link
 								width={"fit-content"}
 								href=""
-								mt={".5rem"}
+								mt={"1rem"}
 								mr={"auto"}
 								ml={"auto"}
-								color="black"
+								color="#ff8762"
 								backgroundColor="transparent"
 								fontSize={"14px"}
 								padding={".5rem 1rem"}
-								border={"solid 1px black"}
 								borderRadius="30px"
 								_hover={{
-									border: "solid 1px black",
 									bgColor: "transparent",
 								}}>
 								<a>View website</a>
+								<Box m={"0 auto"}>
+									<Image src={ArrowIcon} />
+								</Box>
 							</Link>
 						</Card>
 					</SwiperSlide>
 					<SwiperSlide
 						style={{
 							backgroundColor: "transparent",
-							height: "404px",
+							height: "434px",
 						}}>
 						<Card
 							display={"flex"}
 							justifyContent={"center"}
-							p={"1.5rem"}
+							pb={"4.5rem"}
 							width={"fit-content"}
 							bgColor={"rgb(58,220,48,0.1)"}
 							borderRadius={"50px"}
 							ml={"auto"}
-							mr={"auto"}>
+							mr={"2rem"}>
 							<Flex flexDir={"column"} alignItems={"center"}>
-								<Image src={NonprofitSite} alt="Non-profit website." />
-								<Heading fontSize={"14px"}>
+								<Box width={"60%"} m={"0 auto"} mt={"2rem"}>
+									<Image src={NonprofitSite} alt="Non-profit website." />
+								</Box>
+								<Heading fontSize={"20px"} m={"1.5rem 0"}>
 									Non-profit <br /> website.
 								</Heading>
 							</Flex>
 							<Link
 								width={"fit-content"}
 								href="https://ngozi-foundation.netlify.app/"
-								mt={".5rem"}
+								mt={"1rem"}
 								mr={"auto"}
 								ml={"auto"}
-								color="black"
+								color="#ff8762"
 								backgroundColor="transparent"
 								fontSize={"14px"}
 								padding={".5rem 1rem"}
-								border={"solid 1px black"}
 								borderRadius="30px"
 								_hover={{
-									border: "solid 1px black",
 									bgColor: "transparent",
 								}}>
 								<a>View website</a>
+								<Box m={"0 auto"}>
+									<Image src={ArrowIcon} />
+								</Box>
 							</Link>
 						</Card>
 					</SwiperSlide>

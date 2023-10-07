@@ -70,6 +70,10 @@ const CaseStudies = () => {
 						pb={"1rem"}
 						zIndex={"hide"}>
 						<Image
+							style={{
+								borderTopLeftRadius: "30px",
+								borderTopRightRadius: "30px",
+							}}
 							src={Desktop1}
 							alt="Digital health app to manage mental health"
 						/>
@@ -83,6 +87,10 @@ const CaseStudies = () => {
 						pb={"1rem"}
 						zIndex={"hide"}>
 						<Image
+							style={{
+								borderTopLeftRadius: "30px",
+								borderTopRightRadius: "30px",
+							}}
 							src={Desktop2}
 							alt="A fintech saving and investment mobile app"
 						/>
@@ -97,6 +105,10 @@ const CaseStudies = () => {
 						pb={"1rem"}
 						zIndex={"hide"}>
 						<Image
+							style={{
+								borderTopLeftRadius: "30px",
+								borderTopRightRadius: "30px",
+							}}
 							src={Desktop3}
 							alt="A non-profit full website that helps
 							connect donors to NGO’s"
@@ -110,6 +122,8 @@ const CaseStudies = () => {
 			</Box>
 			<Box display={{ base: "block", md: "none" }}>
 				<Swiper
+					slidesPerView={"auto"}
+					spaceBetween={0}
 					pagination={{
 						dynamicBullets: true,
 					}}
@@ -119,6 +133,7 @@ const CaseStudies = () => {
 						style={{
 							backgroundColor: "rgba(255,135,98,0.05)",
 							height: "305px",
+							padding: " 1rem 0",
 						}}>
 						<Card
 							width={"249px"}
@@ -128,6 +143,10 @@ const CaseStudies = () => {
 							pb={"1rem"}
 							zIndex={"hide"}>
 							<Image
+								style={{
+									borderTopLeftRadius: "30px",
+									borderTopRightRadius: "30px",
+								}}
 								src={Desktop1}
 								alt="Digital health app to manage mental health"
 							/>
@@ -140,15 +159,20 @@ const CaseStudies = () => {
 						style={{
 							backgroundColor: "rgba(255,135,98,0.05)",
 							height: "305px",
+							padding: "1rem 0",
 						}}>
 						<Card
 							width={"249px"}
-							ml={"auto"}
+							ml={"rem"}
 							mr={"auto"}
 							borderRadius={"30px"}
 							pb={"1rem"}
 							zIndex={"hide"}>
 							<Image
+								style={{
+									borderTopLeftRadius: "30px",
+									borderTopRightRadius: "30px",
+								}}
 								src={Desktop2}
 								alt="A fintech saving and investment mobile app"
 							/>
@@ -161,15 +185,19 @@ const CaseStudies = () => {
 						style={{
 							backgroundColor: "rgba(255,135,98,0.05)",
 							height: "305px",
+							padding: "1rem 0",
 						}}>
 						<Card
 							width={"249px"}
-							ml={"auto"}
 							mr={"auto"}
 							borderRadius={"30px"}
 							pb={"1rem"}
 							zIndex={"hide"}>
 							<Image
+								style={{
+									borderTopLeftRadius: "30px",
+									borderTopRightRadius: "30px",
+								}}
 								src={Desktop3}
 								alt="A non-profit full website that helps
 								connect donors to NGO’s"
