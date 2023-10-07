@@ -223,6 +223,8 @@ const MyValues = () => {
 						My Values
 					</Heading>
 					<Swiper
+						slidesPerView={"auto"}
+						spaceBetween={30}
 						pagination={{
 							dynamicBullets: true,
 						}}
@@ -235,7 +237,7 @@ const MyValues = () => {
 							}}>
 							<Box>
 								<Card
-									m={"0 auto"}
+									ml={"2rem"}
 									bgColor={"#464646"}
 									borderRadius={"20px"}
 									width={"fit-content"}

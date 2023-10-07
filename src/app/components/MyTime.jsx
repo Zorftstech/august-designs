@@ -67,7 +67,11 @@ const MyTime = () => {
 						borderRadius={"30px"}
 						position={"absolute"}
 						left={"3.5rem"}>
-						<Image src={NeedyImg} alt="Helping the needy" />
+						<Image
+							style={{ borderRadius: "30px" }}
+							src={NeedyImg}
+							alt="Helping the needy"
+						/>
 						<Heading fontSize={"32px"} textAlign={"center"} mt={"1rem"}>
 							Helping the needy
 						</Heading>
@@ -82,7 +86,11 @@ const MyTime = () => {
 						position={"absolute"}
 						top={"6rem"}
 						left={"29.6rem"}>
-						<Image src={CulinaryImg} alt="Culinary adventures" />
+						<Image
+							style={{ borderRadius: "30px" }}
+							src={CulinaryImg}
+							alt="Culinary adventures"
+						/>
 						<Heading fontSize={"32px"} textAlign={"center"} mt={"1rem"}>
 							Culinary adventures
 						</Heading>
@@ -96,7 +104,11 @@ const MyTime = () => {
 						borderRadius={"30px"}
 						position={"absolute"}
 						right={"3.5rem"}>
-						<Image src={PublicImg} alt="Public speaking" />
+						<Image
+							style={{ borderRadius: "30px" }}
+							src={PublicImg}
+							alt="Public speaking"
+						/>
 						<Heading fontSize={"32px"} textAlign={"center"} mt={"1rem"}>
 							Public speaking
 						</Heading>
@@ -106,38 +118,50 @@ const MyTime = () => {
 
 			{/* Mobile view */}
 
-			<Box zIndex={"hide"} display={{ base: "block", md: "none" }} m={"0 2rem"}>
+			<Box zIndex={"hide"} display={{ base: "block", md: "none" }} m={"0 5rem"}>
 				<Box
 					display={"flex"}
 					flexDir={"column"}
 					justifyContent={"space-between"}>
 					<Card
-						width={"fit-content"}
+						width={"311px"}
 						p={"1rem 1rem"}
 						bgColor={"#f9eae6"}
 						borderRadius={"30px"}>
-						<Image src={NeedyImg} alt="Helping the needy" />
+						<Image
+							style={{ borderRadius: "30px" }}
+							src={NeedyImg}
+							alt="Helping the needy"
+						/>
 						<Heading fontSize={"20px"} textAlign={"center"} mt={"1rem"}>
 							Helping the needy
 						</Heading>
 					</Card>
 					<Card
-						width={"fit-content"}
+						width={"311px"}
 						p={"1rem 1rem"}
 						m={"2rem 0"}
 						bgColor={"#f9eae6"}
 						borderRadius={"30px"}>
-						<Image src={CulinaryImg} alt="Culinary adventures" />
+						<Image
+							style={{ borderRadius: "30px" }}
+							src={CulinaryImg}
+							alt="Culinary adventures"
+						/>
 						<Heading fontSize={"20px"} textAlign={"center"} mt={"1rem"}>
 							Culinary adventures
 						</Heading>
 					</Card>
 					<Card
-						width={"fit-content"}
+						width={"311px"}
 						p={"1rem 1rem"}
 						bgColor={"#f9eae6"}
 						borderRadius={"30px"}>
-						<Image src={PublicImg} alt="Public speaking" />
+						<Image
+							style={{ borderRadius: "30px" }}
+							src={PublicImg}
+							alt="Public speaking"
+						/>
 						<Heading fontSize={"20px"} textAlign={"center"} mt={"1rem"}>
 							Public speaking
 						</Heading>

@@ -104,14 +104,10 @@ const Intro = () => {
 				</Box>
 				<Box
 					display={{ base: "block", md: "none" }}
-					width={"80%"}
+					width={"70%"}
 					m={"0 auto"}
-					mt={"4rem"}>
-					<Image
-						src={AugustImg}
-						alt="Image of Ambrose Ijeoma Augustina,"
-						width={"100%"}
-					/>
+					mt={"2rem"}>
+					<Image src={AugustImg} alt="Image of Ambrose Ijeoma Augustina," />
 				</Box>
 				<Box ml={"9rem"} display={{ base: "none", md: "block" }}>
 					<Image

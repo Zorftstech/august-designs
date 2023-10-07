@@ -40,11 +40,11 @@ import { FreeMode, Pagination, Autoplay } from "swiper/modules";
 
 const People = () => {
 	return (
-		<Box>
+		<Box m={{ md: "0 4rem", base: "0 0" }}>
 			<Box
 				mt={"7rem"}
-				ml={"5.5rem"}
-				mr={"5.5rem"}
+				ml={"auto"}
+				mr={"auto"}
 				display={{ md: "block", base: "none" }}>
 				<Heading
 					textAlign={"center"}
@@ -166,14 +166,19 @@ const People = () => {
 					display={{ base: "block", md: "none" }}
 					textAlign={"center"}
 					fontSize={"24px"}
-					m={"5rem 0"}
+					m={"4rem 0"}
 					bgGradient="linear( to-r, #393939, #393939, #393939, #403c3a,#e07b5b,#ff8762, #ff8762, #ff8762  )"
 					bgClip={"text"}>
 					Clients Testimonials
 				</Heading>
 
-				<Box display={{ base: "block", md: "none" }} m={"0 3rem"}>
+				<Box
+					display={{ base: "block", md: "none" }}
+					m={"0 2rem"}
+					width={"450px"}>
 					<Swiper
+						slidesPerView={"auto"}
+						spaceBetween={25}
 						pagination={{
 							dynamicBullets: true,
 						}}
@@ -182,18 +187,18 @@ const People = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
-								height: "456px",
+								height: "436px",
+								width: "80%",
 							}}>
 							<Box
-								m={"0 auto"}
 								mt={"3rem"}
 								p={"2rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								width={"100%"}
+								maxWidth={"400px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"47%"} top={"-9%"}>
+								<Box position={"absolute"} left={"37%"} top={"-50px"}>
 									<Image
 										src={PatrickImg}
 										alt="image of patrick mayor c. rapheal"
@@ -207,12 +212,11 @@ const People = () => {
 									Working with Ijeoma Augustina <br /> Ambrose is always a
 									delight to look <br />
 									forward to. Her delivery follows the <br /> accuracy of every
-									design conversation <br /> and more. Creativity is only the{" "}
-									<br /> beginning of the list of words that can <br /> best
-									describe her works.{" "}
+									design conversation and more. Creativity is only the beginning
+									of the list of words that can best describe her works.{" "}
 								</Text>
 								<Heading
-									fontSize={"20px"}
+									fontSize={"16px"}
 									textAlign={"center"}
 									mt={"2rem"}
 									mb={".1rem"}>
@@ -226,18 +230,18 @@ const People = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
-								height: "456px",
+								height: "406px",
+								width: "80%",
 							}}>
 							<Box
-								m={"0 auto"}
 								mt={"3rem"}
 								p={"2rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								width={"100%"}
+								maxW={"450px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"47%"} top={"-9%"}>
+								<Box position={"absolute"} left={"37%"} top={"-50px"}>
 									<Image src={IsahImg} alt="image of iysah yusuf" />
 								</Box>
 								<Text
@@ -253,7 +257,7 @@ const People = () => {
 									design challenges.
 								</Text>
 								<Heading
-									fontSize={"20px"}
+									fontSize={"16px"}
 									textAlign={"center"}
 									mt={"2rem"}
 									mb={".1rem"}>
@@ -267,18 +271,19 @@ const People = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
-								height: "456px",
+								height: "406px",
+								width: "80%",
 							}}>
 							<Box
-								m={"0 auto"}
 								mt={"3rem"}
+								mr={"1rem"}
 								p={"2rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								width={"100%"}
+								maxWidth={"400px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"47%"} top={"-9%"}>
+								<Box position={"absolute"} left={"37%"} top={"-50px"}>
 									<Image
 										src={KingsleyImg}
 										alt="image of kingsley-orji ogboih"
@@ -288,7 +293,7 @@ const People = () => {
 									textAlign={"center"}
 									color={"#7f7e7e"}
 									fontSize={"14px"}
-									mt={"2rem"}>
+									mt={"3rem"}>
 									Ijeoma Ambrose embodies a <br /> harmonious blend of
 									creativity, <br />
 									engineering prowess, and empathy, <br /> shaping clients
@@ -297,7 +302,7 @@ const People = () => {
 									designing. She is fun and easy <br /> to work with.
 								</Text>
 								<Heading
-									fontSize={"20px"}
+									fontSize={"16px"}
 									textAlign={"center"}
 									mt={"2rem"}
 									mb={".1rem"}>
