@@ -16,6 +16,7 @@ import {
 	MenuOptionGroup,
 	MenuDivider,
 	Flex,
+	Center,
 } from "@chakra-ui/react";
 import { DarkModeSwitch, HamburgerMenu } from "./HamburgerMenu";
 import { HydrationProvider } from "react-hydration-provider";
@@ -23,19 +24,23 @@ import { HydrationProvider } from "react-hydration-provider";
 const Navbar = () => (
 	<HydrationProvider>
 		<Container
-			maxW="1321px"
-			mt="1rem"
-			ml={{ base: "0", md: "1rem" }}
+			display={"flex"}
+			justifyContent="space-between"
+			alignContent={"Center"}
+			maxW={"1321px"}
+			W={{ md: "1321px", base: "312px" }}
+			height={{ md: "96px", base: "74px" }}
+			mt="1.5rem"
+			ml={{ base: "auto", md: "1rem" }}
+			mr={{ base: "auto", md: "0" }}
 			position={"fixed"}
-			zIndex={2}>
-			<Box
-				display="flex"
-				justifyContent="space-between"
-				boxShadow="lg"
-				p="6"
-				rounded="md"
-				bgColor="#ffff"
-				borderRadius="50px">
+			zIndex={2}
+			boxShadow="lg"
+			p="6"
+			rounded="md"
+			bgColor="#ffff"
+			borderRadius="50px">
+			<Box display="flex" justifyContent="space-between" width={"100%"}>
 				<Heading
 					color="#ff8762"
 					fontSize={{ base: "24px", md: "32px", sm: "24px" }}>
@@ -128,7 +133,7 @@ const Navbar = () => (
 					Request for my resume
 				</Link>
 			</Box>
-			<Box>
+			<Box display={{ base: "block", md: "none" }}>
 				<HamburgerMenu />
 			</Box>
 		</Container>

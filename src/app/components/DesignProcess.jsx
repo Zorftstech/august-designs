@@ -36,7 +36,7 @@ const DesignProcess = () => {
 			</Heading>
 			<Box
 				mt={{ md: "3rem", base: "1rem" }}
-				ml={{ md: "4rem", base: "2rem" }}
+				ml={{ md: "4rem", base: "1rem" }}
 				display={"grid"}
 				gridTemplateColumns={{ md: "repeat(2, 1fr)", base: "repeat(1, 1fr)" }}
 				grid-template-rows={{ md: "repeat(2, 1fr)", base: "0" }}
@@ -47,8 +47,9 @@ const DesignProcess = () => {
 							fontSize={{ md: "40px", base: "16px" }}
 							color={"#fff"}
 							bgColor={"#ff8762"}
-							width={"fit-content"}
-							p={{ md: " 1.5rem 2.0rem", base: "1rem 1rem" }}
+							width={{ md: "100px", base: "40px" }}
+							height={{ md: "100px", base: "40px" }}
+							p={{ md: " 1.5rem 1.8rem", base: ".6rem .7rem" }}
 							mr={{ md: "2.5rem", base: "1.5rem" }}
 							borderRadius={"100%"}>
 							01
@@ -94,8 +95,9 @@ const DesignProcess = () => {
 							fontSize={{ md: "40px", base: "16px" }}
 							color={"#fff"}
 							bgColor={"#ff8762"}
-							width={"fit-content"}
-							p={{ md: " 1.5rem 2.0rem", base: "1rem 1rem" }}
+							width={{ md: "100px", base: "40px" }}
+							height={{ md: "100px", base: "40px" }}
+							p={{ md: " 1.5rem 1.5rem", base: ".6rem .5rem" }}
 							mr={{ md: "2.5rem", base: "1.5rem" }}
 							borderRadius={"100%"}>
 							02
@@ -140,8 +142,9 @@ const DesignProcess = () => {
 							fontSize={{ md: "40px", base: "16px" }}
 							color={"#fff"}
 							bgColor={"#ff8762"}
-							width={"fit-content"}
-							p={{ md: " 1.5rem 2.0rem", base: "1rem 1rem" }}
+							width={{ md: "100px", base: "40px" }}
+							height={{ md: "100px", base: "40px" }}
+							p={{ md: " 1.5rem 1.5rem", base: ".6rem .5rem" }}
 							mr={{ md: "2.5rem", base: "1.5rem" }}
 							borderRadius={"100%"}>
 							03
@@ -185,8 +188,9 @@ const DesignProcess = () => {
 							fontSize={{ md: "40px", base: "16px" }}
 							color={"#fff"}
 							bgColor={"#ff8762"}
-							width={"fit-content"}
-							p={{ md: " 1.5rem 2.0rem", base: "1rem 1rem" }}
+							width={{ md: "100px", base: "40px" }}
+							height={{ md: "100px", base: "40px" }}
+							p={{ md: " 1.5rem 1.4rem", base: ".6rem .5rem" }}
 							mr={{ md: "2.5rem", base: "1.5rem" }}
 							borderRadius={"100%"}>
 							04

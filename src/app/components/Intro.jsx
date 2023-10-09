@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import AugustImg from "../assets/AugustImg.png";
+import AugustImgs from "../assets/augustImgs.png";
 import {
 	Heading,
 	Link,
@@ -25,12 +26,9 @@ import {
 
 const Intro = () => {
 	return (
-		<Container maxWidth="100%" mt={"6rem"}>
-			<Box
-				maxW="fit-content"
-				display={"flex"}
-				flexDir={{ base: "column-reverse", md: "row", sm: "column-reverse" }}>
-				<Box mt={"13em"} ml={"3rem"} display={{ base: "none", md: "block" }}>
+		<Box maxWidth="100%" display={"Flex"} justifyContent={"center"} mt={"5rem"}>
+			<Box maxW="fit-content" display={"flex"} flexDir={"row"}>
+				<Box mt={"13em"} display={{ base: "none", md: "block" }}>
 					<Flex flexDir="column">
 						<Heading fontSize="40px">
 							Hello, I am
@@ -63,8 +61,14 @@ const Intro = () => {
 						</Link>
 					</Flex>
 				</Box>
-				<Box mt={"3rem"} display={{ base: "block", md: "none" }}>
+				<Box mt={"1rem"} display={{ base: "block", md: "none" }}>
 					<Flex flexDir="column">
+						<Box mb={"3rem"}>
+							<Image
+								src={AugustImgs}
+								alt="Image of Ambrose Ijeoma Augustina,"
+							/>
+						</Box>
 						<Heading fontSize="24px" textAlign={"center"}>
 							Hello, I am
 							<span style={{ color: "#ff8762" }}>
@@ -102,14 +106,7 @@ const Intro = () => {
 						</Link>
 					</Flex>
 				</Box>
-				<Box
-					display={{ base: "block", md: "none" }}
-					width={"70%"}
-					m={"0 auto"}
-					mt={"2rem"}>
-					<Image src={AugustImg} alt="Image of Ambrose Ijeoma Augustina," />
-				</Box>
-				<Box ml={"9rem"} display={{ base: "none", md: "block" }}>
+				<Box ml={"5rem"} display={{ base: "none", md: "block" }}>
 					<Image
 						src={AugustImg}
 						alt="Image of Ambrose Ijeoma Augustina,"
@@ -117,7 +114,7 @@ const Intro = () => {
 					/>
 				</Box>
 			</Box>
-		</Container>
+		</Box>
 	);
 };
 
