@@ -173,7 +173,7 @@ const LiveWebsites = () => {
 			<Box display={{ base: "block", md: "none" }} mt={"2rem"}>
 				<Swiper
 					slidesPerView={"auto"}
-					spaceBetween={0}
+					spaceBetween={20}
 					pagination={{
 						dynamicBullets: true,
 					}}
@@ -182,8 +182,8 @@ const LiveWebsites = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "transparent",
-							height: "434px",
-							width: "55%",
+							height: "394px",
+							width: "65%",
 						}}>
 						<Box
 							ml={"2rem"}
@@ -229,8 +229,8 @@ const LiveWebsites = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "transparent",
-							height: "434px",
-							width: "48%",
+							height: "394px",
+							width: "55%",
 						}}>
 						<Box
 							display={"flex"}
@@ -274,7 +274,8 @@ const LiveWebsites = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "transparent",
-							height: "434px",
+							width: "80%",
+							height: "394px",
 						}}>
 						<Box
 							display={"flex"}
