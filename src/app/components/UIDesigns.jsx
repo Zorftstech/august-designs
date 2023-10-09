@@ -63,8 +63,8 @@ const UiDesigns = () => {
 					fontSize={"14px"}
 					mt={"1rem"}
 					display={{ base: "block", md: "none" }}>
-					When i feel a little creative, i design simple yet <br /> beautiful
-					user interfaces
+					When i feel a little creative, i design simple yet beautiful user
+					interfaces
 				</Text>
 			</Box>
 			<Box display={"flex"}>
@@ -77,20 +77,15 @@ const UiDesigns = () => {
 					ml={{ md: "4rem", base: "auto" }}
 					mr={{ md: "0", base: "auto" }}
 					p={{ md: "2rem", base: "1rem" }}>
-					<Card borderRadius={"30px"} zIndex={"hide"}>
-						<Image
-							style={{ borderRadius: "30px" }}
-							src={FunitureSite}
-							alt="Landing page for a furniture company."
-						/>
-					</Card>
-					<Text
-						color={"#7f7e7e"}
-						textAlign={{ base: "center", md: "" }}
-						fontSize={{ md: "20px", base: "14px" }}
-						mt={"1rem"}>
-						Landing page for a furniture company.
-					</Text>
+					<Box borderRadius={"30px"} zIndex={"hide"}>
+						<Box width={"100%"}>
+							<Image
+								style={{ borderRadius: "30px" }}
+								src={FunitureSite}
+								alt="Landing page for a furniture company."
+							/>
+						</Box>
+					</Box>
 				</Box>
 				<Box
 					display={{ md: "block", base: "none" }}
@@ -100,7 +95,7 @@ const UiDesigns = () => {
 					borderRadius={"30px"}
 					p={"2rem"}
 					ml={"2rem"}>
-					<Card
+					<Box
 						bgColor={"rgba(255,135,98,0.05)"}
 						borderRadius={"30px"}
 						zIndex={"hide"}>
@@ -109,7 +104,7 @@ const UiDesigns = () => {
 							src={RestaurantSite}
 							alt="food app"
 						/>
-					</Card>
+					</Box>
 				</Box>
 			</Box>
 			<Box
@@ -121,7 +116,7 @@ const UiDesigns = () => {
 				grid-template-rows={{ md: "repeat(1fr)", base: "none" }}
 				gridGap={"1rem"}>
 				<Box>
-					<Card
+					<Box
 						width={{ base: "310px", md: "400px" }}
 						mr={{ md: "0", base: "auto" }}
 						ml={{ md: "0", base: "auto" }}
@@ -136,10 +131,10 @@ const UiDesigns = () => {
 								alt="travel agency landing page"
 							/>
 						</Box>
-					</Card>
+					</Box>
 				</Box>
 				<Box>
-					<Card
+					<Box
 						width={{ base: "310px", md: "400px" }}
 						mr={{ md: "0", base: "auto" }}
 						ml={{ md: "0", base: "auto" }}
@@ -152,10 +147,10 @@ const UiDesigns = () => {
 							src={RealEstateSite}
 							alt="real estate landing page"
 						/>
-					</Card>
+					</Box>
 				</Box>
 				<Box display={{ md: "block", base: "none" }}>
-					<Card
+					<Box
 						bgColor={"rgba(255,135,98,0.05)"}
 						borderRadius={"30px"}
 						padding={"2rem"}
@@ -165,7 +160,7 @@ const UiDesigns = () => {
 							src={Dashboard}
 							alt="Dashboard Ui"
 						/>
-					</Card>
+					</Box>
 				</Box>
 			</Box>
 			<Box textAlign={"center"} mt={{ md: "4rem", base: "2rem" }}>

@@ -51,25 +51,27 @@ const LiveWebsites = () => {
 					Live Websites
 				</Heading>
 				<Box
-					width={"fit-content"}
+					width={{ md: "122px", base: "41.27px" }}
+					height={{ md: "81px", base: "27.4px" }}
 					ml={"1rem"}
 					bgColor={"#ff8762"}
-					p={{ md: ".5rem 2rem", base: "1rem 1.5rem " }}
+					p={{ md: "1rem 2rem", base: ".3rem .6rem" }}
 					borderRadius={"30px"}>
-					<Box display={{ md: "block", base: "none" }}>
+					<Box m={"auto"} display={{ md: "block", base: "none" }}>
 						<Image src={spiralIcon} alt="spiral icon" />
 					</Box>
 					<Box
+						m={"auto"}
 						display={{ md: "none", base: "block" }}
-						width={"20.91px"}
-						height={"20.91px"}>
+						width={"16.91px"}
+						height={"16.91px"}>
 						<Image src={spiralIcon} alt="spiral icon" />
 					</Box>
 				</Box>
 			</Box>
 			<Box display={{ md: "block", base: "none" }}>
 				<Box display={"flex"} justifyContent={"Center"} mt={"3rem"}>
-					<Card
+					<Box
 						width={"fit-content"}
 						pt={"9rem"}
 						pb={"8rem"}
@@ -101,11 +103,12 @@ const LiveWebsites = () => {
 								<Image src={ArrowIcon} />
 							</Link>
 						</Flex>
-					</Card>
+					</Box>
 
 					<Box display={"grid"} gridGap={"1rem"} ml={"1rem"}>
-						<Card
+						<Box
 							display={"flex"}
+							flexDir={"column"}
 							justifyContent={"center"}
 							width={"fit-content"}
 							bgColor={"rgb(232,232,234,1)"}
@@ -132,9 +135,10 @@ const LiveWebsites = () => {
 								<a>View website</a>
 								<Image src={ArrowIcon} />
 							</Link>
-						</Card>
-						<Card
+						</Box>
+						<Box
 							display={"flex"}
+							flexDir={"column"}
 							justifyContent={"center"}
 							p={"2rem"}
 							width={"fit-content"}
@@ -162,7 +166,7 @@ const LiveWebsites = () => {
 								<a>View website</a>
 								<Image src={ArrowIcon} />
 							</Link>
-						</Card>
+						</Box>
 					</Box>
 				</Box>
 			</Box>
@@ -179,8 +183,9 @@ const LiveWebsites = () => {
 						style={{
 							backgroundColor: "transparent",
 							height: "434px",
+							width: "55%",
 						}}>
-						<Card
+						<Box
 							ml={"2rem"}
 							width={"273px"}
 							height={"363px"}
@@ -215,27 +220,28 @@ const LiveWebsites = () => {
 									bgColor: "transparent",
 								}}>
 								<a>View website</a>
-								<Box m={"0 auto"}>
+								<Box m={"0 auto"} width={"50%"}>
 									<Image src={ArrowIcon} />
 								</Box>
 							</Link>
-						</Card>
+						</Box>
 					</SwiperSlide>
 					<SwiperSlide
 						style={{
 							backgroundColor: "transparent",
 							height: "434px",
+							width: "48%",
 						}}>
-						<Card
+						<Box
 							display={"flex"}
+							flexDir={"column"}
 							justifyContent={"center"}
 							width={"273px"}
 							height={"363px"}
 							bgColor={"rgb(232,232,234,1)"}
 							pb={"4rem"}
 							borderRadius={"50px"}
-							ml={"auto"}
-							mr={"auto"}>
+							ml={"4.5rem"}>
 							<Flex alignItems={"center"} flexDir={"column"}>
 								<Heading fontSize={"20px"} m={"2rem 0"}>
 									website for a fashion <br /> brand!
@@ -263,23 +269,24 @@ const LiveWebsites = () => {
 									<Image src={ArrowIcon} />
 								</Box>
 							</Link>
-						</Card>
+						</Box>
 					</SwiperSlide>
 					<SwiperSlide
 						style={{
 							backgroundColor: "transparent",
 							height: "434px",
 						}}>
-						<Card
+						<Box
 							display={"flex"}
+							flexDir={"column"}
 							justifyContent={"center"}
 							pb={"4.5rem"}
 							width={"273px"}
 							height={"363px"}
 							bgColor={"rgb(58,220,48,0.1)"}
 							borderRadius={"50px"}
-							ml={"auto"}
-							mr={"2rem"}>
+							ml={"9.2rem"}
+							mr={"7rem"}>
 							<Flex flexDir={"column"} alignItems={"center"}>
 								<Box width={"60%"} m={"0 auto"} mt={"2rem"}>
 									<Image src={NonprofitSite} alt="Non-profit website." />
@@ -307,7 +314,7 @@ const LiveWebsites = () => {
 									<Image src={ArrowIcon} />
 								</Box>
 							</Link>
-						</Card>
+						</Box>
 					</SwiperSlide>
 				</Swiper>
 			</Box>

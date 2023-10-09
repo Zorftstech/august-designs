@@ -62,10 +62,10 @@ const CaseStudies = () => {
 					pb={"2rem"}
 					gridTemplateColumns="repeat(3, 1fr)"
 					grid-template-rows="repeat(1fr)"
-					gridGap={".5rem"}>
+					gridGap={"1rem"}>
 					<Card
 						width={"400px"}
-						ml={"4.5rem"}
+						ml={"5.5rem"}
 						borderRadius={"30px"}
 						pb={"1rem"}
 						zIndex={"hide"}>
@@ -83,6 +83,7 @@ const CaseStudies = () => {
 					</Card>
 					<Card
 						width={"400px"}
+						ml={".5rem"}
 						borderRadius={"30px"}
 						pb={"1rem"}
 						zIndex={"hide"}>
@@ -100,7 +101,7 @@ const CaseStudies = () => {
 					</Card>
 					<Card
 						width={"400px"}
-						mr={"6rem"}
+						mr={"5.5rem"}
 						borderRadius={"30px"}
 						pb={"1rem"}
 						zIndex={"hide"}>
@@ -120,6 +121,7 @@ const CaseStudies = () => {
 					</Card>
 				</Box>
 			</Box>
+
 			<Box display={{ base: "block", md: "none" }}>
 				<Swiper
 					slidesPerView={"auto"}
@@ -132,13 +134,13 @@ const CaseStudies = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "rgba(255,135,98,0.05)",
+							width: "80%",
 							height: "305px",
 							padding: " 1rem 0",
 						}}>
 						<Card
 							width={"249px"}
-							ml={"auto"}
-							mr={"auto"}
+							ml={"2rem"}
 							borderRadius={"30px"}
 							pb={"1rem"}
 							zIndex={"hide"}>
@@ -158,13 +160,13 @@ const CaseStudies = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "rgba(255,135,98,0.05)",
+							width: "77%",
 							height: "305px",
 							padding: "1rem 0",
 						}}>
 						<Card
 							width={"249px"}
-							ml={"rem"}
-							mr={"auto"}
+							ml={"1.5rem"}
 							borderRadius={"30px"}
 							pb={"1rem"}
 							zIndex={"hide"}>
@@ -184,12 +186,13 @@ const CaseStudies = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "rgba(255,135,98,0.05)",
+
 							height: "305px",
 							padding: "1rem 0",
 						}}>
 						<Card
 							width={"249px"}
-							mr={"auto"}
+							ml={"1.5rem"}
 							borderRadius={"30px"}
 							pb={"1rem"}
 							zIndex={"hide"}>

@@ -21,14 +21,12 @@ export const HamburgerMenu = () => {
 	const [display, changeDisplay] = useState("none");
 	return (
 		<Flex>
-			<Flex position="fixed" top="1rem" right="1rem" align="center">
+			<Flex position="fixed" top="2rem" right="1rem">
 				{/* Mobile */}
 				<IconButton
 					aria-label="Open Menu"
-					size="md"
+					size="lg"
 					variant={"ghost"}
-					mt={5}
-					mr={4}
 					icon={<HamburgerIcon />}
 					onClick={() => changeDisplay("flex")}
 					display={["flex", "flex", "none", "none"]}

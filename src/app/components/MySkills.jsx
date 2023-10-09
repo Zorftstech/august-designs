@@ -30,7 +30,7 @@ const MySkills = () => {
 	return (
 		<Box
 			mt={{ md: "5rem", base: "3rem" }}
-			ml={{ md: "4rem", base: "1.5rem" }}
+			ml={{ md: "4rem", base: "1rem" }}
 			mr={{ md: "0rem", base: "0" }}>
 			<Heading
 				ml={{ md: "10rem", base: "0" }}
