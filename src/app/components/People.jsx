@@ -63,7 +63,6 @@ const People = () => {
 						position={"relative"}
 						border={"2px solid rgb(240,240,240,1)"}
 						width={"100%"}
-						// height={"65vh"}
 						borderRadius={"30px"}
 						zIndex={"hide"}>
 						<Box position={"absolute"} right={"40%"} top={"-10%"}>
@@ -247,7 +246,12 @@ const People = () => {
 								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"104.5px"} top={"-40px"}>
+								<Box
+									position={"absolute"}
+									width={"80px"}
+									height={"80px"}
+									left={"104.5px"}
+									top={"-40px"}>
 									<Image src={IsahImg} alt="image of iysah yusuf" />
 								</Box>
 								<Text
@@ -289,7 +293,12 @@ const People = () => {
 								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"104.5px"} top={"-40px"}>
+								<Box
+									position={"absolute"}
+									width={"80px"}
+									height={"80px"}
+									left={"104.5px"}
+									top={"-40px"}>
 									<Image
 										src={KingsleyImg}
 										alt="image of kingsley-orji ogboih"
