@@ -37,8 +37,9 @@ import {
 
 const CaseStudies = () => {
 	return (
-		<Box textAlign={"center"} mt={"7rem"}>
+		<Box mt={"7rem"}>
 			<Heading
+				textAlign={"center"}
 				bgGradient="linear( to-r, #393939, #393939, #393939, #403c3a,#e07b5b,#ff8762, #ff8762, #ff8762  )"
 				bgClip={"text"}
 				fontSize={{ base: "24px", md: "40px" }}>
@@ -77,7 +78,7 @@ const CaseStudies = () => {
 							src={Desktop1}
 							alt="Digital health app to manage mental health"
 						/>
-						<Text color={"#7f7e7e"} fontSize={"20px"}>
+						<Text color={"#7f7e7e"} fontSize={"16px"} ml={"1rem"} mt={"1rem"}>
 							Digital health app to manage <br /> mental health
 						</Text>
 					</Card>
@@ -95,7 +96,7 @@ const CaseStudies = () => {
 							src={Desktop2}
 							alt="A fintech saving and investment mobile app"
 						/>
-						<Text color={"#7f7e7e"} fontSize={"20px"}>
+						<Text color={"#7f7e7e"} fontSize={"16px"} ml={"1rem"} mt={"1rem"}>
 							A fintech saving and investment <br /> mobile app
 						</Text>
 					</Card>
@@ -114,7 +115,7 @@ const CaseStudies = () => {
 							alt="A non-profit full website that helps
 							connect donors to NGO’s"
 						/>
-						<Text color={"#7f7e7e"} fontSize={"20px"}>
+						<Text color={"#7f7e7e"} fontSize={"16px"} ml={"1rem"} mt={"1rem"}>
 							A non-profit full website that helps <br />
 							connect donors to NGO’s
 						</Text>
@@ -152,7 +153,12 @@ const CaseStudies = () => {
 								src={Desktop1}
 								alt="Digital health app to manage mental health"
 							/>
-							<Text color={"#7f7e7e"} fontSize={"14px"}>
+							<Text
+								textAlign={"left"}
+								color={"#7f7e7e"}
+								fontSize={"14px"}
+								ml={".5rem"}
+								mt={".5rem"}>
 								Digital health app to manage <br /> mental health
 							</Text>
 						</Card>
@@ -178,7 +184,12 @@ const CaseStudies = () => {
 								src={Desktop2}
 								alt="A fintech saving and investment mobile app"
 							/>
-							<Text color={"#7f7e7e"} fontSize={"14px"}>
+							<Text
+								color={"#7f7e7e"}
+								fontSize={"14px"}
+								textAlign={"left"}
+								ml={".5rem"}
+								mt={".5rem"}>
 								A fintech saving and investment <br /> mobile app
 							</Text>
 						</Card>
@@ -205,7 +216,12 @@ const CaseStudies = () => {
 								alt="A non-profit full website that helps
 								connect donors to NGO’s"
 							/>
-							<Text color={"#7f7e7e"} fontSize={"14px"}>
+							<Text
+								color={"#7f7e7e"}
+								fontSize={"14px"}
+								textAlign={"left"}
+								ml={".5rem"}
+								mt={".5rem"}>
 								A non-profit full website that helps <br />
 								connect donors to NGO’s
 							</Text>

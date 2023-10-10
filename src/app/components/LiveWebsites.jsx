@@ -173,7 +173,7 @@ const LiveWebsites = () => {
 			<Box display={{ base: "block", md: "none" }} mt={"2rem"}>
 				<Swiper
 					slidesPerView={"auto"}
-					spaceBetween={20}
+					spaceBetween={25}
 					pagination={{
 						dynamicBullets: true,
 					}}
@@ -183,32 +183,31 @@ const LiveWebsites = () => {
 						style={{
 							backgroundColor: "transparent",
 							height: "394px",
-							width: "65%",
+							width: "81%",
 						}}>
 						<Box
-							ml={"2rem"}
+							ml={"1rem"}
 							width={"273px"}
 							height={"363px"}
 							borderRadius={"50px"}
 							bgColor={"rgb(233,173,75,0.15)"}
-							p={"3rem"}
+							p={"2rem"}
 							pb={"2.5rem"}>
 							<Flex flexDir={"column"} justifyContent={"center"}>
-								<Box width={"191px"} m={"0 auto"}>
+								<Box width={"191px"} m={"0 auto"} mt={"2.5rem"}>
 									<Image
 										src={SaasSite}
 										alt="SaaS mini website for a HR recruiting company."
 									/>
 								</Box>
-								<Heading fontSize={"20px"} textAlign={"center"} mt={".5rem"}>
-									SaaS mini website for <br /> a HR recruiting <br /> company.
+								<Heading fontSize={"20px"} textAlign={"center"} m={"1rem 0"}>
+									SaaS mini website for a HR recruiting <br /> company.
 								</Heading>
 							</Flex>
 
 							<Link
 								width={"fit-content"}
 								href="https://greiprgroup.com/"
-								mt={"1rem"}
 								mr={"auto"}
 								ml={"auto"}
 								color="#ff8762"
@@ -230,7 +229,7 @@ const LiveWebsites = () => {
 						style={{
 							backgroundColor: "transparent",
 							height: "394px",
-							width: "55%",
+							width: "76%",
 						}}>
 						<Box
 							display={"flex"}
@@ -239,9 +238,7 @@ const LiveWebsites = () => {
 							width={"273px"}
 							height={"363px"}
 							bgColor={"rgb(232,232,234,1)"}
-							pb={"4rem"}
-							borderRadius={"50px"}
-							ml={"4.5rem"}>
+							borderRadius={"50px"}>
 							<Flex alignItems={"center"} flexDir={"column"}>
 								<Heading fontSize={"20px"} m={"2rem 0"}>
 									website for a fashion <br /> brand!
@@ -253,7 +250,7 @@ const LiveWebsites = () => {
 							<Link
 								width={"fit-content"}
 								href=""
-								mt={"1rem"}
+								mt={"2rem"}
 								mr={"auto"}
 								ml={"auto"}
 								color="#ff8762"
@@ -274,20 +271,17 @@ const LiveWebsites = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "transparent",
-							width: "80%",
+							width: "90%",
 							height: "394px",
 						}}>
 						<Box
 							display={"flex"}
 							flexDir={"column"}
 							justifyContent={"center"}
-							pb={"4.5rem"}
 							width={"273px"}
 							height={"363px"}
 							bgColor={"rgb(58,220,48,0.1)"}
-							borderRadius={"50px"}
-							ml={"9.2rem"}
-							mr={"7rem"}>
+							borderRadius={"50px"}>
 							<Flex flexDir={"column"} alignItems={"center"}>
 								<Box width={"60%"} m={"0 auto"} mt={"2rem"}>
 									<Image src={NonprofitSite} alt="Non-profit website." />
