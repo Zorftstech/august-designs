@@ -123,9 +123,9 @@ a {
 }
 
 .swiper-slide:nth-child(2n) {
-	width: 60%;
+	width: 80%;
 }
 
 .swiper-slide:nth-child(3n) {
-	width: 70%;
+	width: 80%;
 }

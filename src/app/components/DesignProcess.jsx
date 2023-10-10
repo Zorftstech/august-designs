@@ -49,7 +49,7 @@ const DesignProcess = () => {
 							bgColor={"#ff8762"}
 							width={{ md: "100px", base: "40px" }}
 							height={{ md: "100px", base: "40px" }}
-							p={{ md: " 1.5rem 1.8rem", base: ".6rem .7rem" }}
+							p={{ md: " 1.5rem 1.8rem", base: ".6rem .6rem" }}
 							mr={{ md: "2.5rem", base: "1.5rem" }}
 							borderRadius={"100%"}>
 							01
@@ -97,7 +97,7 @@ const DesignProcess = () => {
 							bgColor={"#ff8762"}
 							width={{ md: "100px", base: "40px" }}
 							height={{ md: "100px", base: "40px" }}
-							p={{ md: " 1.5rem 1.5rem", base: ".6rem .5rem" }}
+							p={{ md: " 1.5rem 1.5rem", base: ".6rem .6rem" }}
 							mr={{ md: "2.5rem", base: "1.5rem" }}
 							borderRadius={"100%"}>
 							02
@@ -144,7 +144,7 @@ const DesignProcess = () => {
 							bgColor={"#ff8762"}
 							width={{ md: "100px", base: "40px" }}
 							height={{ md: "100px", base: "40px" }}
-							p={{ md: " 1.5rem 1.5rem", base: ".6rem .5rem" }}
+							p={{ md: " 1.5rem 1.5rem", base: ".6rem .6rem" }}
 							mr={{ md: "2.5rem", base: "1.5rem" }}
 							borderRadius={"100%"}>
 							03

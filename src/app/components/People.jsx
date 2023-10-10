@@ -172,13 +172,10 @@ const People = () => {
 					Clients Testimonials
 				</Heading>
 
-				<Box
-					display={{ base: "block", md: "none" }}
-					m={"0 2rem"}
-					width={"450px"}>
+				<Box display={{ base: "block", md: "none" }}>
 					<Swiper
 						slidesPerView={"auto"}
-						spaceBetween={25}
+						spaceBetween={45}
 						pagination={{
 							dynamicBullets: true,
 						}}
@@ -187,18 +184,25 @@ const People = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
-								height: "436px",
+								height: "456px",
 								width: "75%",
 							}}>
 							<Box
+								ml={"1rem"}
 								mt={"3rem"}
-								p={"2rem"}
+								p={".5rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								maxWidth={"400px"}
+								width={"289px"}
+								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"130px"} top={"-50px"}>
+								<Box
+									position={"absolute"}
+									width={"80px"}
+									height={"80px"}
+									left={"104.5px"}
+									top={"-40px"}>
 									<Image
 										src={PatrickImg}
 										alt="image of patrick mayor c. rapheal"
@@ -208,7 +212,7 @@ const People = () => {
 									textAlign={"center"}
 									color={"#7f7e7e"}
 									fontSize={"14px"}
-									mt={"2rem"}>
+									mt={"3rem"}>
 									Working with Ijeoma Augustina <br /> Ambrose is always a
 									delight to look <br />
 									forward to. Her delivery follows the <br /> accuracy of every
@@ -230,36 +234,37 @@ const People = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
-								height: "406px",
+								height: "456px",
 								width: "75%",
 							}}>
 							<Box
+								ml={"1rem"}
 								mt={"3rem"}
-								p={"2rem"}
+								p={".5rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								maxW={"450px"}
+								width={"289px"}
+								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"130px"} top={"-50px"}>
+								<Box position={"absolute"} left={"104.5px"} top={"-40px"}>
 									<Image src={IsahImg} alt="image of iysah yusuf" />
 								</Box>
 								<Text
 									textAlign={"center"}
 									color={"#7f7e7e"}
 									fontSize={"14px"}
-									mt={"2rem"}>
-									Her attention to detail is outstanding, <br /> and she
-									consistently delivers designs <br /> that not only look
-									stunning but also <br /> function seamlessly. Augustina is a{" "}
-									<br /> true collaborator, always open to <br />
-									feedback and eager to find innovative <br /> solutions to
-									design challenges.
+									mt={"3rem"}>
+									Her attention to detail is outstanding, and she consistently
+									delivers designs that not only look stunning but also function
+									seamlessly. Augustina is a true collaborator, always open to
+									feedback and eager to find innovative solutions to design
+									challenges.
 								</Text>
 								<Heading
 									fontSize={"16px"}
 									textAlign={"center"}
-									mt={"2rem"}
+									mt={"1rem"}
 									mb={".1rem"}>
 									Iysah Yusuf
 								</Heading>
@@ -271,18 +276,20 @@ const People = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
-								height: "406px",
-								width: "75%",
+								height: "456px",
+								width: "85%",
 							}}>
 							<Box
+								ml={".8rem"}
 								mt={"3rem"}
-								p={"2rem"}
+								p={".5rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								maxWidth={"400px"}
+								width={"289px"}
+								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
-								<Box position={"absolute"} left={"130px"} top={"-50px"}>
+								<Box position={"absolute"} left={"104.5px"} top={"-40px"}>
 									<Image
 										src={KingsleyImg}
 										alt="image of kingsley-orji ogboih"
@@ -293,17 +300,15 @@ const People = () => {
 									color={"#7f7e7e"}
 									fontSize={"14px"}
 									mt={"3rem"}>
-									Ijeoma Ambrose embodies a <br /> harmonious blend of
-									creativity, <br />
-									engineering prowess, and empathy, <br /> shaping clients
-									perceptions and <br />
-									interactions, particularly in the realm of product designing.
-									She is fun and easy to work with.
+									Ijeoma Ambrose embodies a harmonious blend of creativity,
+									engineering prowess, and empathy, shaping clients perceptions
+									and interactions, particularly in the realm of product
+									designing. She is fun and easy to work with.
 								</Text>
 								<Heading
 									fontSize={"16px"}
 									textAlign={"center"}
-									mt={"2rem"}
+									mt={"4rem"}
 									mb={".1rem"}>
 									Kingsley-Orji Ogboih
 								</Heading>

@@ -30,7 +30,7 @@ const Navbar = () => (
 			maxW={"1321px"}
 			W={{ md: "1321px", base: "312px" }}
 			height={{ md: "96px", base: "74px" }}
-			mt="1.5rem"
+			mt={{ md: "1.5rem", base: "1rem" }}
 			ml={{ base: "auto", md: "1rem" }}
 			mr={{ base: "auto", md: "0" }}
 			position={"fixed"}
