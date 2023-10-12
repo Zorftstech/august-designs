@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Line from "../assets/Line.png";
 
 import {
 	Heading,
@@ -55,9 +54,6 @@ const DesignProcess = () => {
 							borderRadius={"100%"}>
 							01
 						</Heading>
-						<Box ml={"1.2rem"}>
-							<Image src={Line} alt="a border line" />
-						</Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
 						<Heading
@@ -106,9 +102,6 @@ const DesignProcess = () => {
 							borderRadius={"100%"}>
 							02
 						</Heading>
-						<Box ml={"1.2rem"}>
-							<Image src={Line} alt="a border line" />
-						</Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
 						<Heading
@@ -156,9 +149,6 @@ const DesignProcess = () => {
 							borderRadius={"100%"}>
 							03
 						</Heading>
-						<Box ml={"1.2rem"}>
-							<Image src={Line} alt="a border line" />
-						</Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
 						<Heading
