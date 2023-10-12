@@ -56,7 +56,7 @@ const DesignProcess = () => {
 							01
 						</Heading>
 						<Box ml={"1.2rem"}>
-							<Image src={Line} />
+							<Image src={Line} alt="a border line" />
 						</Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
@@ -107,7 +107,7 @@ const DesignProcess = () => {
 							02
 						</Heading>
 						<Box ml={"1.2rem"}>
-							<Image src={Line} />
+							<Image src={Line} alt="a border line" />
 						</Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
@@ -157,7 +157,7 @@ const DesignProcess = () => {
 							03
 						</Heading>
 						<Box ml={"1.2rem"}>
-							<Image src={Line} />
+							<Image src={Line} alt="a border line" />
 						</Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
