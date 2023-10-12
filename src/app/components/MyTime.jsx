@@ -118,7 +118,11 @@ const MyTime = () => {
 
 			{/* Mobile view */}
 
-			<Box zIndex={"hide"} display={{ base: "block", md: "none" }} m={"0 5rem"}>
+			<Box
+				zIndex={"hide"}
+				display={{ base: "block", md: "none" }}
+				m={"0 auto"}
+				ml={"1rem"}>
 				<Box
 					display={"flex"}
 					flexDir={"column"}

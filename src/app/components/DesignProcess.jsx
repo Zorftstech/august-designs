@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Line from "../assets/Line.png";
 
 import {
 	Heading,
@@ -41,8 +42,8 @@ const DesignProcess = () => {
 				gridTemplateColumns={{ md: "repeat(2, 1fr)", base: "repeat(1, 1fr)" }}
 				grid-template-rows={{ md: "repeat(2, 1fr)", base: "0" }}
 				gridGap={{ md: "5rem", base: "0" }}>
-				<Box display={"flex"} mb={{ md: "0", base: "1rem" }}>
-					<Box>
+				<Box display={"flex"}>
+					<Box display={"flex"} flexDir={"column"}>
 						<Heading
 							fontSize={{ md: "40px", base: "16px" }}
 							color={"#fff"}
@@ -54,6 +55,9 @@ const DesignProcess = () => {
 							borderRadius={"100%"}>
 							01
 						</Heading>
+						<Box ml={"1.2rem"}>
+							<Image src={Line} />
+						</Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
 						<Heading
@@ -89,7 +93,7 @@ const DesignProcess = () => {
 					</Box>
 				</Box>
 
-				<Box display={"flex"} mb={{ md: "0", base: "1rem" }}>
+				<Box display={"flex"}>
 					<Box>
 						<Heading
 							fontSize={{ md: "40px", base: "16px" }}
@@ -102,6 +106,9 @@ const DesignProcess = () => {
 							borderRadius={"100%"}>
 							02
 						</Heading>
+						<Box ml={"1.2rem"}>
+							<Image src={Line} />
+						</Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
 						<Heading
@@ -136,7 +143,7 @@ const DesignProcess = () => {
 					</Box>
 				</Box>
 
-				<Box display={"flex"} mb={{ md: "0", base: "1rem" }}>
+				<Box display={"flex"}>
 					<Box>
 						<Heading
 							fontSize={{ md: "40px", base: "16px" }}
@@ -149,6 +156,9 @@ const DesignProcess = () => {
 							borderRadius={"100%"}>
 							03
 						</Heading>
+						<Box ml={"1.2rem"}>
+							<Image src={Line} />
+						</Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
 						<Heading
@@ -182,7 +192,7 @@ const DesignProcess = () => {
 					</Box>
 				</Box>
 
-				<Box display={"flex"} mb={{ md: "0", base: "1rem" }}>
+				<Box display={"flex"}>
 					<Box>
 						<Heading
 							fontSize={{ md: "40px", base: "16px" }}
