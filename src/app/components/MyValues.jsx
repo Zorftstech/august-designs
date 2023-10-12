@@ -58,7 +58,7 @@ const MyValues = () => {
 				</Heading>
 				<Box>
 					<Card
-						bgColor={"#464646"}
+						bgColor={"#282828"}
 						borderRadius={"20px"}
 						width={"fit-content"}
 						p={"2.5rem 0"}
@@ -83,7 +83,7 @@ const MyValues = () => {
 				</Box>
 				<Box>
 					<Card
-						bgColor={"#464646"}
+						bgColor={"#282828"}
 						borderRadius={"20px"}
 						width={"fit-content"}
 						p={"2.5rem 0"}
@@ -106,7 +106,7 @@ const MyValues = () => {
 				</Box>
 				<Box>
 					<Card
-						bgColor={"#464646"}
+						bgColor={"#282828"}
 						borderRadius={"20px"}
 						width={"fit-content"}
 						p={"2.5rem 0"}
@@ -131,7 +131,7 @@ const MyValues = () => {
 				</Box>
 				<Box>
 					<Card
-						bgColor={"#464646"}
+						bgColor={"#282828"}
 						borderRadius={"20px"}
 						width={"fit-content"}
 						p={"2.5rem 0"}
@@ -155,7 +155,7 @@ const MyValues = () => {
 				</Box>
 				<Box>
 					<Card
-						bgColor={"#464646"}
+						bgColor={"#282828"}
 						borderRadius={"20px"}
 						width={"fit-content"}
 						p={"2.5rem 0"}
@@ -180,7 +180,7 @@ const MyValues = () => {
 				</Box>
 				<Box>
 					<Card
-						bgColor={"#464646"}
+						bgColor={"#282828"}
 						borderRadius={"20px"}
 						width={"fit-content"}
 						p={"2.5rem 0"}
@@ -224,7 +224,7 @@ const MyValues = () => {
 					</Heading>
 					<Swiper
 						slidesPerView={"auto"}
-						spaceBetween={30}
+						spaceBetween={10}
 						pagination={{
 							dynamicBullets: true,
 						}}
@@ -233,29 +233,33 @@ const MyValues = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
+								width: "80%",
 								height: "264px",
 							}}>
 							<Box>
 								<Card
 									ml={"2rem"}
-									bgColor={"#464646"}
+									bgColor={"#282828"}
 									borderRadius={"20px"}
-									width={"fit-content"}
-									p={"2.5rem 0"}
-									pl={"1.5rem"}
-									pr={"3rem"}>
+									width={"250px"}
+									height={"210px"}
+									p={"2.5rem 0"}>
 									<Box display={"flex"} alignItems={"center"}>
-										<Box>
+										<Box ml={"1rem"} width={"29.5px"} height={"29.5px"}>
 											<Image src={GrowthIcon} alt="growth icon" />
 										</Box>
-										<Heading fontSize={"24px"} ml={"1rem"} color={"#ffffff"}>
+										<Heading fontSize={"20px"} ml={"1rem"} color={"#ffffff"}>
 											Growth
 										</Heading>
 									</Box>
-									<Text color={"#dddddd"} mt={"1rem"} fontSize={"16px"}>
-										This has always been my mantra, i <br /> believe in
-										consistently evolving <br />
-										and growing in my field as well as <br /> the company I
+									<Text
+										color={"#dddddd"}
+										textAlign={"left"}
+										ml={"1rem"}
+										mt={".5rem"}
+										fontSize={"14px"}>
+										This has always been my mantra, i believe in consistently
+										evolving and growing in my field as well as the company I
 										would work for.
 									</Text>
 								</Card>
@@ -269,28 +273,31 @@ const MyValues = () => {
 							<Box>
 								<Card
 									m={"0 auto"}
-									bgColor={"#464646"}
+									bgColor={"#282828"}
 									borderRadius={"20px"}
-									width={"fit-content"}
-									p={"2.5rem 0"}
-									pl={"1.5rem"}
-									pr={"3rem"}>
+									width={"250px"}
+									height={"210px"}
+									p={"2.5rem 0"}>
 									<Box display={"flex"} alignItems={"center"}>
-										<Box>
+										<Box width={"29.5px"} ml={"1rem"} height={"29.5px"}>
 											<Image
 												src={RemoteIcon}
 												alt="remote icon"
 												width={"100%"}
 											/>
 										</Box>
-										<Heading fontSize={"24px"} ml={"1rem"} color={"#ffffff"}>
+										<Heading fontSize={"20px"} ml={"1rem"} color={"#ffffff"}>
 											Remote
 										</Heading>
 									</Box>
-									<Text color={"#dddddd"} mt={"1rem"} fontSize={"16px"}>
-										I work remotely but still maintain <br /> adequate
-										communication with <br />
-										everyone I work with regardless of <br /> the position they
+									<Text
+										color={"#dddddd"}
+										textAlign={"left"}
+										ml={"1rem"}
+										mt={"1rem"}
+										fontSize={"14px"}>
+										I work remotely but still maintain adequate communication
+										with everyone I work with regardless of the position they
 										hold.
 									</Text>
 								</Card>
@@ -304,25 +311,28 @@ const MyValues = () => {
 							<Box>
 								<Card
 									m={"0 auto"}
-									bgColor={"#464646"}
+									bgColor={"#282828"}
 									borderRadius={"20px"}
-									width={"fit-content"}
-									p={"2.5rem 0"}
-									pl={"1.5rem"}
-									pr={"4rem"}>
+									width={"250px"}
+									height={"210px"}
+									p={"2.5rem 0"}>
 									<Box display={"flex"} alignItems={"center"}>
-										<Box>
+										<Box width={"29.5px"} ml={"1rem"} height={"29.5px"}>
 											<Image src={OpenIcon} alt="open icon" width={"100%"} />
 										</Box>
-										<Heading fontSize={"24px"} ml={"1rem"} color={"#ffffff"}>
+										<Heading fontSize={"20px"} ml={"1rem"} color={"#ffffff"}>
 											Open
 										</Heading>
 									</Box>
-									<Text color={"#dddddd"} mt={"1rem"} fontSize={"16px"}>
-										I am very open to feedback and <br /> make necessary
-										corrections <br />
-										wherever it is required. I do not <br /> frown at
-										constructive criticism.
+									<Text
+										color={"#dddddd"}
+										ml={"1rem"}
+										mt={"1rem"}
+										textAlign={"left"}
+										fontSize={"14px"}>
+										I am very open to feedback and make necessary corrections
+										wherever it is required. I do not frown at constructive
+										criticism.
 									</Text>
 								</Card>
 							</Box>
@@ -335,28 +345,32 @@ const MyValues = () => {
 							<Box>
 								<Card
 									m={"0 auto"}
-									bgColor={"#464646"}
+									bgColor={"#282828"}
 									borderRadius={"20px"}
-									width={"fit-content"}
-									p={"2.5rem 0"}
-									pl={"1.5rem"}
-									pr={"3rem"}>
+									width={"250px"}
+									height={"210px"}
+									p={"2.5rem 0"}>
 									<Box display={"flex"} alignItems={"center"}>
-										<Box>
+										<Box width={"29.5px"} ml={"1rem"} height={"29.5px"}>
 											<Image
 												src={HumbleIcon}
 												alt="humble icon"
 												width={"100%"}
 											/>
 										</Box>
-										<Heading fontSize={"24px"} ml={"1rem"} color={"#ffffff"}>
+										<Heading fontSize={"20px"} ml={"1rem"} color={"#ffffff"}>
 											Humble
 										</Heading>
 									</Box>
-									<Text color={"#dddddd"} mt={"1rem"} fontSize={"16px"}>
-										I listen when I am being corrected, <br /> not afraid to ask
-										questions when <br />
-										necessary, speak and treat <br /> everyone with respect.
+									<Text
+										color={"#dddddd"}
+										textAlign={"left"}
+										ml={"1rem"}
+										mt={"1rem"}
+										fontSize={"14px"}>
+										I listen when I am being corrected, not afraid to ask
+										questions when necessary, speak and treat everyone with
+										respect.
 									</Text>
 								</Card>
 							</Box>
@@ -370,29 +384,31 @@ const MyValues = () => {
 							<Box>
 								<Card
 									m={"0 auto"}
-									bgColor={"#464646"}
+									bgColor={"#282828"}
 									borderRadius={"20px"}
-									width={"fit-content"}
-									p={"2.5rem 0"}
-									pl={"1.5rem"}
-									pr={"3rem"}>
+									width={"250px"}
+									height={"210px"}
+									p={"2.5rem 0"}>
 									<Box display={"flex"} alignItems={"center"}>
-										<Box>
+										<Box width={"29.5px"} ml={"1rem"} height={"29.5px"}>
 											<Image
 												src={AdaptableIcon}
 												alt="adaptable icon"
 												width={"100%"}
 											/>
 										</Box>
-										<Heading fontSize={"24px"} ml={"1rem"} color={"#ffffff"}>
+										<Heading fontSize={"20px"} ml={"1rem"} color={"#ffffff"}>
 											Adaptable
 										</Heading>
 									</Box>
-									<Text color={"#dddddd"} mt={"1rem"} fontSize={"16px"}>
-										I am flexible and adaptable in the <br /> face of changing
-										project <br />
-										requirements, user feedback, and <br /> technological
-										advancements.
+									<Text
+										color={"#dddddd"}
+										ml={"1rem"}
+										mt={"1rem"}
+										textAlign={"left"}
+										fontSize={"14px"}>
+										I am flexible and adaptable in the face of changing project
+										requirements, user feedback, and technological advancements.
 									</Text>
 								</Card>
 							</Box>
@@ -406,25 +422,29 @@ const MyValues = () => {
 							<Box>
 								<Card
 									m={"0 2rem"}
-									bgColor={"#464646"}
+									bgColor={"#282828"}
 									borderRadius={"20px"}
-									width={"fit-content"}
-									p={"2.5rem 0"}
-									pl={"1rem"}
-									pr={"1rem"}>
+									width={"300px"}
+									height={"210px"}
+									p={"2.5rem 0"}>
 									<Box display={"flex"} alignItems={"center"}>
-										<Box>
+										<Box width={"29.5px"} ml={"1rem"} height={"29.5px"}>
 											<Image
 												src={EmpatheticIcon}
 												alt="empathetic icon"
 												width={"100%"}
 											/>
 										</Box>
-										<Heading fontSize={"24px"} ml={"1rem"} color={"#ffffff"}>
+										<Heading fontSize={"20px"} ml={"1rem"} color={"#ffffff"}>
 											Empathetic
 										</Heading>
 									</Box>
-									<Text color={"#dddddd"} mt={"1rem"} fontSize={"16px"}>
+									<Text
+										color={"#dddddd"}
+										ml={"1rem"}
+										mt={"1rem"}
+										textAlign={"left"}
+										fontSize={"14px"}>
 										I practice empathy in my interactions with users,
 										colleagues, and stakeholders. Understanding the emotions and{" "}
 										perspectives of others to create designs that resonate.

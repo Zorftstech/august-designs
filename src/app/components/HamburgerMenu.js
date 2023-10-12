@@ -67,7 +67,7 @@ export const HamburgerMenu = () => {
 							aria-label="Home"
 							my={4}
 							w="100%"
-							rightIcon={<ChevronRightIcon ml={"15rem"} />}
+							rightIcon={<ChevronRightIcon ml={"10rem"} />}
 							onClick={() => changeDisplay("none")}>
 							<a>Home</a>
 						</Button>
@@ -80,7 +80,7 @@ export const HamburgerMenu = () => {
 							aria-label="About"
 							my={4}
 							w="100%"
-							rightIcon={<ChevronRightIcon ml={"13.4rem"} />}
+							rightIcon={<ChevronRightIcon ml={"8rem"} />}
 							onClick={() => changeDisplay("none")}>
 							<a>About me</a>
 						</Button>
@@ -89,7 +89,7 @@ export const HamburgerMenu = () => {
 					<Menu>
 						<MenuButton
 							as={Button}
-							rightIcon={<ChevronRightIcon ml={"14.5rem"} />}
+							rightIcon={<ChevronRightIcon ml={"9.4rem"} />}
 							variant={"ghost"}
 							my={4}
 							ml={".5rem"}>

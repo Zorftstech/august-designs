@@ -118,13 +118,17 @@ const MyTime = () => {
 
 			{/* Mobile view */}
 
-			<Box zIndex={"hide"} display={{ base: "block", md: "none" }} m={"0 5rem"}>
+			<Box
+				zIndex={"hide"}
+				display={{ base: "block", md: "none" }}
+				m={"0 auto"}
+				ml={"1rem"}>
 				<Box
 					display={"flex"}
 					flexDir={"column"}
 					justifyContent={"space-between"}>
 					<Card
-						width={"311px"}
+						width={"311.1px"}
 						p={"1rem 1rem"}
 						bgColor={"#f9eae6"}
 						borderRadius={"30px"}>

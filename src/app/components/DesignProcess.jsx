@@ -41,8 +41,8 @@ const DesignProcess = () => {
 				gridTemplateColumns={{ md: "repeat(2, 1fr)", base: "repeat(1, 1fr)" }}
 				grid-template-rows={{ md: "repeat(2, 1fr)", base: "0" }}
 				gridGap={{ md: "5rem", base: "0" }}>
-				<Box display={"flex"} mb={{ md: "0", base: "1rem" }}>
-					<Box>
+				<Box display={"flex"}>
+					<Box display={"flex"} flexDir={"column"}>
 						<Heading
 							fontSize={{ md: "40px", base: "16px" }}
 							color={"#fff"}
@@ -89,7 +89,7 @@ const DesignProcess = () => {
 					</Box>
 				</Box>
 
-				<Box display={"flex"} mb={{ md: "0", base: "1rem" }}>
+				<Box display={"flex"}>
 					<Box>
 						<Heading
 							fontSize={{ md: "40px", base: "16px" }}
@@ -136,7 +136,7 @@ const DesignProcess = () => {
 					</Box>
 				</Box>
 
-				<Box display={"flex"} mb={{ md: "0", base: "1rem" }}>
+				<Box display={"flex"}>
 					<Box>
 						<Heading
 							fontSize={{ md: "40px", base: "16px" }}
@@ -182,7 +182,7 @@ const DesignProcess = () => {
 					</Box>
 				</Box>
 
-				<Box display={"flex"} mb={{ md: "0", base: "1rem" }}>
+				<Box display={"flex"}>
 					<Box>
 						<Heading
 							fontSize={{ md: "40px", base: "16px" }}

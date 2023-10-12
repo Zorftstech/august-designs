@@ -100,7 +100,7 @@ const LiveWebsites = () => {
 									bgColor: "transparent",
 								}}>
 								<a>View website</a>
-								<Image src={ArrowIcon} />
+								<Image src={ArrowIcon} alt="arrow icon" />
 							</Link>
 						</Flex>
 					</Box>
@@ -133,7 +133,7 @@ const LiveWebsites = () => {
 									bgColor: "transparent",
 								}}>
 								<a>View website</a>
-								<Image src={ArrowIcon} />
+								<Image src={ArrowIcon} alt="arrow icon" />
 							</Link>
 						</Box>
 						<Box
@@ -164,7 +164,7 @@ const LiveWebsites = () => {
 									bgColor: "transparent",
 								}}>
 								<a>View website</a>
-								<Image src={ArrowIcon} />
+								<Image src={ArrowIcon} alt="arrow icon" />
 							</Link>
 						</Box>
 					</Box>
@@ -220,7 +220,7 @@ const LiveWebsites = () => {
 								}}>
 								<a>View website</a>
 								<Box m={"0 auto"} width={"50%"}>
-									<Image src={ArrowIcon} />
+									<Image src={ArrowIcon} alt="arrow icon" />
 								</Box>
 							</Link>
 						</Box>
@@ -263,7 +263,7 @@ const LiveWebsites = () => {
 								}}>
 								<a>View website</a>
 								<Box m={"0 auto"}>
-									<Image src={ArrowIcon} />
+									<Image src={ArrowIcon} alt="arrow icon" />
 								</Box>
 							</Link>
 						</Box>
@@ -306,7 +306,7 @@ const LiveWebsites = () => {
 								}}>
 								<a>View website</a>
 								<Box m={"0 auto"}>
-									<Image src={ArrowIcon} />
+									<Image src={ArrowIcon} alt="arrow icon" />
 								</Box>
 							</Link>
 						</Box>
