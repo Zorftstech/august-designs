@@ -89,7 +89,7 @@ export const HamburgerMenu = () => {
 					<Menu>
 						<MenuButton
 							as={Button}
-							rightIcon={<ChevronRightIcon ml={"9.5rem"} />}
+							rightIcon={<ChevronRightIcon ml={"9.4rem"} />}
 							variant={"ghost"}
 							my={4}
 							ml={".5rem"}>
