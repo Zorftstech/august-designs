@@ -78,13 +78,15 @@ const UiDesigns = () => {
 					mr={{ md: "0", base: "auto" }}
 					p={{ md: "2rem", base: "1rem" }}>
 					<Box borderRadius={"30px"} zIndex={"hide"}>
-						<Box width={"100%"}>
-							<Image
-								style={{ borderRadius: "30px" }}
-								src={FunitureSite}
-								alt="Landing page for a furniture company."
-							/>
-						</Box>
+						<Link href="/projects/landingPage" _hover={"none"}>
+							<Box width={"100%"}>
+								<Image
+									style={{ borderRadius: "30px" }}
+									src={FunitureSite}
+									alt="Landing page for a furniture company."
+								/>
+							</Box>
+						</Link>
 					</Box>
 				</Box>
 				<Box
@@ -95,16 +97,18 @@ const UiDesigns = () => {
 					borderRadius={"30px"}
 					p={"2rem"}
 					ml={"2rem"}>
-					<Box
-						bgColor={"rgba(255,135,98,0.05)"}
-						borderRadius={"30px"}
-						zIndex={"hide"}>
-						<Image
-							style={{ borderRadius: "30px" }}
-							src={RestaurantSite}
-							alt="food app"
-						/>
-					</Box>
+					<Link href="/projects/food" _hover={"none"}>
+						<Box
+							bgColor={"rgba(255,135,98,0.05)"}
+							borderRadius={"30px"}
+							zIndex={"hide"}>
+							<Image
+								style={{ borderRadius: "30px" }}
+								src={RestaurantSite}
+								alt="food app"
+							/>
+						</Box>
+					</Link>
 				</Box>
 			</Box>
 			<Box
@@ -124,13 +128,15 @@ const UiDesigns = () => {
 						borderRadius={"30px"}
 						p={{ md: "2rem", base: "1rem" }}
 						zIndex={"hide"}>
-						<Box>
-							<Image
-								style={{ borderRadius: "30px" }}
-								src={TravelSite}
-								alt="travel agency landing page"
-							/>
-						</Box>
+						<Link href="/projects/travelAgency" _hover={"none"}>
+							<Box>
+								<Image
+									style={{ borderRadius: "30px" }}
+									src={TravelSite}
+									alt="travel agency landing page"
+								/>
+							</Box>
+						</Link>
 					</Box>
 				</Box>
 				<Box>
@@ -142,11 +148,13 @@ const UiDesigns = () => {
 						borderRadius={"30px"}
 						p={{ md: "2rem", base: "1rem" }}
 						zIndex={"hide"}>
-						<Image
-							style={{ borderRadius: "30px" }}
-							src={RealEstateSite}
-							alt="real estate landing page"
-						/>
+						<Link href="/projects/realEstate" _hover={"none"}>
+							<Image
+								style={{ borderRadius: "30px" }}
+								src={RealEstateSite}
+								alt="real estate landing page"
+							/>
+						</Link>
 					</Box>
 				</Box>
 				<Box display={{ md: "block", base: "none" }}>
@@ -155,11 +163,13 @@ const UiDesigns = () => {
 						borderRadius={"30px"}
 						padding={"2rem"}
 						zIndex={"hide"}>
-						<Image
-							style={{ borderRadius: "30px" }}
-							src={Dashboard}
-							alt="Dashboard Ui"
-						/>
+						<Link href="/projects/dashboard" _hover={"none"}>
+							<Image
+								style={{ borderRadius: "30px" }}
+								src={Dashboard}
+								alt="Dashboard Ui"
+							/>
+						</Link>
 					</Box>
 				</Box>
 			</Box>
