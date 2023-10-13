@@ -27,11 +27,11 @@ const Navbar = () => (
 			display={"flex"}
 			justifyContent="space-between"
 			alignContent={"Center"}
-			maxW={"1321px"}
-			W={{ md: "1321px", base: "312px" }}
+			maxW={"1231px"}
+			W={{ md: "1241px", base: "312px" }}
 			height={{ md: "96px", base: "74px" }}
 			mt={{ md: "1.5rem", base: "1rem" }}
-			ml={{ base: "auto", md: "1rem" }}
+			ml={{ base: "auto", md: "4rem" }}
 			mr={{ base: "auto", md: "0" }}
 			position={"fixed"}
 			zIndex={2}
@@ -42,6 +42,7 @@ const Navbar = () => (
 			borderRadius="50px">
 			<Box display="flex" justifyContent="space-between" width={"100%"}>
 				<Heading
+					ml={"2rem"}
 					color="#ff8762"
 					fontSize={{ base: "24px", md: "32px", sm: "24px" }}>
 					AIA
@@ -69,7 +70,7 @@ const Navbar = () => (
 							borderBottom: "5px solid #ff8762",
 							borderBottomRadius: "10px",
 						}}>
-						<a>About</a>
+						<a>About me</a>
 					</Link>
 					<Menu>
 						<MenuButton
