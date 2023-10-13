@@ -66,10 +66,11 @@ const DesignProcess = () => {
 							fontSize={"16px"}
 							display={{ md: "block", base: "none" }}>
 							This is the first stage of my design process <br /> where I pay
-							attention to the <br /> business requirements, goals and deadlines
-							and how I <br /> am going to work effectively with cross <br />{" "}
-							functional teams such as product managers, <br /> engineers,
-							marketers etc, in other to deliver <br /> quality designs.
+							attention to the business <br /> requirements, goals, objectives,
+							target <br />
+							audience,current state of your business or <br /> company, unique
+							value proposition, company’s <br /> plan for development in the
+							future and how I <br /> am going to work with your team.
 						</Text>
 
 						{/* mobile view */}
@@ -154,17 +155,17 @@ const DesignProcess = () => {
 						<Heading
 							fontSize={{ md: "32px", base: "20px" }}
 							mb={{ md: "1rem", base: ".5rem" }}>
-							Design
+							Ideate-Design
 						</Heading>
 						<Text
 							color={"#7f7e7e"}
 							fontSize={"16px"}
 							display={{ base: "none", md: "block" }}>
-							At this stage, I can finally create a sketched <br /> design from
-							the research that was <br /> conducted and the business
-							requirement. i <br /> then proceed to wireframes, present it to
-							the <br /> stakeholders and analyze if it suits their <br /> needs
-							before the high fidelity designs are <br /> created.
+							At this stage, I can finally create sketched <br /> ideas from the
+							research that was conducted <br /> and the problem statements. I
+							then proceed <br /> to wireframes, present it to the stakeholders{" "}
+							<br /> and analyze it for sign offs before the high <br />{" "}
+							fidelity designs are created.
 						</Text>
 
 						{/* mobile view */}
@@ -172,12 +173,12 @@ const DesignProcess = () => {
 							color={"#7f7e7e"}
 							fontSize={"14px"}
 							display={{ base: "block", md: "none" }}>
-							At this stage, I can finally create <br /> a sketched design from
-							the research <br /> that was conducted and the <br /> business
-							requirement. i then
-							<br /> proceed to wireframes, present it
-							<br /> to the stakeholders and analyze it <br /> for sign offs
-							before high fidelity <br /> designs are created
+							At this stage, I can finally create <br /> sketched ideas from the
+							research <br /> that was conducted and the <br /> problem
+							statements. I then <br />
+							proceed to wireframes, present it <br /> to the stakeholders and
+							analyze it <br /> for sign offs before the high fidelity <br />{" "}
+							designs are created.
 						</Text>
 					</Box>
 				</Box>
@@ -207,13 +208,13 @@ const DesignProcess = () => {
 							fontSize={"16px"}
 							display={{ base: "none", md: "block" }}>
 							I focus on how the user will interact with the <br /> product by
-							presenting it to stakeholders <br /> using a prototype software
-							and also carrying <br /> out it’s usability test. Mockups are also{" "}
+							presenting it to users and <br /> stakeholders using a prototype
+							software and <br /> also carrying out it’s usability test. Mockups{" "}
 							<br />
-							created at this phase while its being handed <br /> over to the
-							development team. I do follow up <br /> with the development team
-							to ensure that <br /> the designs made were accurately <br />{" "}
-							developed.
+							are also created at this phase while its being <br /> handed over
+							to the development team. I do a <br /> follow up with the
+							development team to <br /> ensure that the designs made were
+							accurately developed.
 						</Text>
 
 						{/* mobile view */}

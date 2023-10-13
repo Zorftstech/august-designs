@@ -122,13 +122,13 @@ const MyTime = () => {
 				zIndex={"hide"}
 				display={{ base: "block", md: "none" }}
 				m={"0 auto"}
-				ml={"1rem"}>
+				ml={"2rem"}>
 				<Box
 					display={"flex"}
 					flexDir={"column"}
 					justifyContent={"space-between"}>
 					<Card
-						width={"311.1px"}
+						width={"311px"}
 						p={"1rem 1rem"}
 						bgColor={"#f9eae6"}
 						borderRadius={"30px"}>

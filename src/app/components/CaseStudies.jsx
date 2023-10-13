@@ -64,62 +64,67 @@ const CaseStudies = () => {
 					gridTemplateColumns="repeat(3, 1fr)"
 					grid-template-rows="repeat(1fr)"
 					gridGap={"1rem"}>
-					<Card
-						width={"400px"}
-						ml={"5.5rem"}
-						borderRadius={"30px"}
-						pb={"1rem"}
-						zIndex={"hide"}>
-						<Image
-							style={{
-								borderTopLeftRadius: "30px",
-								borderTopRightRadius: "30px",
-							}}
-							src={Desktop1}
-							alt="Digital health app to manage mental health"
-						/>
-						<Text color={"#7f7e7e"} fontSize={"16px"} ml={"1rem"} mt={"1rem"}>
-							Digital health app to manage <br /> mental health
-						</Text>
-					</Card>
-					<Card
-						width={"400px"}
-						ml={".5rem"}
-						borderRadius={"30px"}
-						pb={"1rem"}
-						zIndex={"hide"}>
-						<Image
-							style={{
-								borderTopLeftRadius: "30px",
-								borderTopRightRadius: "30px",
-							}}
-							src={Desktop2}
-							alt="A fintech saving and investment mobile app"
-						/>
-						<Text color={"#7f7e7e"} fontSize={"16px"} ml={"1rem"} mt={"1rem"}>
-							A fintech saving and investment <br /> mobile app
-						</Text>
-					</Card>
-					<Card
-						width={"400px"}
-						mr={"5.5rem"}
-						borderRadius={"30px"}
-						pb={"1rem"}
-						zIndex={"hide"}>
-						<Image
-							style={{
-								borderTopLeftRadius: "30px",
-								borderTopRightRadius: "30px",
-							}}
-							src={Desktop3}
-							alt="A non-profit full website that helps
+					<Link href="/projects/mentalHealth" _hover={"none"}>
+						<Card
+							width={"400px"}
+							ml={"4rem"}
+							borderRadius={"30px"}
+							pb={"1rem"}
+							zIndex={"hide"}>
+							<Image
+								style={{
+									borderTopLeftRadius: "30px",
+									borderTopRightRadius: "30px",
+								}}
+								src={Desktop1}
+								alt="Digital health app to manage mental health"
+							/>
+							<Text color={"#7f7e7e"} fontSize={"16px"} ml={"1rem"} mt={"1rem"}>
+								Digital health app to manage <br /> mental health
+							</Text>
+						</Card>
+					</Link>
+					<Link href="/projects/finTech" _hover={"none"}>
+						<Card
+							width={"400px"}
+							borderRadius={"30px"}
+							pb={"1rem"}
+							zIndex={"hide"}>
+							<Image
+								style={{
+									borderTopLeftRadius: "30px",
+									borderTopRightRadius: "30px",
+								}}
+								src={Desktop2}
+								alt="A fintech saving and investment mobile app"
+							/>
+							<Text color={"#7f7e7e"} fontSize={"16px"} ml={"1rem"} mt={"1rem"}>
+								A fintech saving and investment <br /> mobile app
+							</Text>
+						</Card>
+					</Link>
+					<Link href="/projects/ngo" _hover={"none"}>
+						<Card
+							width={"400px"}
+							mr={"5.5rem"}
+							borderRadius={"30px"}
+							pb={"1rem"}
+							zIndex={"hide"}>
+							<Image
+								style={{
+									borderTopLeftRadius: "30px",
+									borderTopRightRadius: "30px",
+								}}
+								src={Desktop3}
+								alt="A non-profit full website that helps
 							connect donors to NGO’s"
-						/>
-						<Text color={"#7f7e7e"} fontSize={"16px"} ml={"1rem"} mt={"1rem"}>
-							A non-profit full website that helps <br />
-							connect donors to NGO’s
-						</Text>
-					</Card>
+							/>
+							<Text color={"#7f7e7e"} fontSize={"16px"} ml={"1rem"} mt={"1rem"}>
+								A non-profit full website that helps <br />
+								connect donors to NGO’s
+							</Text>
+						</Card>
+					</Link>
 				</Box>
 			</Box>
 
@@ -139,29 +144,31 @@ const CaseStudies = () => {
 							height: "305px",
 							padding: " 1rem 0",
 						}}>
-						<Card
-							width={"249px"}
-							ml={"2rem"}
-							borderRadius={"30px"}
-							pb={"1rem"}
-							zIndex={"hide"}>
-							<Image
-								style={{
-									borderTopLeftRadius: "30px",
-									borderTopRightRadius: "30px",
-								}}
-								src={Desktop1}
-								alt="Digital health app to manage mental health"
-							/>
-							<Text
-								textAlign={"left"}
-								color={"#7f7e7e"}
-								fontSize={"14px"}
-								ml={".5rem"}
-								mt={".5rem"}>
-								Digital health app to manage <br /> mental health
-							</Text>
-						</Card>
+						<Link href="/projects/mentalHealth" _hover={"none"}>
+							<Card
+								width={"249px"}
+								ml={"2rem"}
+								borderRadius={"30px"}
+								pb={"1rem"}
+								zIndex={"hide"}>
+								<Image
+									style={{
+										borderTopLeftRadius: "30px",
+										borderTopRightRadius: "30px",
+									}}
+									src={Desktop1}
+									alt="Digital health app to manage mental health"
+								/>
+								<Text
+									textAlign={"left"}
+									color={"#7f7e7e"}
+									fontSize={"14px"}
+									ml={".5rem"}
+									mt={".5rem"}>
+									Digital health app to manage <br /> mental health
+								</Text>
+							</Card>
+						</Link>
 					</SwiperSlide>
 					<SwiperSlide
 						style={{
@@ -170,29 +177,31 @@ const CaseStudies = () => {
 							height: "305px",
 							padding: "1rem 0",
 						}}>
-						<Card
-							width={"249px"}
-							ml={"1.5rem"}
-							borderRadius={"30px"}
-							pb={"1rem"}
-							zIndex={"hide"}>
-							<Image
-								style={{
-									borderTopLeftRadius: "30px",
-									borderTopRightRadius: "30px",
-								}}
-								src={Desktop2}
-								alt="A fintech saving and investment mobile app"
-							/>
-							<Text
-								color={"#7f7e7e"}
-								fontSize={"14px"}
-								textAlign={"left"}
-								ml={".5rem"}
-								mt={".5rem"}>
-								A fintech saving and investment <br /> mobile app
-							</Text>
-						</Card>
+						<Link href="/projects/finTech" _hover={"none"}>
+							<Card
+								width={"249px"}
+								ml={"1.5rem"}
+								borderRadius={"30px"}
+								pb={"1rem"}
+								zIndex={"hide"}>
+								<Image
+									style={{
+										borderTopLeftRadius: "30px",
+										borderTopRightRadius: "30px",
+									}}
+									src={Desktop2}
+									alt="A fintech saving and investment mobile app"
+								/>
+								<Text
+									color={"#7f7e7e"}
+									fontSize={"14px"}
+									textAlign={"left"}
+									ml={".5rem"}
+									mt={".5rem"}>
+									A fintech saving and investment <br /> mobile app
+								</Text>
+							</Card>
+						</Link>
 					</SwiperSlide>
 					<SwiperSlide
 						style={{
@@ -201,31 +210,33 @@ const CaseStudies = () => {
 							height: "305px",
 							padding: "1rem 0",
 						}}>
-						<Card
-							width={"249px"}
-							ml={"1.5rem"}
-							borderRadius={"30px"}
-							pb={"1rem"}
-							zIndex={"hide"}>
-							<Image
-								style={{
-									borderTopLeftRadius: "30px",
-									borderTopRightRadius: "30px",
-								}}
-								src={Desktop3}
-								alt="A non-profit full website that helps
+						<Link href="/projects/ngo" _hover={"none"}>
+							<Card
+								width={"249px"}
+								ml={"1.5rem"}
+								borderRadius={"30px"}
+								pb={"1rem"}
+								zIndex={"hide"}>
+								<Image
+									style={{
+										borderTopLeftRadius: "30px",
+										borderTopRightRadius: "30px",
+									}}
+									src={Desktop3}
+									alt="A non-profit full website that helps
 								connect donors to NGO’s"
-							/>
-							<Text
-								color={"#7f7e7e"}
-								fontSize={"14px"}
-								textAlign={"left"}
-								ml={".5rem"}
-								mt={".5rem"}>
-								A non-profit full website that helps <br />
-								connect donors to NGO’s
-							</Text>
-						</Card>
+								/>
+								<Text
+									color={"#7f7e7e"}
+									fontSize={"14px"}
+									textAlign={"left"}
+									ml={".5rem"}
+									mt={".5rem"}>
+									A non-profit full website that helps <br />
+									connect donors to NGO’s
+								</Text>
+							</Card>
+						</Link>
 					</SwiperSlide>
 				</Swiper>
 			</Box>
