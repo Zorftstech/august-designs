@@ -33,12 +33,12 @@ const Footer = () => {
 			<Box
 				display={"flex"}
 				flexDir={{ base: "column", md: "row" }}
-				justifyContent={"space-between"}>
+				justifyContent={"space-between"}
+				m={"0 4rem"}>
 				<Heading
 					color="#ffff"
 					fontSize="32px"
 					mt={"3rem"}
-					ml={"4rem"}
 					display={{ base: "none", md: "block" }}>
 					AIA
 				</Heading>
@@ -91,7 +91,7 @@ const Footer = () => {
 				<Box
 					display={"flex"}
 					alignItems={"center"}
-					mr={"10rem"}
+					mr={"2rem"}
 					mb={"2rem"}
 					m={{ base: "0 auto", md: "0 0" }}>
 					<Box mr={".5rem"}>
