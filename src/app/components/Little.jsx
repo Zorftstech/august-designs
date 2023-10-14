@@ -213,13 +213,19 @@ const Little = () => {
 						alignItems={"center"}
 						m={{ base: "2rem 0", md: "0 0" }}>
 						<Image src={PrexelsIcon} alt="prexels Icon" width={"100%"} />
-						<Heading fontSize={{ md: "20px", base: "14px" }} ml={".5rem"}>
+						<Heading
+							fontSize={{ md: "20px", base: "14px" }}
+							ml={".5rem"}
+							color={"#464646"}>
 							School of design
 						</Heading>
 					</Box>
 					<Box display={"flex"} alignItems={"center"}>
 						<Image src={UVAIcon} alt="UVA Icon" width={"100%"} />
-						<Heading fontSize={{ md: "20px", base: "14px" }} ml={".5rem"}>
+						<Heading
+							fontSize={{ md: "20px", base: "14px" }}
+							ml={".5rem"}
+							color={"#464646"}>
 							Design thinking for innovation (Coursera)
 						</Heading>
 					</Box>
@@ -228,7 +234,8 @@ const Little = () => {
 			<Heading
 				m={{ base: "2rem 0", md: "2rem 0" }}
 				ml={{ base: "1rem", md: "3rem" }}
-				fontSize={{ md: "20px", base: "14px" }}>
+				fontSize={{ md: "20px", base: "14px" }}
+				color={"#464646"}>
 				Motion design, Illustration and 3D design (ongoing)
 			</Heading>
 		</Container>

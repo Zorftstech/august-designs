@@ -224,7 +224,7 @@ const MyValues = () => {
 					</Heading>
 					<Swiper
 						slidesPerView={"auto"}
-						spaceBetween={10}
+						spaceBetween={20}
 						pagination={{
 							dynamicBullets: true,
 						}}
@@ -236,7 +236,7 @@ const MyValues = () => {
 								width: "80%",
 								height: "264px",
 							}}>
-							<Box>
+							<Box mt={"2rem"}>
 								<Card
 									ml={"2rem"}
 									bgColor={"#282828"}
@@ -268,11 +268,12 @@ const MyValues = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
+								width: "80%",
 								height: "264px",
 							}}>
 							<Box>
 								<Card
-									m={"0 auto"}
+									ml={"1rem"}
 									bgColor={"#282828"}
 									borderRadius={"20px"}
 									width={"250px"}
@@ -308,9 +309,8 @@ const MyValues = () => {
 								backgroundColor: "transparent",
 								height: "264px",
 							}}>
-							<Box>
+							<Box mt={"2rem"}>
 								<Card
-									m={"0 auto"}
 									bgColor={"#282828"}
 									borderRadius={"20px"}
 									width={"250px"}
@@ -344,7 +344,6 @@ const MyValues = () => {
 							}}>
 							<Box>
 								<Card
-									m={"0 auto"}
 									bgColor={"#282828"}
 									borderRadius={"20px"}
 									width={"250px"}
@@ -381,9 +380,8 @@ const MyValues = () => {
 								backgroundColor: "transparent",
 								height: "254px",
 							}}>
-							<Box>
+							<Box mt={"2rem"}>
 								<Card
-									m={"0 auto"}
 									bgColor={"#282828"}
 									borderRadius={"20px"}
 									width={"250px"}
@@ -417,11 +415,12 @@ const MyValues = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
+								width: "80%",
 								height: "300px",
 							}}>
 							<Box>
 								<Card
-									m={"0 2rem"}
+									ml={"1rem"}
 									bgColor={"#282828"}
 									borderRadius={"20px"}
 									width={"300px"}
