@@ -113,7 +113,7 @@ const Navbar = () => (
 								Real estate landing page
 							</MenuItem>
 							<MenuItem as="a" href="/projects/viewAll">
-								View All
+								View All UI’s
 							</MenuItem>
 						</MenuList>
 					</Menu>
