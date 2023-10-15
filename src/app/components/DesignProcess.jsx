@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import lineIcon from "../assets/line.png";
 
 import {
 	Heading,
@@ -55,9 +54,6 @@ const DesignProcess = () => {
 							borderRadius={"100%"}>
 							01
 						</Heading>
-						<Box display={{ md: "none", base: "block" }} ml={"1.2rem"}>
-							<Image src={lineIcon} alt="line" />
-						</Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
 						<Heading
@@ -107,9 +103,6 @@ const DesignProcess = () => {
 							borderRadius={"100%"}>
 							02
 						</Heading>
-						<Box display={{ md: "none", base: "block" }} ml={"1.2rem"}>
-							<Image src={lineIcon} alt="line" />
-						</Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
 						<Heading
@@ -157,9 +150,6 @@ const DesignProcess = () => {
 							borderRadius={"100%"}>
 							03
 						</Heading>
-						<Box display={{ md: "none", base: "block" }} ml={"1.2rem"}>
-							<Image src={lineIcon} alt="line" />
-						</Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
 						<Heading
