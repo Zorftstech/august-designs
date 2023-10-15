@@ -5,6 +5,7 @@ import AugustImg from "../assets/AugustImg.png";
 import GoogleIcon from "../assets/googleIcon.png";
 import UVAIcon from "../assets/UVALogo.png";
 import PrexelsIcon from "../assets/prexels.png";
+import metaIcon from "../assets/metalogo.png";
 import {
 	Heading,
 	Link,
@@ -231,13 +232,19 @@ const Little = () => {
 					</Box>
 				</Box>
 			</Box>
-			<Heading
-				m={{ base: "2rem 0", md: "2rem 0" }}
-				ml={{ base: "1rem", md: "3rem" }}
-				fontSize={{ md: "20px", base: "14px" }}
-				color={"#464646"}>
-				Motion design, Illustration and 3D design (ongoing)
-			</Heading>
+			<Box
+				display={"flex"}
+				alignItems={"center"}
+				ml={{ md: "3rem", base: "1rem" }}>
+				<Image src={metaIcon} alt="UVA Icon" width={"100%"} />
+				<Heading
+					m={{ base: "2rem 0", md: "2rem 0" }}
+					ml={{ base: ".5rem", md: "1rem" }}
+					fontSize={{ md: "20px", base: "14px" }}
+					color={"#464646"}>
+					Basic frontend development (ongoing)
+				</Heading>
+			</Box>
 		</Container>
 	);
 };

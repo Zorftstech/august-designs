@@ -108,7 +108,7 @@ const DesignProcess = () => {
 						<Heading
 							fontSize={{ md: "32px", base: "20px" }}
 							mb={{ md: "1rem", base: ".5rem" }}>
-							User Research
+							User Research-Define
 						</Heading>
 						<Text
 							color={"#7f7e7e"}

@@ -56,13 +56,15 @@ const MyGoals = () => {
 					ml={"3rem"}
 					display={{ base: "none", md: "block" }}>
 					Asides being a certified product designer from a really good <br />{" "}
-					design school, google and Udemy, I have goals and targets that <br />{" "}
-					involves me growing in the field of design. The design field is <br />{" "}
-					constantly evolving, with new tools and techniques emerging <br />{" "}
-					regularly. I intend to stay up-to-date with industry trends, attend{" "}
-					<br /> workshops, and engage in lifelong learning to refine my skills
-					and <br /> stay competitive. I want to be among the best designers in
-					the <br /> world this is why growth matters to me.
+					design school, google and another certification, I have goals and{" "}
+					<br /> targets that involves me growing in the field of design. The
+					design <br /> field is constantly evolving, with new tools and
+					techniques <br /> emerging regularly. I intend to stay up-to-date with
+					industry <br /> trends, attend workshops, and engage in lifelong
+					learning to <br /> refine my skills, stay competitive and put the
+					company I work for <br /> at the forefront of innovation. I want to be
+					among the best <br /> designers in the world this is why growth
+					matters to me.
 				</Text>
 
 				{/* Mobile view */}
@@ -70,15 +72,15 @@ const MyGoals = () => {
 					color={"#7f7e7e"}
 					ml={"1rem"}
 					display={{ base: "block", md: "none" }}>
-					Asides being a certified product <br /> designer from a really good
-					design <br /> school, google and Udemy, I have <br /> goals and
-					targets that involves me <br /> growing in the field of design. The{" "}
-					<br /> design field is constantly evolving, <br /> with new tools and
-					techniques <br /> emerging regularly. I intend to stay <br />{" "}
-					up-to-date with industry trends, <br /> attend workshops, and engage
-					in <br /> lifelong learning to refine my skills <br />
-					and stay competitive. I want to be <br /> among the best designers in
-					the <br /> world this is why growth matters to <br /> me.
+					Asides being a certified product designer from a really good design
+					school, google and another certification, I have goals and targets
+					that involves me growing in the field of design. The design field is
+					constantly evolving, with new tools and techniques emerging regularly.
+					I intend to stay up-to-date with industry trends, attend workshops,
+					and engage in lifelong learning to refine my skills, stay competitive
+					and put the company I work for at the forefront of innovation. I want
+					to be among the best designers in the world this is why growth matters
+					to me.
 				</Text>
 			</Box>
 		</Box>

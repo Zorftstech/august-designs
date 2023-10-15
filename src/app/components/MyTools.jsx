@@ -86,7 +86,7 @@ const MyTools = () => {
 				</Text>
 				<Box
 					display={"grid"}
-					ml={{ md: "2rem", base: "0" }}
+					ml={{ md: "1rem", base: "0" }}
 					gridTemplateColumns={{ md: "repeat(4, 1fr)", base: "repeat(2, 1fr)" }}
 					grid-template-rows="repeat(3, 1fr)"
 					gridGap={{ md: "2rem 3rem", base: ".5rem .5rem" }}>
@@ -94,7 +94,7 @@ const MyTools = () => {
 						display={"flex"}
 						alignItems={"center"}
 						bgColor={"#ffff"}
-						width={"fit-content"}
+						width={{ md: "186px", base: "129px" }}
 						p={{ md: ".5rem 1.5rem", base: ".5rem .5rem" }}
 						borderRadius={"30px"}>
 						<Box display={{ md: "block", base: "none" }}>
@@ -115,7 +115,7 @@ const MyTools = () => {
 						display={"flex"}
 						alignItems={"center"}
 						bgColor={"#ffff"}
-						width={"fit-content"}
+						width={{ md: "186px", base: "129px" }}
 						p={{ md: ".5rem 1.5rem", base: ".5rem .5rem" }}
 						borderRadius={"30px"}>
 						<Box display={{ md: "block", base: "none" }}>
@@ -137,7 +137,7 @@ const MyTools = () => {
 						display={"flex"}
 						alignItems={"center"}
 						bgColor={"#ffff"}
-						width={"fit-content"}
+						width={{ md: "186px", base: "129px" }}
 						p={{ md: ".5rem 1.5rem", base: ".5rem .5rem" }}
 						borderRadius={"30px"}>
 						<Box display={{ md: "block", base: "none" }}>
@@ -158,7 +158,7 @@ const MyTools = () => {
 						display={"flex"}
 						alignItems={"center"}
 						bgColor={"#ffff"}
-						width={"fit-content"}
+						width={{ md: "186px", base: "129px" }}
 						p={{ md: ".5rem 1.5rem", base: ".5rem .5rem" }}
 						borderRadius={"30px"}>
 						<Box display={{ md: "block", base: "none" }}>
@@ -179,7 +179,7 @@ const MyTools = () => {
 						display={"flex"}
 						alignItems={"center"}
 						bgColor={"#ffff"}
-						width={"fit-content"}
+						width={{ md: "186px", base: "129px" }}
 						p={{ md: ".5rem 1.5rem", base: ".5rem .5rem" }}
 						borderRadius={"30px"}>
 						<Box display={{ md: "block", base: "none" }}>
@@ -200,7 +200,7 @@ const MyTools = () => {
 						display={"flex"}
 						alignItems={"center"}
 						bgColor={"#ffff"}
-						width={"fit-content"}
+						width={{ md: "186px", base: "129px" }}
 						p={{ md: ".5rem 1.5rem", base: ".5rem .5rem" }}
 						borderRadius={"30px"}>
 						<Box display={{ md: "block", base: "none" }}>
@@ -221,7 +221,7 @@ const MyTools = () => {
 						display={"flex"}
 						alignItems={"center"}
 						bgColor={"#ffff"}
-						width={"fit-content"}
+						width={{ md: "186px", base: "129px" }}
 						p={{ md: ".5rem 1.5rem", base: ".5rem .5rem" }}
 						borderRadius={"30px"}>
 						<Box display={{ md: "block", base: "none" }}>
@@ -242,7 +242,7 @@ const MyTools = () => {
 						display={"flex"}
 						alignItems={"center"}
 						bgColor={"#ffff"}
-						width={"fit-content"}
+						width={{ md: "186px", base: "129px" }}
 						p={{ md: ".5rem 1.5rem", base: ".5rem .5rem" }}
 						borderRadius={"30px"}>
 						<Box display={{ md: "block", base: "none" }}>
@@ -263,7 +263,7 @@ const MyTools = () => {
 						display={"flex"}
 						alignItems={"center"}
 						bgColor={"#ffff"}
-						width={"fit-content"}
+						width={{ md: "186px", base: "129px" }}
 						p={{ md: ".5rem 1.5rem", base: ".5rem .5rem" }}
 						borderRadius={"30px"}>
 						<Box display={{ md: "block", base: "none" }}>
@@ -284,7 +284,7 @@ const MyTools = () => {
 						display={"flex"}
 						alignItems={"center"}
 						bgColor={"#ffff"}
-						width={"fit-content"}
+						width={{ md: "186px", base: "129px" }}
 						p={{ md: ".5rem 1.5rem", base: ".5rem .5rem" }}
 						borderRadius={"30px"}>
 						<Box display={{ md: "block", base: "none" }}>
@@ -305,7 +305,7 @@ const MyTools = () => {
 						display={"flex"}
 						alignItems={"center"}
 						bgColor={"#ffff"}
-						width={"fit-content"}
+						width={{ md: "186px", base: "129px" }}
 						p={{ md: ".5rem 1.5rem", base: ".5rem .5rem" }}
 						borderRadius={"30px"}>
 						<Box display={{ md: "block", base: "none" }}>
@@ -334,7 +334,7 @@ const MyTools = () => {
 						display={"flex"}
 						alignItems={"center"}
 						bgColor={"#ffff"}
-						width={"fit-content"}
+						width={{ md: "186px", base: "129px" }}
 						p={{ md: ".5rem 1.5rem", base: ".5rem .5rem" }}
 						borderRadius={"30px"}>
 						<Box display={{ md: "block", base: "none" }}>

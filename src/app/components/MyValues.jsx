@@ -6,7 +6,7 @@ import RemoteIcon from "../assets/Remote.png";
 import OpenIcon from "../assets/Open.png";
 import HumbleIcon from "../assets/Humble.png";
 import AdaptableIcon from "../assets/Adaptable.png";
-import EmpatheticIcon from "../assets/Empathetic.png";
+import EmpatheticIcon from "../assets/empatheticIcon.png";
 
 import {
 	Heading,
