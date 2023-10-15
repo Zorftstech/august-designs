@@ -80,7 +80,8 @@ const Little = () => {
 							<br />
 							my creativity at each step to deliver quality work. I handle my{" "}
 							<br />
-							jobs professionally and incorporate fun as much as possible.
+							jobs professionally and incorporate fun as much as possible.{" "}
+							<br /> Some might say I have a good sense of humor.
 						</Text>
 
 						{/* Mobile view */}
@@ -116,7 +117,8 @@ const Little = () => {
 								utilizing my <br /> creativity at each step to deliver quality
 								<br />
 								work. I handle my jobs professionally and
-								<br /> incorporate fun as much as possible.
+								<br /> incorporate fun as much as possible. Some might say I
+								have a good sense of humor.
 							</Text>
 						</Box>
 					</Flex>
