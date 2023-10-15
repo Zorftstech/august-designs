@@ -86,7 +86,7 @@ const LiveWebsites = () => {
 						<Link href="/projects/fashion" _hover={"none"}>
 							<Flex flexDir={"column"} justifyContent={"center"}>
 								<Heading fontSize={"40px"} color={"#515151"}>
-									Full website <br /> design for a <br /> fashion <br /> brand.
+									Website <br /> design for a <br /> fashion <br /> brand.
 								</Heading>
 								<Box position={"absolute"} right={"1rem"} mt={"3.8rem"}>
 									<Image src={landingPage1} alt="landing page 1" />
@@ -153,7 +153,7 @@ const LiveWebsites = () => {
 			<Box display={{ base: "block", md: "none" }} mt={"2rem"}>
 				<Swiper
 					slidesPerView={"auto"}
-					spaceBetween={25}
+					spaceBetween={0}
 					pagination={{
 						dynamicBullets: true,
 					}}
@@ -166,42 +166,37 @@ const LiveWebsites = () => {
 							width: "81%",
 						}}>
 						<Box
-							ml={"1rem"}
-							width={"273px"}
+							ml={"1.5rem"}
+							position={"relative"}
+							width={"226px"}
 							height={"363px"}
 							borderRadius={"50px"}
-							bgColor={"rgb(233,173,75,0.15)"}
-							p={"2rem"}
-							pb={"2.5rem"}>
-							<Flex flexDir={"column"} justifyContent={"center"}>
-								<Box width={"191px"} m={"0 auto"} mt={"2.5rem"}>
-									<Image
-										src={SaasSite}
-										alt="SaaS mini website for a HR recruiting company."
-									/>
-								</Box>
-								<Heading fontSize={"20px"} textAlign={"center"} m={"1rem 0"}>
-									SaaS mini website for a HR recruiting <br /> company.
-								</Heading>
-							</Flex>
-
-							<Link
-								width={"fit-content"}
-								href="https://greiprgroup.com/"
-								mr={"auto"}
-								ml={"auto"}
-								color="#ff8762"
-								backgroundColor="transparent"
-								fontSize={"14px"}
-								padding={".5rem 1rem"}
-								borderRadius="30px"
-								_hover={{
-									bgColor: "transparent",
-								}}>
-								<a>View website</a>
-								<Box m={"0 auto"} width={"50%"}>
-									<Image src={ArrowIcon} alt="arrow icon" />
-								</Box>
+							bgColor={"rgb(233,173,75,0.15)"}>
+							<Link href="/projects/fashion" _hover={"none"}>
+								<Flex flexDir={"column"} justifyContent={"center"}>
+									<Box
+										position={"absolute"}
+										top={"3rem"}
+										right={"2.7rem"}
+										width={"86.1px"}
+										height={"144.24px"}>
+										<Image src={landingPage1} alt="landing page 1" />
+									</Box>
+									<Box
+										mt={"4.5rem"}
+										ml={"2.8rem"}
+										width={"86.1px"}
+										height={"144.24px"}>
+										<Image src={landingPage2} alt="landing page 2" />
+									</Box>
+									<Heading
+										fontSize={"20px"}
+										textAlign={"center"}
+										color={"#515151"}
+										mt={"2rem"}>
+										Website design <br /> for a fashion <br /> brand.
+									</Heading>
+								</Flex>
 							</Link>
 						</Box>
 					</SwiperSlide>
@@ -214,37 +209,23 @@ const LiveWebsites = () => {
 						<Box
 							display={"flex"}
 							flexDir={"column"}
-							justifyContent={"center"}
-							width={"273px"}
+							width={"226px"}
 							height={"363px"}
 							bgColor={"rgb(232,232,234,1)"}
 							borderRadius={"50px"}>
-							<Flex alignItems={"center"} flexDir={"column"}>
-								<Heading fontSize={"20px"} m={"2rem 0"}>
-									website for a fashion <br /> brand!
-								</Heading>
-								<Box width={"60%"} m={"0 auto"}>
-									<Image src={fashionSite} alt="website for a fashion brand!" />
-								</Box>
-							</Flex>
-							<Link
-								width={"fit-content"}
-								href=""
-								mt={"2rem"}
-								mr={"auto"}
-								ml={"auto"}
-								color="#ff8762"
-								backgroundColor="transparent"
-								fontSize={"14px"}
-								padding={".5rem 1rem"}
-								borderRadius="30px"
-								_hover={{
-									bgColor: "transparent",
-								}}>
-								<a>View website</a>
-								<Box m={"0 auto"}>
-									<Image src={ArrowIcon} alt="arrow icon" />
-								</Box>
+							<Link href="/projects/smilebox" _hover={"none"}>
+								<Flex flexDir={"column"} ml={".7rem"} mt={"3rem"}>
+									<Box width={"193px"} height={"177px"}>
+										<Image
+											style={{ borderRadius: "30px" }}
+											src={smilebox}
+											alt="website for Brand Identity design"
+										/>
+									</Box>
+									<Heading fontSize={"20px"} mt={"1rem"} color={"#515151"}>
+										Brand Identity <br /> design
+									</Heading>
+								</Flex>
 							</Link>
 						</Box>
 					</SwiperSlide>
@@ -257,37 +238,23 @@ const LiveWebsites = () => {
 						<Box
 							display={"flex"}
 							flexDir={"column"}
-							justifyContent={"center"}
-							width={"273px"}
+							width={"226px"}
 							height={"363px"}
-							bgColor={"rgb(58,220,48,0.1)"}
+							bgColor={"rgb(232,232,234,1)"}
 							borderRadius={"50px"}>
-							<Flex flexDir={"column"} alignItems={"center"}>
-								<Box width={"60%"} m={"0 auto"} mt={"2rem"}>
-									<Image src={NonprofitSite} alt="Non-profit website." />
-								</Box>
-								<Heading fontSize={"20px"} m={"1.5rem 0"}>
-									Non-profit <br /> website.
-								</Heading>
-							</Flex>
-							<Link
-								width={"fit-content"}
-								href="https://ngozi-foundation.netlify.app/"
-								mt={"1rem"}
-								mr={"auto"}
-								ml={"auto"}
-								color="#ff8762"
-								backgroundColor="transparent"
-								fontSize={"14px"}
-								padding={".5rem 1rem"}
-								borderRadius="30px"
-								_hover={{
-									bgColor: "transparent",
-								}}>
-								<a>View website</a>
-								<Box m={"0 auto"}>
-									<Image src={ArrowIcon} alt="arrow icon" />
-								</Box>
+							<Link href="/projects/smilebox" _hover={"none"}>
+								<Flex flexDir={"column"} ml={".7rem"} mt={"3rem"}>
+									<Box width={"193px"} height={"177px"}>
+										<Image
+											style={{ borderRadius: "30px" }}
+											src={zynta}
+											alt="website for Brand Identity design"
+										/>
+									</Box>
+									<Heading fontSize={"20px"} mt={"1rem"} color={"#515151"}>
+										Logo Design
+									</Heading>
+								</Flex>
 							</Link>
 						</Box>
 					</SwiperSlide>
