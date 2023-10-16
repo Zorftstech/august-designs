@@ -54,6 +54,11 @@ const DesignProcess = () => {
 							borderRadius={"100%"}>
 							01
 						</Heading>
+						<Box
+							ml={"1.2rem"}
+							width={"2px"}
+							height={"207px"}
+							borderLeft={"1px solid #747474"}></Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
 						<Heading
@@ -103,6 +108,11 @@ const DesignProcess = () => {
 							borderRadius={"100%"}>
 							02
 						</Heading>
+						<Box
+							ml={"1.2rem"}
+							width={"2px"}
+							height={"207px"}
+							borderLeft={"1px solid #747474"}></Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
 						<Heading
@@ -150,6 +160,11 @@ const DesignProcess = () => {
 							borderRadius={"100%"}>
 							03
 						</Heading>
+						<Box
+							ml={"1.2rem"}
+							width={"2px"}
+							height={"207px"}
+							borderLeft={"1px solid #747474"}></Box>
 					</Box>
 					<Box mt={{ md: "1.5rem", base: ".5rem" }}>
 						<Heading

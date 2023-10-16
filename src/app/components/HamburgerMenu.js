@@ -67,7 +67,7 @@ export const HamburgerMenu = () => {
 							aria-label="Home"
 							my={4}
 							w="100%"
-							rightIcon={<ChevronRightIcon ml={"10rem"} />}
+							rightIcon={<ChevronRightIcon ml={"13rem"} />}
 							onClick={() => changeDisplay("none")}>
 							<a>Home</a>
 						</Button>
@@ -80,7 +80,7 @@ export const HamburgerMenu = () => {
 							aria-label="About"
 							my={4}
 							w="100%"
-							rightIcon={<ChevronRightIcon ml={"8rem"} />}
+							rightIcon={<ChevronRightIcon ml={"11rem"} />}
 							onClick={() => changeDisplay("none")}>
 							<a>About me</a>
 						</Button>
@@ -89,39 +89,80 @@ export const HamburgerMenu = () => {
 					<Menu>
 						<MenuButton
 							as={Button}
-							rightIcon={<ChevronRightIcon ml={"9.4rem"} />}
+							rightIcon={<ChevronRightIcon ml={"12rem"} />}
 							variant={"ghost"}
 							my={4}
 							ml={".5rem"}>
 							<a>Projects</a>
 						</MenuButton>
-						<MenuList fontSize={"14px"}>
-							<MenuItem as="a" href="/projects/mentalHealth">
+						<MenuList
+							mt={"1rem"}
+							width={"310px"}
+							fontSize={"16px"}
+							color={"#777777"}
+							border={"none"}>
+							<MenuItem
+								as="a"
+								href="/projects/mentalHealth"
+								p={".5rem 0"}
+								borderTop={"1px solid #3d3d3d"}
+								borderBottom={"1px solid #3d3d3d"}>
 								Mental health app (case study)
 							</MenuItem>
-							<MenuItem as="a" href="/projects/finTech">
+							<MenuItem
+								as="a"
+								href="/projects/finTech"
+								p={".5rem 0"}
+								borderBottom={"1px solid #3d3d3d"}>
 								Fintech app (case study)
 							</MenuItem>
-							<MenuItem as="a" href="/projects/ngo">
+							<MenuItem
+								as="a"
+								href="/projects/ngo"
+								p={".5rem 0"}
+								borderBottom={"1px solid #3d3d3d"}>
 								NGO Website (case study)
 							</MenuItem>
-							<MenuItem as="a" href="/projects/food">
+							<MenuItem
+								as="a"
+								href="/projects/food"
+								borderBottom={"1px solid #3d3d3d"}>
 								Food app UI
 							</MenuItem>
-							<MenuItem as="a" href="/projects/dashboard">
+							<MenuItem
+								as="a"
+								href="/projects/dashboard"
+								p={".5rem 0"}
+								borderBottom={"1px solid #3d3d3d"}>
 								Dashboard UI
 							</MenuItem>
-							<MenuItem as="a" href="/projects/landingPage">
+							<MenuItem
+								as="a"
+								href="/projects/landingPage"
+								p={".5rem 0"}
+								borderBottom={"1px solid #3d3d3d"}>
 								Furniture landing page
 							</MenuItem>
-							<MenuItem as="a" href="/projects/travelAgency">
+							<MenuItem
+								as="a"
+								href="/projects/travelAgency"
+								p={".5rem 0"}
+								borderBottom={"1px solid #3d3d3d"}>
 								Travel agency landing page
 							</MenuItem>
-							<MenuItem as="a" href="/projects/realEstate">
+							<MenuItem
+								as="a"
+								href="/projects/realEstate"
+								p={".5rem 0"}
+								borderBottom={"1px solid #3d3d3d"}>
 								Real estate landing page
 							</MenuItem>
-							<MenuItem as="a" href="/projects/viewAll">
-								View All
+							<MenuItem
+								as="a"
+								href="/projects/viewAll"
+								p={".5rem 0"}
+								borderBottom={"1px solid #3d3d3d"}>
+								View All UI’s
 							</MenuItem>
 						</MenuList>
 					</Menu>

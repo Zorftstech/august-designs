@@ -173,6 +173,7 @@ const People = () => {
 
 				<Box display={{ base: "block", md: "none" }}>
 					<Swiper
+						style={{ "--swiper-pagination-color": "#ff8762" }}
 						slidesPerView={"auto"}
 						spaceBetween={45}
 						pagination={{

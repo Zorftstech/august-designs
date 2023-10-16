@@ -26,7 +26,11 @@ import {
 
 const Intro = () => {
 	return (
-		<Box maxWidth="100%" display={"Flex"} justifyContent={"center"} mt={"5rem"}>
+		<Box
+			maxWidth="100%"
+			display={"Flex"}
+			justifyContent={"center"}
+			mt={{ md: "5rem", base: "3rem" }}>
 			<Box maxW="fit-content" display={"flex"} flexDir={"row"}>
 				<Box mt={"13em"} display={{ base: "none", md: "block" }}>
 					<Flex flexDir="column">
