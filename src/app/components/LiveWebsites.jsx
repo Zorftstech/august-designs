@@ -221,7 +221,7 @@ const LiveWebsites = () => {
 							height={"363px"}
 							bgColor={"rgb(232,232,234,1)"}
 							borderRadius={"50px"}>
-							<Link href="/projects/smilebox" _hover={"none"}>
+							<Link href="/projects/zynta" _hover={"none"}>
 								<Flex flexDir={"column"} ml={".7rem"} mt={"3rem"}>
 									<Box width={"193px"} height={"177px"}>
 										<Image
