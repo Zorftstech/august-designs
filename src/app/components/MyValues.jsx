@@ -223,8 +223,9 @@ const MyValues = () => {
 						My Values
 					</Heading>
 					<Swiper
+						style={{ "--swiper-pagination-color": "#ff8762" }}
 						slidesPerView={"auto"}
-						spaceBetween={20}
+						spaceBetween={10}
 						pagination={{
 							dynamicBullets: true,
 						}}
@@ -307,6 +308,7 @@ const MyValues = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
+								width: "75%",
 								height: "264px",
 							}}>
 							<Box mt={"2rem"}>
@@ -340,6 +342,7 @@ const MyValues = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
+								width: "75%",
 								height: "254px",
 							}}>
 							<Box>
@@ -378,6 +381,7 @@ const MyValues = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
+								width: "70%",
 								height: "254px",
 							}}>
 							<Box mt={"2rem"}>

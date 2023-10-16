@@ -129,3 +129,7 @@ a {
 .swiper-slide:nth-child(3n) {
 	width: 80%;
 }
+
+.swiper-bullet {
+	background-color: orange;
+}

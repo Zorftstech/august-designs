@@ -1,11 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import spiralIcon from "../assets/spiral.png";
-import SaasSite from "../assets/SaasSite.png";
-import fashionSite from "../assets/fashionSite.png";
-import NonprofitSite from "../assets/NonprofitSite.png";
-import ArrowIcon from "../assets/Arrow.png";
 
 import landingPage1 from "../assets/landing-page1.png";
 import landingPage2 from "../assets/landing-page2.png";
@@ -48,30 +43,13 @@ import {
 const LiveWebsites = () => {
 	return (
 		<Box mt={"5rem"}>
-			<Box display={"flex"} alignItems={"Center"} justifyContent={"center"}>
-				<Heading
-					bgGradient="linear( to-r, #393939, #393939, #393939, #403c3a,#e07b5b,#ff8762, #ff8762, #ff8762  )"
-					bgClip={"text"}
-					fontSize={{ md: "40px", base: "24px" }}>
-					Other Designs
-				</Heading>
-				<Box
-					display={{ md: "none", base: "block" }}
-					width={{ md: "122px", base: "41.27px" }}
-					height={{ md: "81px", base: "27.4px" }}
-					ml={"1rem"}
-					bgColor={"#ff8762"}
-					p={{ md: "1rem 2rem", base: ".3rem .6rem" }}
-					borderRadius={"30px"}>
-					<Box
-						m={"auto"}
-						display={{ md: "none", base: "block" }}
-						width={"16.91px"}
-						height={"16.91px"}>
-						<Image src={spiralIcon} alt="spiral icon" />
-					</Box>
-				</Box>
-			</Box>
+			<Heading
+				textAlign={"center"}
+				bgGradient="linear( to-r, #393939, #393939, #393939, #403c3a,#e07b5b,#ff8762, #ff8762, #ff8762  )"
+				bgClip={"text"}
+				fontSize={{ md: "40px", base: "24px" }}>
+				Other Designs
+			</Heading>
 
 			<Box display={{ md: "block", base: "none" }}>
 				<Box display={"flex"} justifyContent={"Center"} mt={"3rem"}>
@@ -152,6 +130,7 @@ const LiveWebsites = () => {
 			</Box>
 			<Box display={{ base: "block", md: "none" }} mt={"2rem"}>
 				<Swiper
+					style={{ "--swiper-pagination-color": "#ff8762" }}
 					slidesPerView={"auto"}
 					spaceBetween={0}
 					pagination={{

@@ -29,7 +29,7 @@ import {
 
 const Little = () => {
 	return (
-		<Container maxWidth="100%" mt={"7rem"}>
+		<Container maxWidth="100%" mt={{ md: "7rem", base: "5rem" }}>
 			<Box maxW="fit-content" display={"flex"}>
 				<Box
 					mt={{ md: "8rem", base: "5rem" }}
@@ -117,8 +117,8 @@ const Little = () => {
 								utilizing my <br /> creativity at each step to deliver quality
 								<br />
 								work. I handle my jobs professionally and
-								<br /> incorporate fun as much as possible. Some might say I
-								have a good sense of humor.
+								<br /> incorporate fun as much as possible. <br /> Some might
+								say I have a good sense of humor.
 							</Text>
 						</Box>
 					</Flex>
