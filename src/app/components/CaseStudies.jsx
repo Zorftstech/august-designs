@@ -130,7 +130,10 @@ const CaseStudies = () => {
 
 			<Box display={{ base: "block", md: "none" }}>
 				<Swiper
-					style={{ "--swiper-pagination-color": "#ff8762" }}
+					style={{
+						"--swiper-pagination-color": "#ff8762",
+						backgroundColor: "rgba(255,135,98,0.05)",
+					}}
 					slidesPerView={"auto"}
 					spaceBetween={0}
 					pagination={{
@@ -140,14 +143,18 @@ const CaseStudies = () => {
 					className="mySwiper">
 					<SwiperSlide
 						style={{
-							backgroundColor: "rgba(255,135,98,0.05)",
+							backgroundColor: "transparent",
 							width: "80%",
-							height: "305px",
+							minHeight: "305px",
+							maxHeight: "450px",
 							padding: " 1rem 0",
 						}}>
 						<Link href="/projects/mentalHealth" _hover={"none"}>
 							<Card
-								width={"249px"}
+								maxWidth={"388px"}
+								minWidth={"249px"}
+								minHeight={"265px"}
+								maxHeight={"413px"}
 								ml={"2rem"}
 								borderRadius={"30px"}
 								pb={"1rem"}
@@ -173,14 +180,18 @@ const CaseStudies = () => {
 					</SwiperSlide>
 					<SwiperSlide
 						style={{
-							backgroundColor: "rgba(255,135,98,0.05)",
+							backgroundColor: "transparent",
 							width: "77%",
-							height: "305px",
+							minHeight: "305px",
+							maxHeight: "450px",
 							padding: "1rem 0",
 						}}>
 						<Link href="/projects/finTech" _hover={"none"}>
 							<Card
-								width={"249px"}
+								maxWidth={"388px"}
+								minWidth={"249px"}
+								minHeight={"265px"}
+								maxHeight={"413px"}
 								ml={"1.5rem"}
 								borderRadius={"30px"}
 								pb={"1rem"}
@@ -206,14 +217,17 @@ const CaseStudies = () => {
 					</SwiperSlide>
 					<SwiperSlide
 						style={{
-							backgroundColor: "rgba(255,135,98,0.05)",
-
-							height: "305px",
+							backgroundColor: "transparent",
+							minHeight: "305px",
+							maxHeight: "450px",
 							padding: "1rem 0",
 						}}>
 						<Link href="/projects/ngo" _hover={"none"}>
 							<Card
-								width={"249px"}
+								maxWidth={"388px"}
+								minWidth={"249px"}
+								minHeight={"265px"}
+								maxHeight={"413px"}
 								ml={"1.5rem"}
 								borderRadius={"30px"}
 								pb={"1rem"}
