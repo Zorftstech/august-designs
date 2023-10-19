@@ -55,6 +55,7 @@ const DesignProcess = () => {
 							01
 						</Heading>
 						<Box
+							display={{ md: "none", base: "block" }}
 							ml={"1.2rem"}
 							width={"2px"}
 							height={"207px"}
@@ -109,6 +110,7 @@ const DesignProcess = () => {
 							02
 						</Heading>
 						<Box
+							display={{ md: "none", base: "block" }}
 							ml={"1.2rem"}
 							width={"2px"}
 							height={"207px"}
@@ -161,6 +163,7 @@ const DesignProcess = () => {
 							03
 						</Heading>
 						<Box
+							display={{ md: "none", base: "block" }}
 							ml={"1.2rem"}
 							width={"2px"}
 							height={"207px"}

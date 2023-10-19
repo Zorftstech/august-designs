@@ -194,7 +194,7 @@ const People = () => {
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
 								minWidth={"279px"}
-								maxWidth={"410px"}
+								maxWidth={"300px"}
 								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
@@ -244,7 +244,7 @@ const People = () => {
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
 								minWidth={"279px"}
-								maxWidth={"410px"}
+								maxWidth={"300px"}
 								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
@@ -291,7 +291,7 @@ const People = () => {
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
 								minWidth={"279px"}
-								maxWidth={"400px"}
+								maxWidth={"300px"}
 								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
