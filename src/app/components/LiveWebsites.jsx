@@ -147,8 +147,8 @@ const LiveWebsites = () => {
 						<Box
 							ml={"1.5rem"}
 							position={"relative"}
-							minWidth={"216px"}
-							maxWidth={"286px"}
+							minWidth={"226px"}
+							maxWidth={"270px"}
 							height={"363px"}
 							borderRadius={"50px"}
 							bgColor={"rgb(233,173,75,0.15)"}>
@@ -157,7 +157,7 @@ const LiveWebsites = () => {
 									<Box
 										position={"absolute"}
 										top={"3rem"}
-										right={"2.7rem"}
+										right={"4.5rem"}
 										width={"86.1px"}
 										height={"144.24px"}>
 										<Image src={landingPage1} alt="landing page 1" />
@@ -190,7 +190,7 @@ const LiveWebsites = () => {
 							display={"flex"}
 							flexDir={"column"}
 							minWidth={"216px"}
-							maxWidth={"286px"}
+							maxWidth={"270px"}
 							height={"363px"}
 							bgColor={"rgb(232,232,234,1)"}
 							borderRadius={"50px"}>
@@ -220,7 +220,7 @@ const LiveWebsites = () => {
 							display={"flex"}
 							flexDir={"column"}
 							minWidth={"216px"}
-							maxWidth={"286px"}
+							maxWidth={"270px"}
 							height={"363px"}
 							bgColor={"rgb(232,232,234,1)"}
 							borderRadius={"50px"}>
