@@ -6,6 +6,7 @@ import landingPage1 from "../assets/landing-page1.png";
 import landingPage2 from "../assets/landing-page2.png";
 import smilebox from "../assets/smilebox.png";
 import zynta from "../assets/zynta.png";
+import fashionu from "../assets/fashionu.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -146,34 +147,29 @@ const LiveWebsites = () => {
 						}}>
 						<Box
 							ml={"1.5rem"}
-							position={"relative"}
 							minWidth={"226px"}
-							maxWidth={"270px"}
+							maxWidth={"280px"}
 							height={"363px"}
 							borderRadius={"50px"}
 							bgColor={"rgb(233,173,75,0.15)"}>
 							<Link href="/projects/fashion" _hover={"none"}>
 								<Flex flexDir={"column"} justifyContent={"center"}>
 									<Box
+										mt={"rem"}
+										width={"220px"}
 										position={"absolute"}
-										top={"3rem"}
-										right={"4.5rem"}
-										width={"86.1px"}
-										height={"144.24px"}>
-										<Image src={landingPage1} alt="landing page 1" />
-									</Box>
-									<Box
-										mt={"4.5rem"}
-										ml={"2.8rem"}
-										width={"86.1px"}
-										height={"144.24px"}>
-										<Image src={landingPage2} alt="landing page 2" />
+										top={"1rem"}
+										left={"4rem"}>
+										<Image src={fashionu} alt="fashion" />
 									</Box>
 									<Heading
+										position={"absolute"}
+										bottom={"3rem"}
+										left={"4.7rem"}
 										fontSize={"20px"}
 										textAlign={"center"}
 										color={"#515151"}
-										mt={"2rem"}>
+										mt={"rem"}>
 										Website design <br /> for a fashion <br /> brand.
 									</Heading>
 								</Flex>
@@ -190,7 +186,7 @@ const LiveWebsites = () => {
 							display={"flex"}
 							flexDir={"column"}
 							minWidth={"216px"}
-							maxWidth={"270px"}
+							maxWidth={"280px"}
 							height={"363px"}
 							bgColor={"rgb(232,232,234,1)"}
 							borderRadius={"50px"}>

@@ -193,8 +193,8 @@ const People = () => {
 								p={".5rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								minWidth={"279px"}
-								maxWidth={"300px"}
+								minWidth={"269px"}
+								maxWidth={"320px"}
 								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
@@ -243,8 +243,8 @@ const People = () => {
 								p={".5rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								minWidth={"279px"}
-								maxWidth={"300px"}
+								minWidth={"269px"}
+								maxWidth={"320px"}
 								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
@@ -290,8 +290,8 @@ const People = () => {
 								p={".5rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								minWidth={"279px"}
-								maxWidth={"300px"}
+								minWidth={"269px"}
+								maxWidth={"320px"}
 								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
