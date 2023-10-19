@@ -132,7 +132,7 @@ const LiveWebsites = () => {
 				<Swiper
 					style={{ "--swiper-pagination-color": "#ff8762" }}
 					slidesPerView={"auto"}
-					spaceBetween={0}
+					spaceBetween={10}
 					pagination={{
 						dynamicBullets: true,
 					}}
@@ -147,7 +147,8 @@ const LiveWebsites = () => {
 						<Box
 							ml={"1.5rem"}
 							position={"relative"}
-							width={"226px"}
+							minWidth={"216px"}
+							maxWidth={"286px"}
 							height={"363px"}
 							borderRadius={"50px"}
 							bgColor={"rgb(233,173,75,0.15)"}>
@@ -188,7 +189,8 @@ const LiveWebsites = () => {
 						<Box
 							display={"flex"}
 							flexDir={"column"}
-							width={"226px"}
+							minWidth={"216px"}
+							maxWidth={"286px"}
 							height={"363px"}
 							bgColor={"rgb(232,232,234,1)"}
 							borderRadius={"50px"}>
@@ -217,7 +219,8 @@ const LiveWebsites = () => {
 						<Box
 							display={"flex"}
 							flexDir={"column"}
-							width={"226px"}
+							minWidth={"216px"}
+							maxWidth={"286px"}
 							height={"363px"}
 							bgColor={"rgb(232,232,234,1)"}
 							borderRadius={"50px"}>
