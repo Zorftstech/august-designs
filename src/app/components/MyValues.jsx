@@ -225,7 +225,7 @@ const MyValues = () => {
 					<Swiper
 						style={{ "--swiper-pagination-color": "#ff8762" }}
 						slidesPerView={"auto"}
-						spaceBetween={10}
+						spaceBetween={20}
 						pagination={{
 							dynamicBullets: true,
 						}}
@@ -234,15 +234,15 @@ const MyValues = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
-								width: "80%",
+								width: "73%",
 								height: "264px",
 							}}>
 							<Box mt={"2rem"}>
 								<Card
-									ml={"2rem"}
+									ml={".7rem"}
 									bgColor={"#282828"}
 									borderRadius={"20px"}
-									width={"250px"}
+									minWidth={"250px"}
 									height={"210px"}
 									p={"2.5rem 0"}>
 									<Box display={"flex"} alignItems={"center"}>
@@ -269,15 +269,14 @@ const MyValues = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
-								width: "80%",
+								width: "70%",
 								height: "264px",
 							}}>
 							<Box>
 								<Card
-									ml={"1rem"}
 									bgColor={"#282828"}
 									borderRadius={"20px"}
-									width={"250px"}
+									minWidth={"250px"}
 									height={"210px"}
 									p={"2.5rem 0"}>
 									<Box display={"flex"} alignItems={"center"}>
@@ -308,14 +307,14 @@ const MyValues = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
-								width: "75%",
+								width: "70%",
 								height: "264px",
 							}}>
 							<Box mt={"2rem"}>
 								<Card
 									bgColor={"#282828"}
 									borderRadius={"20px"}
-									width={"250px"}
+									minWidth={"250px"}
 									height={"210px"}
 									p={"2.5rem 0"}>
 									<Box display={"flex"} alignItems={"center"}>
@@ -342,14 +341,14 @@ const MyValues = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
-								width: "75%",
+								width: "70%",
 								height: "254px",
 							}}>
 							<Box>
 								<Card
 									bgColor={"#282828"}
 									borderRadius={"20px"}
-									width={"250px"}
+									minWidth={"250px"}
 									height={"210px"}
 									p={"2.5rem 0"}>
 									<Box display={"flex"} alignItems={"center"}>
@@ -388,7 +387,7 @@ const MyValues = () => {
 								<Card
 									bgColor={"#282828"}
 									borderRadius={"20px"}
-									width={"250px"}
+									minWidth={"250px"}
 									height={"210px"}
 									p={"2.5rem 0"}>
 									<Box display={"flex"} alignItems={"center"}>
@@ -419,15 +418,15 @@ const MyValues = () => {
 						<SwiperSlide
 							style={{
 								backgroundColor: "transparent",
-								width: "80%",
+								width: "90%",
 								height: "300px",
 							}}>
 							<Box>
 								<Card
-									ml={"1rem"}
 									bgColor={"#282828"}
 									borderRadius={"20px"}
-									width={"300px"}
+									minWidth={"240px"}
+									maxWidth={"300px"}
 									height={"210px"}
 									p={"2.5rem 0"}>
 									<Box display={"flex"} alignItems={"center"}>
@@ -449,7 +448,7 @@ const MyValues = () => {
 										textAlign={"left"}
 										fontSize={"14px"}>
 										I practice empathy in my interactions with users,
-										colleagues, and stakeholders. Understanding the emotions and{" "}
+										colleagues, and stakeholders. Understanding the emotions and
 										perspectives of others to create designs that resonate.
 									</Text>
 								</Card>

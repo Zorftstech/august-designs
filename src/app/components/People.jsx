@@ -175,7 +175,7 @@ const People = () => {
 					<Swiper
 						style={{ "--swiper-pagination-color": "#ff8762" }}
 						slidesPerView={"auto"}
-						spaceBetween={45}
+						spaceBetween={30}
 						pagination={{
 							dynamicBullets: true,
 						}}
@@ -185,7 +185,7 @@ const People = () => {
 							style={{
 								backgroundColor: "transparent",
 								height: "456px",
-								width: "75%",
+								width: "80%",
 							}}>
 							<Box
 								ml={"1rem"}
@@ -193,7 +193,8 @@ const People = () => {
 								p={".5rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								width={"289px"}
+								minWidth={"279px"}
+								maxWidth={"410px"}
 								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
@@ -238,12 +239,12 @@ const People = () => {
 								width: "75%",
 							}}>
 							<Box
-								ml={"1rem"}
 								mt={"3rem"}
 								p={".5rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								width={"289px"}
+								minWidth={"279px"}
+								maxWidth={"410px"}
 								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
@@ -282,15 +283,15 @@ const People = () => {
 							style={{
 								backgroundColor: "transparent",
 								height: "456px",
-								width: "85%",
+								width: "80%",
 							}}>
 							<Box
-								ml={".8rem"}
 								mt={"3rem"}
 								p={".5rem"}
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
-								width={"289px"}
+								minWidth={"279px"}
+								maxWidth={"400px"}
 								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
