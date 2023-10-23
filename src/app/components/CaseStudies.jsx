@@ -135,7 +135,7 @@ const CaseStudies = () => {
 						backgroundColor: "rgba(255,135,98,0.05)",
 					}}
 					slidesPerView={"auto"}
-					spaceBetween={0}
+					spaceBetween={20}
 					pagination={{
 						dynamicBullets: true,
 					}}
@@ -144,18 +144,16 @@ const CaseStudies = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "transparent",
-							width: "80%",
-							minHeight: "305px",
-							maxHeight: "450px",
+							width: "75%",
+							marginLeft: "1.5rem",
+							height: "330px",
 							padding: " 1rem 0",
 						}}>
 						<Link href="/projects/mentalHealth" _hover={"none"}>
 							<Card
-								maxWidth={"388px"}
+								maxWidth={"300px"}
 								minWidth={"249px"}
 								minHeight={"265px"}
-								maxHeight={"413px"}
-								ml={"2rem"}
 								borderRadius={"30px"}
 								pb={"1rem"}
 								zIndex={"hide"}>
@@ -181,21 +179,17 @@ const CaseStudies = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "transparent",
-							width: "77%",
-							minHeight: "305px",
-							maxHeight: "450px",
+							width: "75%",
+							height: "330px",
 							padding: "1rem 0",
 						}}>
 						<Link href="/projects/finTech" _hover={"none"}>
 							<Card
-								maxWidth={"388px"}
+								maxWidth={"300px"}
 								minWidth={"249px"}
 								minHeight={"265px"}
-								maxHeight={"413px"}
-								ml={"1.5rem"}
 								borderRadius={"30px"}
-								pb={"1rem"}
-								zIndex={"hide"}>
+								pb={"1rem"}>
 								<Image
 									style={{
 										borderTopLeftRadius: "30px",
@@ -218,17 +212,15 @@ const CaseStudies = () => {
 					<SwiperSlide
 						style={{
 							backgroundColor: "transparent",
-							minHeight: "305px",
-							maxHeight: "450px",
+							width: "75%",
+							height: "350px",
 							padding: "1rem 0",
 						}}>
 						<Link href="/projects/ngo" _hover={"none"}>
 							<Card
-								maxWidth={"388px"}
+								maxWidth={"300px"}
 								minWidth={"249px"}
 								minHeight={"265px"}
-								maxHeight={"413px"}
-								ml={"1.5rem"}
 								borderRadius={"30px"}
 								pb={"1rem"}
 								zIndex={"hide"}>

@@ -148,7 +148,7 @@ const LiveWebsites = () => {
 						<Box
 							ml={"1.5rem"}
 							minWidth={"226px"}
-							maxWidth={"280px"}
+							maxWidth={"300px"}
 							height={"363px"}
 							borderRadius={"50px"}
 							bgColor={"rgb(233,173,75,0.15)"}>
@@ -159,7 +159,7 @@ const LiveWebsites = () => {
 										width={"220px"}
 										position={"absolute"}
 										top={"1rem"}
-										left={"4rem"}>
+										left={"4.5rem"}>
 										<Image src={fashionu} alt="fashion" />
 									</Box>
 									<Heading
@@ -186,13 +186,13 @@ const LiveWebsites = () => {
 							display={"flex"}
 							flexDir={"column"}
 							minWidth={"216px"}
-							maxWidth={"280px"}
+							maxWidth={"300px"}
 							height={"363px"}
 							bgColor={"rgb(232,232,234,1)"}
 							borderRadius={"50px"}>
 							<Link href="/projects/smilebox" _hover={"none"}>
-								<Flex flexDir={"column"} ml={".7rem"} mt={"3rem"}>
-									<Box width={"193px"} height={"177px"}>
+								<Flex flexDir={"column"} mt={"3rem"}>
+									<Box width={"193px"} ml={"auto"} mr={"auto"} height={"177px"}>
 										<Image
 											style={{ borderRadius: "30px" }}
 											src={smilebox}
@@ -216,13 +216,13 @@ const LiveWebsites = () => {
 							display={"flex"}
 							flexDir={"column"}
 							minWidth={"216px"}
-							maxWidth={"270px"}
+							maxWidth={"300px"}
 							height={"363px"}
 							bgColor={"rgb(232,232,234,1)"}
 							borderRadius={"50px"}>
 							<Link href="/projects/zynta" _hover={"none"}>
 								<Flex flexDir={"column"} ml={".7rem"} mt={"3rem"}>
-									<Box width={"193px"} height={"177px"}>
+									<Box width={"193px"} ml={"auto"} mr={"auto"} height={"177px"}>
 										<Image
 											style={{ borderRadius: "30px" }}
 											src={zynta}
