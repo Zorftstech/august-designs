@@ -194,7 +194,7 @@ const People = () => {
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
 								minWidth={"269px"}
-								maxWidth={"320px"}
+								maxWidth={"340px"}
 								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
@@ -244,7 +244,7 @@ const People = () => {
 								position={"relative"}
 								border={"2px solid rgb(240,240,240,1)"}
 								minWidth={"269px"}
-								maxWidth={"320px"}
+								maxWidth={"340px"}
 								height={"372px"}
 								borderRadius={"30px"}
 								zIndex={"hide"}>
