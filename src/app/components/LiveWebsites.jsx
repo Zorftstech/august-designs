@@ -87,13 +87,18 @@ const LiveWebsites = () => {
 							<Link href="/projects/smilebox" _hover={"none"}>
 								<Flex flexDir={"column"} ml={"3rem"} mt={"3rem"}>
 									<Image
-										style={{ borderRadius: "30px" }}
+										style={{
+											borderRadius: "30px",
+											marginLeft: "auto",
+											marginRight: "auto",
+										}}
 										src={smilebox}
 										alt="website for Brand Identity design"
 									/>
 									<Heading
 										fontSize={"35px"}
-										ml={"2rem"}
+										ml={"auto"}
+										mr={"auto"}
 										mt={"1.5rem"}
 										color={"#515151"}>
 										Brand Identity design
@@ -112,7 +117,11 @@ const LiveWebsites = () => {
 							<Link href="/projects/zynta" _hover={"none"}>
 								<Flex flexDir={"column"} ml={"1rem"} mt={"1rem"}>
 									<Image
-										style={{ borderRadius: "30px" }}
+										style={{
+											borderRadius: "30px",
+											marginLeft: "auto",
+											marginRight: "auto",
+										}}
 										src={zynta}
 										alt="Non-profit website."
 									/>
@@ -120,7 +129,8 @@ const LiveWebsites = () => {
 										fontSize={"35px"}
 										color={"#515151"}
 										mt={"1.5rem"}
-										ml={"2rem"}>
+										ml={"auto"}
+										mr={"auto"}>
 										Logo Design
 									</Heading>
 								</Flex>
