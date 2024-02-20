@@ -28,10 +28,10 @@ import Notification from "./Notification";
 const Intro = () => {
 	return (
 		<Box>
-			<Box mt={"10rem"} mb={"30rem"} display={{ base: "block", md: "none" }}>
+			{/* <Box mt={"10rem"} mb={"30rem"} display={{ base: "block", md: "none" }}>
 				<Notification />
-			</Box>
-			<Box display={{ md: "block", base: "none" }}>
+			</Box> */}
+			<Box display={{ md: "block", base: "block" }}>
 				<Box
 					maxWidth="100%"
 					display={"Flex"}

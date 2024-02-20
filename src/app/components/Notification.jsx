@@ -29,7 +29,7 @@ const Notification = () => {
 		<Box>
 			<Box display={"flex"} justifyContent={"flex-end"} mr={"1rem"}>
 				<Link>
-					<Image src={closeIcon} />
+					<Image alt="closeIcon" src={closeIcon} />
 				</Link>
 			</Box>
 			<Heading

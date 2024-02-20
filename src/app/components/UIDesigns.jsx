@@ -29,9 +29,14 @@ import {
 	Container,
 } from "@chakra-ui/react";
 
+import OtherDesigns from "./OtherDesigns";
+
 const UiDesigns = () => {
 	return (
-		<Box mt={"5rem"}>
+		<Box mt={{ md: "5rem", base: "0" }}>
+			<Box>
+				<OtherDesigns />
+			</Box>
 			{/* desktop view */}
 			<Box
 				ml={{ md: "7rem", base: "2rem" }}
@@ -46,7 +51,8 @@ const UiDesigns = () => {
 						md: "linear( to-r, #393939, #393939, #393939, #403c3a,#e07b5b,#ff8762, #ff8762, #ff8762  )",
 						base: "linear( to-r, #393939, #403c3a,#e07b5b,#ff8762, #ff8762, #ff8762,#ff8762,#ff8762  )",
 					}}
-					bgClip={"text"}>
+					bgClip={"text"}
+					display={{ base: "none", md: "block" }}>
 					UI Designs
 				</Heading>
 				<Text
@@ -58,17 +64,17 @@ const UiDesigns = () => {
 				</Text>
 
 				{/* Mobile view */}
-				<Text
+				{/* <Text
 					color={"#7f7e7e"}
 					fontSize={"14px"}
 					mt={"1rem"}
 					display={{ base: "block", md: "none" }}>
 					When i feel a little creative, i design simple yet beautiful user
 					interfaces
-				</Text>
+				</Text> */}
 			</Box>
 			<Box display={"flex"}>
-				<Box
+				{/* <Box
 					bgColor={"rgba(255,135,98,0.05)"}
 					width={{ md: "820px", base: "310px" }}
 					height={{ md: "429px", base: "fit-content" }}
@@ -88,8 +94,8 @@ const UiDesigns = () => {
 							</Box>
 						</Link>
 					</Box>
-				</Box>
-				<Box
+				</Box> */}
+				{/* <Box
 					display={{ md: "block", base: "none" }}
 					bgColor={"rgba(255,135,98,0.05)"}
 					width={"400px"}
@@ -109,9 +115,9 @@ const UiDesigns = () => {
 							/>
 						</Box>
 					</Link>
-				</Box>
+				</Box> */}
 			</Box>
-			<Box
+			{/* <Box
 				display={"grid"}
 				mt={{ md: "2rem", base: "1rem" }}
 				ml={{ md: "4.5rem", base: "rem" }}
@@ -172,8 +178,8 @@ const UiDesigns = () => {
 						</Link>
 					</Box>
 				</Box>
-			</Box>
-			<Box textAlign={"center"} mt={{ md: "4rem", base: "2rem" }}>
+			</Box> */}
+			{/* <Box textAlign={"center"} mt={{ md: "4rem", base: "2rem" }}>
 				<Link
 					href="/projects/viewAll"
 					padding={{ md: "1rem 3rem", base: "1rem 2rem" }}
@@ -184,7 +190,7 @@ const UiDesigns = () => {
 					_hover={{ bgColor: "#ff8762", color: "#ffff" }}>
 					<a>View more</a>
 				</Link>
-			</Box>
+			</Box> */}
 		</Box>
 	);
 };

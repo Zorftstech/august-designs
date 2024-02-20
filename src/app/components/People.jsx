@@ -29,15 +29,6 @@ import {
 	grid,
 } from "@chakra-ui/react";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-// import required modules
-import { FreeMode, Pagination, Autoplay } from "swiper/modules";
-
 const People = () => {
 	return (
 		<Box m={{ md: "0 4rem", base: "0 0" }}>
@@ -172,163 +163,130 @@ const People = () => {
 				</Heading>
 
 				<Box display={{ base: "block", md: "none" }}>
-					<Swiper
-						style={{ "--swiper-pagination-color": "#ff8762" }}
-						slidesPerView={"auto"}
-						spaceBetween={30}
-						pagination={{
-							dynamicBullets: true,
-						}}
-						modules={[Pagination, Autoplay]}
-						className="mySwiper">
-						<SwiperSlide
-							style={{
-								backgroundColor: "transparent",
-								height: "456px",
-								width: "80%",
-							}}>
-							<Box
-								ml={"1rem"}
-								mt={"3rem"}
-								p={".5rem"}
-								position={"relative"}
-								border={"2px solid rgb(240,240,240,1)"}
-								minWidth={"269px"}
-								maxWidth={"320px"}
-								height={"372px"}
-								borderRadius={"30px"}
-								zIndex={"hide"}>
-								<Box
-									position={"absolute"}
-									width={"80px"}
-									height={"80px"}
-									left={"104.5px"}
-									top={"-40px"}>
-									<Image
-										src={PatrickImg}
-										alt="image of patrick mayor c. rapheal"
-									/>
-								</Box>
-								<Text
-									textAlign={"center"}
-									color={"#7f7e7e"}
-									fontSize={"14px"}
-									mt={"3rem"}>
-									Working with Ijeoma Augustina <br /> Ambrose is always a
-									delight to look <br />
-									forward to. Her delivery follows the <br /> accuracy of every
-									design conversation and more. Creativity is only the beginning
-									of the list of words that can best describe her works.{" "}
-								</Text>
-								<Heading
-									fontSize={"16px"}
-									textAlign={"center"}
-									mt={"2rem"}
-									mb={".1rem"}>
-									Patrick Mayor C. Raphael
-								</Heading>
-								<Text textAlign={"center"} color={"#7f7e7e"} fontSize={"14px"}>
-									Founder/Director <br /> GREiPR COMPANY
-								</Text>
-							</Box>
-						</SwiperSlide>
-						<SwiperSlide
-							style={{
-								backgroundColor: "transparent",
-								height: "456px",
-								width: "75%",
-							}}>
-							<Box
-								mt={"3rem"}
-								p={".5rem"}
-								position={"relative"}
-								border={"2px solid rgb(240,240,240,1)"}
-								minWidth={"269px"}
-								maxWidth={"320px"}
-								height={"372px"}
-								borderRadius={"30px"}
-								zIndex={"hide"}>
-								<Box
-									position={"absolute"}
-									width={"80px"}
-									height={"80px"}
-									left={"104.5px"}
-									top={"-40px"}>
-									<Image src={IsahImg} alt="image of iysah yusuf" />
-								</Box>
-								<Text
-									textAlign={"center"}
-									color={"#7f7e7e"}
-									fontSize={"14px"}
-									mt={"3rem"}>
-									Her attention to detail is outstanding, and she consistently
-									delivers designs that not only look stunning but also function
-									seamlessly. Augustina is a true collaborator, always open to
-									feedback and eager to find innovative solutions to design
-									challenges.
-								</Text>
-								<Heading
-									fontSize={"16px"}
-									textAlign={"center"}
-									mt={"1rem"}
-									mb={".1rem"}>
-									Iysah Yusuf
-								</Heading>
-								<Text textAlign={"center"} color={"#7f7e7e"} fontSize={"14px"}>
-									CEO/Software developer <br /> Zorfts tech
-								</Text>
-							</Box>
-						</SwiperSlide>
-						<SwiperSlide
-							style={{
-								backgroundColor: "transparent",
-								height: "456px",
-								width: "80%",
-							}}>
-							<Box
-								mt={"3rem"}
-								p={".5rem"}
-								position={"relative"}
-								border={"2px solid rgb(240,240,240,1)"}
-								minWidth={"269px"}
-								maxWidth={"320px"}
-								height={"372px"}
-								borderRadius={"30px"}
-								zIndex={"hide"}>
-								<Box
-									position={"absolute"}
-									width={"80px"}
-									height={"80px"}
-									left={"104.5px"}
-									top={"-40px"}>
-									<Image
-										src={KingsleyImg}
-										alt="image of kingsley-orji ogboih"
-									/>
-								</Box>
-								<Text
-									textAlign={"center"}
-									color={"#7f7e7e"}
-									fontSize={"14px"}
-									mt={"3rem"}>
-									Ijeoma Ambrose embodies a harmonious blend of creativity,
-									engineering prowess, and empathy, shaping clients perceptions
-									and interactions, particularly in the realm of product
-									designing. She is fun and easy to work with.
-								</Text>
-								<Heading
-									fontSize={"16px"}
-									textAlign={"center"}
-									mt={"4rem"}
-									mb={".1rem"}>
-									Kingsley-Orji Ogboih
-								</Heading>
-								<Text textAlign={"center"} color={"#7f7e7e"} fontSize={"14px"}>
-									Software developer
-								</Text>
-							</Box>
-						</SwiperSlide>
-					</Swiper>
+					<Box
+						m={"0 auto"}
+						mt={"5rem"}
+						p={".5rem"}
+						position={"relative"}
+						border={"2px solid rgb(240,240,240,1)"}
+						minWidth={"269px"}
+						maxWidth={"320px"}
+						height={"372px"}
+						borderRadius={"30px"}
+						zIndex={"hide"}>
+						<Box
+							position={"absolute"}
+							width={"80px"}
+							height={"80px"}
+							left={"104.5px"}
+							top={"-40px"}>
+							<Image src={PatrickImg} alt="image of patrick mayor c. rapheal" />
+						</Box>
+						<Text
+							textAlign={"center"}
+							color={"#7f7e7e"}
+							fontSize={"14px"}
+							mt={"3rem"}>
+							Working with Ijeoma Augustina <br /> Ambrose is always a delight
+							to look <br />
+							forward to. Her delivery follows the <br /> accuracy of every
+							design conversation and more. Creativity is only the beginning of
+							the list of words that can best describe her works.{" "}
+						</Text>
+						<Heading
+							fontSize={"16px"}
+							textAlign={"center"}
+							mt={"2rem"}
+							mb={".1rem"}>
+							Patrick Mayor C. Raphael
+						</Heading>
+						<Text textAlign={"center"} color={"#7f7e7e"} fontSize={"14px"}>
+							Founder/Director <br /> GREiPR COMPANY
+						</Text>
+					</Box>
+
+					<Box
+						m={"0 auto"}
+						mt={"7rem"}
+						p={".5rem"}
+						position={"relative"}
+						border={"2px solid rgb(240,240,240,1)"}
+						minWidth={"269px"}
+						maxWidth={"320px"}
+						height={"372px"}
+						borderRadius={"30px"}
+						zIndex={"hide"}>
+						<Box
+							position={"absolute"}
+							width={"80px"}
+							height={"80px"}
+							left={"104.5px"}
+							top={"-40px"}>
+							<Image src={IsahImg} alt="image of iysah yusuf" />
+						</Box>
+						<Text
+							textAlign={"center"}
+							color={"#7f7e7e"}
+							fontSize={"14px"}
+							mt={"3rem"}>
+							Her attention to detail is outstanding, and she consistently
+							delivers designs that not only look stunning but also function
+							seamlessly. Augustina is a true collaborator, always open to
+							feedback and eager to find innovative solutions to design
+							challenges.
+						</Text>
+						<Heading
+							fontSize={"16px"}
+							textAlign={"center"}
+							mt={"1rem"}
+							mb={".1rem"}>
+							Iysah Yusuf
+						</Heading>
+						<Text textAlign={"center"} color={"#7f7e7e"} fontSize={"14px"}>
+							CEO/Software developer <br /> Zorfts tech
+						</Text>
+					</Box>
+
+					<Box
+						m={"0 auto"}
+						mt={"7rem"}
+						p={".5rem"}
+						position={"relative"}
+						border={"2px solid rgb(240,240,240,1)"}
+						minWidth={"269px"}
+						maxWidth={"320px"}
+						height={"372px"}
+						borderRadius={"30px"}
+						zIndex={"hide"}>
+						<Box
+							position={"absolute"}
+							width={"80px"}
+							height={"80px"}
+							left={"104.5px"}
+							top={"-40px"}>
+							<Image src={KingsleyImg} alt="image of kingsley-orji ogboih" />
+						</Box>
+						<Text
+							textAlign={"center"}
+							color={"#7f7e7e"}
+							fontSize={"14px"}
+							mt={"3rem"}>
+							Ijeoma Ambrose embodies a harmonious blend of creativity,
+							engineering prowess, and empathy, shaping clients perceptions and
+							interactions, particularly in the realm of product designing. She
+							is fun and easy to work with.
+						</Text>
+						<Heading
+							fontSize={"16px"}
+							textAlign={"center"}
+							mt={"4rem"}
+							mb={".1rem"}>
+							Kingsley-Orji Ogboih
+						</Heading>
+						<Text textAlign={"center"} color={"#7f7e7e"} fontSize={"14px"}>
+							Software developer
+						</Text>
+					</Box>
 				</Box>
 			</Box>
 		</Box>
