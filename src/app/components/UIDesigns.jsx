@@ -28,7 +28,7 @@ import {
 	Stack,
 	Container,
 } from "@chakra-ui/react";
-import LiveWebsites from "./LiveWebsites";
+
 import OtherDesigns from "./OtherDesigns";
 
 const UiDesigns = () => {

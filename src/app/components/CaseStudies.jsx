@@ -238,7 +238,7 @@ const CaseStudies = () => {
 							ml={"1rem"}
 							mt={".5rem"}
 							mb={"1rem"}>
-							A non-profit full website that helps connect donors to NGO's
+							A non-profit full website that helps connect donors to NGO’s
 						</Heading>
 						<Text fontSize={"14px"} ml={"1rem"}>
 							Connect helps individuals, industries and humanitarians gain easy
