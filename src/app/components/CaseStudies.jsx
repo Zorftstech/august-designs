@@ -123,9 +123,9 @@ const CaseStudies = () => {
 			{/* Mobile view */}
 
 			<Box display={{ base: "block", md: "none" }}>
-				<Box display={"flex"} flexDir={"column"} m={"0 .5rem"}>
+				<Box display={"flex"} flexDir={"column"} m={"0 auto"}>
 					<Card
-						minWidth={"314px"}
+						maxWidth={"314px"}
 						minHeight={"520px"}
 						borderRadius={"30px"}
 						pb={"1rem"}
@@ -171,7 +171,7 @@ const CaseStudies = () => {
 
 					<Card
 						m={"3rem 0"}
-						minWidth={"314px"}
+						maxWidth={"314px"}
 						minHeight={"544px"}
 						borderRadius={"30px"}
 						pb={"1rem"}
@@ -217,7 +217,7 @@ const CaseStudies = () => {
 					</Card>
 
 					<Card
-						minWidth={"314px"}
+						maxWidth={"314px"}
 						minHeight={"514px"}
 						backgroundColor={"rgba(255,135,98,0.05)"}
 						borderRadius={"30px"}
