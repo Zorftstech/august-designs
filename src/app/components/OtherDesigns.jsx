@@ -35,9 +35,9 @@ import {
 	grid,
 } from "@chakra-ui/react";
 
-const LiveWebsites = () => {
+const OtherDesigns = () => {
 	return (
-		<Box mt={"5rem"} display={{ base: "none", md: "block" }}>
+		<Box mt={"5rem"}>
 			<Heading
 				textAlign={"center"}
 				bgGradient="linear( to-r, #393939, #393939, #393939, #403c3a,#e07b5b,#ff8762, #ff8762, #ff8762  )"
@@ -244,4 +244,4 @@ const LiveWebsites = () => {
 	);
 };
 
-export default LiveWebsites;
+export default OtherDesigns;
