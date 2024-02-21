@@ -5,6 +5,10 @@ import Desktop1 from "../assets/Desktop-1.png";
 import Desktop2 from "../assets/Desktop-2.png";
 import Desktop3 from "../assets/Desktop-3.png";
 
+import DesktopI from "../assets/DesktopI.png";
+import DesktopII from "../assets/DesktopII.png";
+import DesktopIII from "../assets/DesktopIII.png";
+
 import {
 	Heading,
 	Card,
@@ -123,19 +127,20 @@ const CaseStudies = () => {
 			{/* Mobile view */}
 
 			<Box display={{ base: "block", md: "none" }}>
-				<Box display={"flex"} flexDir={"column"} m={"0 2rem"}>
+				<Box display={"flex"} flexDir={"column"}>
 					<Card
 						maxWidth={"314px"}
 						minHeight={"520px"}
 						borderRadius={"30px"}
 						pb={"1rem"}
+						m={"0 auto"}
 						backgroundColor={"rgba(255,135,98,0.05)"}>
 						<Image
 							style={{
 								borderTopLeftRadius: "30px",
 								borderTopRightRadius: "30px",
 							}}
-							src={Desktop1}
+							src={DesktopI}
 							alt="Digital health app to manage mental health"
 						/>
 						<Heading
@@ -175,13 +180,15 @@ const CaseStudies = () => {
 						minHeight={"544px"}
 						borderRadius={"30px"}
 						pb={"1rem"}
+						ml={"auto"}
+						mr={"auto"}
 						backgroundColor={"rgba(255,135,98,0.05)"}>
 						<Image
 							style={{
 								borderTopLeftRadius: "30px",
 								borderTopRightRadius: "30px",
 							}}
-							src={Desktop2}
+							src={DesktopII}
 							alt="A fintech saving and investment mobile app"
 						/>
 						<Heading
@@ -221,13 +228,14 @@ const CaseStudies = () => {
 						minHeight={"514px"}
 						backgroundColor={"rgba(255,135,98,0.05)"}
 						borderRadius={"30px"}
-						pb={"1rem"}>
+						pb={"1rem"}
+						m={"0 auto"}>
 						<Image
 							style={{
 								borderTopLeftRadius: "30px",
 								borderTopRightRadius: "30px",
 							}}
-							src={Desktop3}
+							src={DesktopIII}
 							alt="A non-profit full website that helps
 						connect donors to NGO’s"
 						/>
