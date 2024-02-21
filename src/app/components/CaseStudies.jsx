@@ -123,7 +123,7 @@ const CaseStudies = () => {
 			{/* Mobile view */}
 
 			<Box display={{ base: "block", md: "none" }}>
-				<Box display={"flex"} flexDir={"column"} m={"0 auto"}>
+				<Box display={"flex"} flexDir={"column"} m={"0 2rem"}>
 					<Card
 						maxWidth={"314px"}
 						minHeight={"520px"}
