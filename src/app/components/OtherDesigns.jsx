@@ -37,7 +37,7 @@ import {
 
 const OtherDesigns = () => {
 	return (
-		<Box mt={"5rem"}>
+		<Box mt={"5rem"} display={{ base: "block", md: "none" }}>
 			<Heading
 				textAlign={"center"}
 				bgGradient="linear( to-r, #393939, #393939, #393939, #403c3a,#e07b5b,#ff8762, #ff8762, #ff8762  )"

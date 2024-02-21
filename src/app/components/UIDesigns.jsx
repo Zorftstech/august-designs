@@ -74,7 +74,8 @@ const UiDesigns = () => {
 				</Text> */}
 			</Box>
 			<Box display={"flex"}>
-				{/* <Box
+				<Box
+					display={{ md: "block", base: "none" }}
 					bgColor={"rgba(255,135,98,0.05)"}
 					width={{ md: "820px", base: "310px" }}
 					height={{ md: "429px", base: "fit-content" }}
@@ -94,8 +95,8 @@ const UiDesigns = () => {
 							</Box>
 						</Link>
 					</Box>
-				</Box> */}
-				{/* <Box
+				</Box>
+				<Box
 					display={{ md: "block", base: "none" }}
 					bgColor={"rgba(255,135,98,0.05)"}
 					width={"400px"}
@@ -115,9 +116,9 @@ const UiDesigns = () => {
 							/>
 						</Box>
 					</Link>
-				</Box> */}
+				</Box>
 			</Box>
-			{/* <Box
+			<Box
 				display={"grid"}
 				mt={{ md: "2rem", base: "1rem" }}
 				ml={{ md: "4.5rem", base: "rem" }}
@@ -127,6 +128,7 @@ const UiDesigns = () => {
 				gridGap={"1rem"}>
 				<Box>
 					<Box
+						display={{ md: "block", base: "none" }}
 						width={{ base: "310px", md: "400px" }}
 						mr={{ md: "0", base: "auto" }}
 						ml={{ md: "0", base: "auto" }}
@@ -147,6 +149,7 @@ const UiDesigns = () => {
 				</Box>
 				<Box>
 					<Box
+						display={{ md: "block", base: "none" }}
 						width={{ base: "310px", md: "400px" }}
 						mr={{ md: "0", base: "auto" }}
 						ml={{ md: "0", base: "auto" }}
@@ -178,8 +181,11 @@ const UiDesigns = () => {
 						</Link>
 					</Box>
 				</Box>
-			</Box> */}
-			{/* <Box textAlign={"center"} mt={{ md: "4rem", base: "2rem" }}>
+			</Box>
+			<Box
+				display={{ md: "block", base: "none" }}
+				textAlign={"center"}
+				mt={{ md: "4rem", base: "2rem" }}>
 				<Link
 					href="/projects/viewAll"
 					padding={{ md: "1rem 3rem", base: "1rem 2rem" }}
@@ -190,7 +196,7 @@ const UiDesigns = () => {
 					_hover={{ bgColor: "#ff8762", color: "#ffff" }}>
 					<a>View more</a>
 				</Link>
-			</Box> */}
+			</Box>
 		</Box>
 	);
 };
