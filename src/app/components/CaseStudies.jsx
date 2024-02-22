@@ -148,7 +148,7 @@ const CaseStudies = () => {
 							color={"black"}
 							fontSize={"18px"}
 							ml={"1rem"}
-							mt={".5rem"}
+							mt={"1rem"}
 							mb={"1rem"}>
 							Digital health app to manage mental health
 						</Heading>
@@ -196,7 +196,7 @@ const CaseStudies = () => {
 							color={"black"}
 							fontSize={"18px"}
 							ml={"1rem"}
-							mt={".5rem"}
+							mt={"1rem"}
 							mb={"1rem"}>
 							A fintech saving and investment mobile app
 						</Heading>
@@ -244,7 +244,7 @@ const CaseStudies = () => {
 							color={"black"}
 							fontSize={"18px"}
 							ml={"1rem"}
-							mt={".5rem"}
+							mt={"1rem"}
 							mb={"1rem"}>
 							A non-profit full website that helps connect donors to NGO’s
 						</Heading>
